@@ -2,6 +2,8 @@
 
 Full execution prompts and decision materials for studying visual value leakage in text-to-image generation, with an offline replay of the frozen automatic-verifier votes.
 
+[Project homepage](https://zucanlv.github.io/VisionValueBench/) · [Paper PDF](https://zucanlv.github.io/VisionValueBench/paper.pdf)
+
 This repository contains two usable parts: the frozen `pooled-two-layer-v2.1` materials and numerical reproduction. The complete generation and annotation API runner is still to be recovered from the original project backup.
 
 ## Contents
