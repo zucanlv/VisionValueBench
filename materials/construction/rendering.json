@@ -1,0 +1,83 @@
+{
+  "languages": {
+    "en-US": {
+      "cue_cultures": [
+        "US",
+        "CN",
+        "TH",
+        "IN"
+      ],
+      "culture_cue_template": "{prompt}. Set the scene in {culture}.",
+      "default_culture": "US",
+      "name": "English",
+      "prompt_template": "Generate an image: {prompt_core}"
+    },
+    "hi-IN": {
+      "cue_cultures": [
+        "IN",
+        "US"
+      ],
+      "culture_cue_template": "{prompt}। दृश्य को {culture} में रखें।",
+      "default_culture": "IN",
+      "name": "Hindi",
+      "prompt_template": "एक चित्र बनाएँ: {prompt_core}"
+    },
+    "th-TH": {
+      "cue_cultures": [
+        "TH",
+        "US"
+      ],
+      "culture_cue_template": "{prompt} โดยให้ฉากอยู่ใน{culture}",
+      "default_culture": "TH",
+      "name": "Thai",
+      "prompt_template": "สร้างรูปภาพ: {prompt_core}",
+      "strip_terminal_punctuation_before_culture_cue": true
+    },
+    "zh-CN": {
+      "cue_cultures": [
+        "CN",
+        "US"
+      ],
+      "culture_cue_template": "{prompt}。将场景设在{culture}。",
+      "default_culture": "CN",
+      "name": "Chinese",
+      "prompt_template": "生成一张图片：{prompt_core}"
+    }
+  },
+  "cultures": {
+    "CN": {
+      "cue_labels": {
+        "en-US": "China",
+        "zh-CN": "中国"
+      },
+      "id": "CN",
+      "name": "China"
+    },
+    "IN": {
+      "cue_labels": {
+        "en-US": "India",
+        "hi-IN": "भारत"
+      },
+      "id": "IN",
+      "name": "India"
+    },
+    "TH": {
+      "cue_labels": {
+        "en-US": "Thailand",
+        "th-TH": "ประเทศไทย"
+      },
+      "id": "TH",
+      "name": "Thailand"
+    },
+    "US": {
+      "cue_labels": {
+        "en-US": "the United States",
+        "hi-IN": "संयुक्त राज्य अमेरिका",
+        "th-TH": "สหรัฐอเมริกา",
+        "zh-CN": "美国"
+      },
+      "id": "US",
+      "name": "United States"
+    }
+  }
+}

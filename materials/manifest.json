@@ -1,0 +1,204 @@
+{
+  "annotation_freeze": "pooled-two-layer-v2.1",
+  "annotation_freeze_verification": "All four Markdown files match the production-freeze SHA-256 values recorded in build_appendix.py; all six card texts are identical across the four prompts.",
+  "files": [
+    {
+      "file": "annotation/scenario_proposal.prompt.md",
+      "sha256": "e82cba3ef755b923ad8177373fd51cfab58240d70dbc5a32ddff8bbc93583b2c",
+      "source": "research/appendix_prompts_20260917/source/annotation/scenario_proposal.prompt.md",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "file": "annotation/scenario_proposal.schema.json",
+      "sha256": "4c624ee6b1dc66b9a09762a2f41810bfbd6147e6fd76e060c16d5e8387630b07",
+      "source": "research/appendix_prompts_20260917/source/annotation/scenario_proposal.schema.json",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "file": "annotation/image_proposal.prompt.md",
+      "sha256": "8a1d1a650692403dca45a3ad7027ec9d38359ef870b8ac8ce8661b616eedb632",
+      "source": "research/appendix_prompts_20260917/source/annotation/image_proposal.prompt.md",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "file": "annotation/image_proposal.schema.json",
+      "sha256": "bf89051fabc60186629d46e46ec81263e02391aa2ebea881e0ec8160dd03a47c",
+      "source": "research/appendix_prompts_20260917/source/annotation/image_proposal.schema.json",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "file": "annotation/scenario_verification.prompt.md",
+      "sha256": "9056c9e30357027b479952d2b7895b878e35c6b20cce2000265fb8fcbd68d83b",
+      "source": "research/appendix_prompts_20260917/source/annotation/scenario_verification.prompt.md",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "file": "annotation/scenario_verification.schema.json",
+      "sha256": "6468611ffe7d79811d269694e01479fead14742438429ef11eeb3974bd307c36",
+      "source": "research/appendix_prompts_20260917/source/annotation/scenario_verification.schema.json",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "file": "annotation/image_verification.prompt.md",
+      "sha256": "936a2b36041596c78e0ffecbcf72681fef664997b6cf946cc86b387cb4851777",
+      "source": "research/appendix_prompts_20260917/source/annotation/image_verification.prompt.md",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "file": "annotation/image_verification.schema.json",
+      "sha256": "383379c84d739e73b94ab786d4df27caf7b0959a3cc28a1a140959f8af836b04",
+      "source": "research/appendix_prompts_20260917/source/annotation/image_verification.schema.json",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "file": "annotation/shared_attribution_rules.md",
+      "sha256": "fe08a3a4af104e4687c9be300913817e163dee94726402ad5d570ebc6c53c4ba",
+      "source": "annotation/scenario_verification.prompt.md",
+      "transformation": "exact shared-rules substring"
+    },
+    {
+      "file": "annotation/cards/PDI.md",
+      "sha256": "41985806c20feefe81d17c655fdd0cff2c82fd37c27c2cb6ddd63147e415c258",
+      "source": "annotation/scenario_verification.prompt.md",
+      "transformation": "exact card substring; surrounding blank lines normalized"
+    },
+    {
+      "file": "annotation/cards/IDV.md",
+      "sha256": "06b27338d27715db6f325683fc1d44826b02b3dc713b1e4a95e416d66e0ab0f8",
+      "source": "annotation/scenario_verification.prompt.md",
+      "transformation": "exact card substring; surrounding blank lines normalized"
+    },
+    {
+      "file": "annotation/cards/MAS.md",
+      "sha256": "441a8941021553599c747bb77f879e350446b9ae8b5c63bfc4b4a6f804eb464a",
+      "source": "annotation/scenario_verification.prompt.md",
+      "transformation": "exact card substring; surrounding blank lines normalized"
+    },
+    {
+      "file": "annotation/cards/UAI.md",
+      "sha256": "9040b0a998d82b5e200a868acafa6586338fd6bf1f9079aa3aa6b44fd40a68ab",
+      "source": "annotation/scenario_verification.prompt.md",
+      "transformation": "exact card substring; surrounding blank lines normalized"
+    },
+    {
+      "file": "annotation/cards/LTO.md",
+      "sha256": "ff5afa925557f5837a44625c3b225a502069b3091ab6db4903a7e06fd9d5d1ed",
+      "source": "annotation/scenario_verification.prompt.md",
+      "transformation": "exact card substring; surrounding blank lines normalized"
+    },
+    {
+      "file": "annotation/cards/IVR.md",
+      "sha256": "f089b69d6680924cf10039ae0026709bcb563c5606ce49614f5a0a45e53b689f",
+      "source": "annotation/scenario_verification.prompt.md",
+      "transformation": "exact card substring; surrounding blank lines normalized"
+    },
+    {
+      "file": "construction/concept.prompt.md",
+      "sha256": "46cc91061459d79638cdb081f324725ce9fe88179f2143f435543522d2f6f461",
+      "source": "research/appendix_prompts_20260917/source/corpus",
+      "transformation": "source template extracted; Python interpolation expressions replaced by named {{PLACEHOLDERS}}; doubled JSON braces unescaped; no prose edits"
+    },
+    {
+      "file": "construction/scenario.prompt.md",
+      "sha256": "adc8060d63183a50d16c0ccd9b0dc10b572245a22f1f9059ad4ca27bb45fc342",
+      "source": "research/appendix_prompts_20260917/source/corpus",
+      "transformation": "source template extracted; Python interpolation expressions replaced by named {{PLACEHOLDERS}}; doubled JSON braces unescaped; no prose edits"
+    },
+    {
+      "file": "construction/translation.prompt.md",
+      "sha256": "c75dd2e0bd0d0c2939dc896a0ff9be3f8a84abecfa5ac071f471bb3044874732",
+      "source": "research/appendix_prompts_20260917/source/corpus",
+      "transformation": "source template extracted; Python interpolation expressions replaced by named {{PLACEHOLDERS}}; doubled JSON braces unescaped; no prose edits"
+    },
+    {
+      "file": "construction/source/source_concepts.py",
+      "sha256": "60d71628fa344cbef135c8b9116fe4c25d8d1b41c4b13628534bf95f7edcd8f8",
+      "source": "research/appendix_prompts_20260917/source/corpus/source_concepts.py",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "file": "construction/source/scenarios.py",
+      "sha256": "fcedda0294198995f0c1a4019a0b4b8e62a797615b5abe393374d12160f66390",
+      "source": "research/appendix_prompts_20260917/source/corpus/scenarios.py",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "file": "construction/source/translations.py",
+      "sha256": "33eb1f218611f83f3fd4c97820a4e0c06aa5aaa0e7d91223668f06b004458bd4",
+      "source": "research/appendix_prompts_20260917/source/corpus/translations.py",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "file": "construction/source/cdeval_source.py",
+      "sha256": "8ac68c2aabee4d521d75aad75948fbeb29afdb085f50d75caad7f398a1a7b16b",
+      "source": "research/appendix_prompts_20260917/source/corpus/cdeval_source.py",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "file": "construction/rendering.json",
+      "sha256": "656372bfe60da481c7e5514987877dc091bbaa243317e4de13cb295764fbbb6c",
+      "source": "research/appendix_prompts_20260917/source/corpus/run.json",
+      "transformation": "only languages and cultures entries; credentials and unrelated settings excluded"
+    },
+    {
+      "file": "filtering/fixed_orientation.prompt.md",
+      "sha256": "c829b2890328cc82a1673b20199b35c3be5528be3ecacb5d0f7123a67ce13406",
+      "source": "output/appendix_completion_20260925/evidence/remote_metadata.json:screening/fixed_orientation.prompt.md",
+      "transformation": "exact stored string"
+    },
+    {
+      "file": "filtering/RUBRIC.md",
+      "sha256": "53f80bc93a88033922a8af71e24175da8ec9c877ec079522a2e274fc4e05b543",
+      "source": "output/appendix_completion_20260925/evidence/remote_metadata.json:screening/RUBRIC.md",
+      "transformation": "exact stored string"
+    },
+    {
+      "file": "human/dimensions.json",
+      "sha256": "19705e406f86f6de8671e576aac1c9cbea0415d131bf328e62f4e5d9234f10b7",
+      "source": "research/appendix_prompts_20260917/source/human/dimensions.json",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "file": "human/examples.json",
+      "sha256": "79b4965f2e9d4cd8310878004687e7882176618c7bf04f44ee8cfaac3ba66385",
+      "source": "research/appendix_prompts_20260917/source/human/examples.json",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "file": "human/images/IDV.jpg",
+      "sha256": "45940ebf14d507d2e0d7529ffe134d4457fe61f7bc61113c574d1c873ec8351b",
+      "source": "research/appendix_prompts_20260917/source/human/images/IDV.jpg",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "file": "human/images/IVR.jpg",
+      "sha256": "ddd4800bfe8ff0d62c80982150e2b43645b15d8334559c6f83e77343d672669c",
+      "source": "research/appendix_prompts_20260917/source/human/images/IVR.jpg",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "file": "human/images/LTO.jpg",
+      "sha256": "07715300533db5af8a00d58f7fa98b0ef1884c4095720bd5a6d7f1befb9317f8",
+      "source": "research/appendix_prompts_20260917/source/human/images/LTO.jpg",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "file": "human/images/MAS.jpg",
+      "sha256": "e265bea9da962721029e0f41f9eb13ab1f50acf25b56f3d2ba47b93c296e6388",
+      "source": "research/appendix_prompts_20260917/source/human/images/MAS.jpg",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "file": "human/images/PDI.jpg",
+      "sha256": "5305f114f75558ab4748b1c02bc1beb9a755060b0cd5b04de020ce38149e74ea",
+      "source": "research/appendix_prompts_20260917/source/human/images/PDI.jpg",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "file": "human/images/UAI.jpg",
+      "sha256": "57273c3610ea444c491607af0be2d80e910f0c107b54acd19e72c6d588402ca1",
+      "source": "research/appendix_prompts_20260917/source/human/images/UAI.jpg",
+      "transformation": "byte-identical copy"
+    }
+  ]
+}

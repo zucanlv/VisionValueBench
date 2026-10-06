@@ -1,0 +1,407 @@
+{
+  "type": "object",
+  "properties": {
+    "focal_situation": {
+      "type": "string"
+    },
+    "ranking": {
+      "type": "array",
+      "minItems": 6,
+      "maxItems": 6,
+      "items": {
+        "type": "object",
+        "properties": {
+          "dimension": {
+            "type": "string",
+            "enum": [
+              "power_distance",
+              "individualism_collectivism",
+              "motivation_achievement_success",
+              "uncertainty_avoidance",
+              "long_short_term_orientation",
+              "indulgence_restraint"
+            ]
+          },
+          "rank": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 6
+          },
+          "relevance": {
+            "type": "string",
+            "enum": [
+              "related",
+              "unrelated"
+            ]
+          },
+          "reason": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "dimension",
+          "rank",
+          "relevance",
+          "reason"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "dimensions": {
+      "type": "object",
+      "properties": {
+        "power_distance": {
+          "type": "object",
+          "properties": {
+            "high_power_distance": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "potential_evidence": {
+                    "type": "string"
+                  },
+                  "interpretation": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "potential_evidence",
+                  "interpretation"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "low_power_distance": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "potential_evidence": {
+                    "type": "string"
+                  },
+                  "interpretation": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "potential_evidence",
+                  "interpretation"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "high_power_distance",
+            "low_power_distance"
+          ],
+          "additionalProperties": false
+        },
+        "individualism_collectivism": {
+          "type": "object",
+          "properties": {
+            "individualism": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "potential_evidence": {
+                    "type": "string"
+                  },
+                  "interpretation": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "potential_evidence",
+                  "interpretation"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "collectivism": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "potential_evidence": {
+                    "type": "string"
+                  },
+                  "interpretation": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "potential_evidence",
+                  "interpretation"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "individualism",
+            "collectivism"
+          ],
+          "additionalProperties": false
+        },
+        "motivation_achievement_success": {
+          "type": "object",
+          "properties": {
+            "achievement_and_competition_orientation": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "potential_evidence": {
+                    "type": "string"
+                  },
+                  "interpretation": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "potential_evidence",
+                  "interpretation"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "care_and_quality_of_life_orientation": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "potential_evidence": {
+                    "type": "string"
+                  },
+                  "interpretation": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "potential_evidence",
+                  "interpretation"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "achievement_and_competition_orientation",
+            "care_and_quality_of_life_orientation"
+          ],
+          "additionalProperties": false
+        },
+        "uncertainty_avoidance": {
+          "type": "object",
+          "properties": {
+            "high_uncertainty_avoidance": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "potential_evidence": {
+                    "type": "string"
+                  },
+                  "interpretation": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "potential_evidence",
+                  "interpretation"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "low_uncertainty_avoidance": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "potential_evidence": {
+                    "type": "string"
+                  },
+                  "interpretation": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "potential_evidence",
+                  "interpretation"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "high_uncertainty_avoidance",
+            "low_uncertainty_avoidance"
+          ],
+          "additionalProperties": false
+        },
+        "long_short_term_orientation": {
+          "type": "object",
+          "properties": {
+            "long_term_orientation": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "potential_evidence": {
+                    "type": "string"
+                  },
+                  "interpretation": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "potential_evidence",
+                  "interpretation"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "short_term_orientation": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "potential_evidence": {
+                    "type": "string"
+                  },
+                  "interpretation": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "potential_evidence",
+                  "interpretation"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "long_term_orientation",
+            "short_term_orientation"
+          ],
+          "additionalProperties": false
+        },
+        "indulgence_restraint": {
+          "type": "object",
+          "properties": {
+            "indulgence": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "potential_evidence": {
+                    "type": "string"
+                  },
+                  "interpretation": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "potential_evidence",
+                  "interpretation"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "restraint": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "potential_evidence": {
+                    "type": "string"
+                  },
+                  "interpretation": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "potential_evidence",
+                  "interpretation"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "indulgence",
+            "restraint"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "power_distance",
+        "individualism_collectivism",
+        "motivation_achievement_success",
+        "uncertainty_avoidance",
+        "long_short_term_orientation",
+        "indulgence_restraint"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "focal_situation",
+    "ranking",
+    "dimensions"
+  ],
+  "additionalProperties": false
+}

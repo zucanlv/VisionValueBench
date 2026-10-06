@@ -1,0 +1,2 @@
+# Numerical replay was validated with this version. Score/manifest helpers use stdlib only.
+numpy==2.3.5

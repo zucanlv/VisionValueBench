@@ -1,0 +1,5 @@
+example,a_only,b_only,both,neither
+synthetic_mixed,3,1,2,4
+synthetic_both_only,0,0,5,0
+synthetic_neither_only,0,0,0,5
+synthetic_empty,0,0,0,0

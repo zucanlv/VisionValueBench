@@ -1,0 +1,15 @@
+{
+  "source_sha256": "eefc99f151ed4c49d5aa7d6ad5dc16c8f6e3ea37738010482a2d35d29e14593c",
+  "snapshot": "2026-09-24T15:06:09.435885+00:00",
+  "images": 68764,
+  "scenarios": 960,
+  "profile_point_estimates_matched": 96,
+  "paired_point_estimates_matched": 1320,
+  "new_cued_language_rows": 192,
+  "refinement_point_estimates_matched": 240,
+  "bootstrap_replicates": 5000,
+  "seed": 20260925,
+  "bootstrap_unit": "Joint 960 scenario clusters, stratified by six source dimensions (160 draws each); all model/condition/method records move together. A contrast uses only available pairs in each sampled cluster.",
+  "simultaneous_bands": "95% bootstrap max absolute standardized centered deviation; main profile family=36 cells per method; contrast family=up to36 cells per method/contrast, controls separate; refinement family=12 cells per method/setting. Approximate simultaneous coverage within named family, not whole-paper coverage.",
+  "array_count": 235
+}

@@ -1,0 +1,142 @@
+{
+  "type": "object",
+  "properties": {
+    "scene": {
+      "type": "string",
+      "minLength": 1
+    },
+    "assessments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "dimension": {
+            "type": "string",
+            "enum": [
+              "power_distance",
+              "individualism_collectivism",
+              "motivation_achievement_success",
+              "uncertainty_avoidance",
+              "long_short_term_orientation",
+              "indulgence_restraint"
+            ]
+          },
+          "endpoint": {
+            "type": "string",
+            "enum": [
+              "high_power_distance",
+              "low_power_distance",
+              "individualism",
+              "collectivism",
+              "achievement_and_competition_orientation",
+              "care_and_quality_of_life_orientation",
+              "high_uncertainty_avoidance",
+              "low_uncertainty_avoidance",
+              "long_term_orientation",
+              "short_term_orientation",
+              "indulgence",
+              "restraint"
+            ]
+          },
+          "candidate_reviews": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "candidate_id": {
+                  "type": "string"
+                },
+                "core": {
+                  "type": "string"
+                },
+                "in_image": {
+                  "type": "string"
+                },
+                "observation_assessment": {
+                  "type": "string",
+                  "enum": [
+                    "grounded",
+                    "not_grounded",
+                    "unclear"
+                  ]
+                },
+                "interpretation_check": {
+                  "type": "string"
+                },
+                "interpretation_assessment": {
+                  "type": "string",
+                  "enum": [
+                    "warranted",
+                    "not_warranted",
+                    "unclear",
+                    "not_assessed"
+                  ]
+                },
+                "decision": {
+                  "type": "string",
+                  "enum": [
+                    "accept",
+                    "reject"
+                  ]
+                }
+              },
+              "required": [
+                "candidate_id",
+                "core",
+                "in_image",
+                "observation_assessment",
+                "interpretation_check",
+                "interpretation_assessment",
+                "decision"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "additional_evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "visual_basis": {
+                  "type": "string"
+                },
+                "interpretation": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "visual_basis",
+                "interpretation"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "decision": {
+            "type": "string",
+            "enum": [
+              "supported",
+              "not_supported"
+            ]
+          },
+          "explanation": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "dimension",
+          "endpoint",
+          "candidate_reviews",
+          "additional_evidence",
+          "decision",
+          "explanation"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "scene",
+    "assessments"
+  ],
+  "additionalProperties": false
+}

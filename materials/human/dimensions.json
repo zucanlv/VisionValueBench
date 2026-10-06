@@ -1,0 +1,194 @@
+{
+  "IDV": {
+    "summary": "How a person’s choices, responsibilities, or sense of belonging are treated: as their own to direct, or as shaped by ties and obligations to a close group.",
+    "steps": [
+      {
+        "title": "Identify the relevant matter.",
+        "text": "Does the situation concern someone’s say over a choice, their responsibilities or personal boundaries, or their connection to a family or another lasting group? Identify the specific matter and how personal agency or group membership is relevant."
+      },
+      {
+        "title": "Examine how that matter is organized.",
+        "text": "Is the choice, opinion, boundary, or responsibility treated as the person’s own to direct or manage? Or is it shaped by group belonging, shared expectations, loyalty, protection, or obligations? Explain that connection; acting alone or together is not enough."
+      }
+    ],
+    "endpoints": [
+      {
+        "label": "Individualism",
+        "text": "A person’s choices, opinions, goals, privacy, or responsibilities are treated as their own to direct or manage."
+      },
+      {
+        "label": "Collectivism",
+        "text": "Belonging to a family or another lasting group shapes a person’s choices, responsibilities, or identity through shared expectations, loyalty, protection, or obligations to one another."
+      }
+    ],
+    "evidence": "Use the prompt and image together to understand who directs the choice and what group ties mean. Look at decisions, personal boundaries, relationships, and arrangements for support or responsibility. Relevant group members do not all have to appear in the image.",
+    "confusions": [
+      {
+        "title": "Someone working alone may simply have been assigned a separate task.",
+        "text": "Look for whether the goal, choice, or responsibility is treated as theirs to direct, rather than judging from the number of people."
+      },
+      {
+        "title": "Several people helping with a move may just be coordinating a job.",
+        "text": "For Collectivism, look for how belonging to a family or lasting group gives them a responsibility to one another."
+      }
+    ]
+  },
+  "MAS": {
+    "summary": "What the situation presents as worth pursuing or caring about: accomplishment and success, or people’s well-being and quality of life.",
+    "steps": [
+      {
+        "title": "Identify the relevant pursuit or concern.",
+        "text": "Does the situation give significance to an accomplishment, performance, someone’s needs, or a way of living? Identify the specific pursuit, evaluation, recognition, or care-related matter."
+      },
+      {
+        "title": "Examine what is valued in that matter.",
+        "text": "How does the conduct, response, evaluation, or arrangement value achievement, excellence, or competitive success, or people’s well-being, relationships, or quality of life? Naming an activity such as working or helping is not enough."
+      }
+    ],
+    "endpoints": [
+      {
+        "label": "Achievement and competition orientation",
+        "text": "Accomplishment, excellent performance, advancement, or competitive or material success is treated as worth pursuing or recognizing."
+      },
+      {
+        "label": "Care and quality of life orientation",
+        "text": "People’s needs, well-being, relationships, or quality of life are treated as worth caring for or maintaining."
+      }
+    ],
+    "reminder": "Success need not have been achieved. Care can be part of someone’s job and does not need to come at the expense of achievement.",
+    "evidence": "Look at what people strive for, reward, respond to, or make room for. For a reward or celebration, ask what it recognizes. For care, look at how someone’s needs are addressed. Use the prompt to understand why the response matters.",
+    "confusions": [
+      {
+        "title": "An employee working late is not automatically showing achievement orientation.",
+        "text": "Look for the importance given to accomplishment or performance, rather than treating effort itself as valuing success."
+      },
+      {
+        "title": "A nurse’s uniform is not enough to show care orientation.",
+        "text": "A response to a patient’s discomfort can show concern for well-being, even when it is part of the nurse’s job."
+      }
+    ]
+  },
+  "UAI": {
+    "summary": "How people respond to something uncertain, unclear, or unfamiliar: needing definite answers and predictable arrangements, or accepting that some things remain open.",
+    "steps": [
+      {
+        "title": "Identify the relevant uncertainty.",
+        "text": "What is uncertain, unclear, unfamiliar, or unstructured for the participants, and for whom? Use the prompt and image together. Your own uncertainty about the image, or the possibility that any activity might have an uncertain outcome, is not enough."
+      },
+      {
+        "title": "Examine how that uncertainty is treated.",
+        "text": "Does the response or arrangement express intolerance of that uncertainty, a need for definite answers or predictable structure, or acceptance of what remains open or unknown? Explain this attitude; describing how a tool or procedure solves a problem is not enough."
+      }
+    ],
+    "endpoints": [
+      {
+        "label": "High uncertainty avoidance",
+        "text": "People show discomfort with uncertainty, or a need for clear answers and predictable ways of proceeding when facing it."
+      },
+      {
+        "label": "Low uncertainty avoidance",
+        "text": "People accept that answers may be incomplete, several possibilities may remain, or plans may stay flexible while something is unsettled."
+      }
+    ],
+    "reminder": "High UAI does not require visible anxiety. Low UAI can coexist with rules and preparation. This dimension is not about how much danger someone accepts.",
+    "evidence": "Look at responses to the specific unknown: demands for a definite answer, insistence on a predictable arrangement, or willingness to work with an answer that may change. Interpret what a rule or action means here, not just what it helps people do.",
+    "confusions": [
+      {
+        "title": "A worker using a checklist is not automatically showing High UAI.",
+        "text": "The checklist may simply help prevent errors. Look for whether definite steps are treated as needed reassurance in facing something uncertain."
+      },
+      {
+        "title": "Someone trying a new app is not automatically showing Low UAI.",
+        "text": "They may have been told to use it. Look for acceptance of what is unfamiliar or still unresolved, rather than judging from the new tool alone."
+      }
+    ]
+  },
+  "LTO": {
+    "summary": "How present choices emphasize benefits that take time or quicker results, or treat established customs and expectations as adaptable or as guides that should be followed.",
+    "steps": [
+      {
+        "title": "Identify the relevant issue.",
+        "text": "Is the situation about present investment and expected returns, or about established practices and social expectations? Identify the effort or resources and expected benefits, or the specific practice or expectation involved. Either route may apply on its own; neither must apply."
+      },
+      {
+        "title": "Examine how the issue is presented.",
+        "text": "Does the image direct present effort toward sustained development and longer-term benefits, or emphasize quicker results? Or does it present an established practice as adjustable to circumstances and practical needs, or as a norm that should guide conduct? Use specific image content in the prompt’s context."
+      }
+    ],
+    "endpoints": [
+      {
+        "label": "Long term orientation",
+        "points": [
+          {
+            "title": "Effort and benefits:",
+            "text": "Present effort or resources are directed toward sustained development or benefits people are willing to wait for."
+          },
+          {
+            "title": "Established practices:",
+            "text": "An existing way of doing things is treated as adjustable to circumstances and practical needs."
+          }
+        ]
+      },
+      {
+        "label": "Short term orientation",
+        "points": [
+          {
+            "title": "Effort and benefits:",
+            "text": "Quicker or near-term results guide how effort or resources are used."
+          },
+          {
+            "title": "Established practices:",
+            "text": "Traditions, established expectations, or duties to return support guide what people regard as proper conduct."
+          }
+        ]
+      }
+    ],
+    "reminder": "The two routes need not appear together. Adapting a custom does not require a separate future benefit. Neither endpoint means that a choice is better or worse.",
+    "evidence": "Look at what present effort is for, or how an existing practice is treated. The image need not show the future result, and there is no fixed time cutoff. Established expectations can include preserving “face”: maintaining respectability in other people’s eyes by meeting social expectations.",
+    "confusions": [
+      {
+        "title": "Hard work alone does not show Long term orientation.",
+        "text": "A student may be working for a quick result or developing skills for later. Look at which benefit guides the effort, not just how hard they work."
+      },
+      {
+        "title": "A traditional ceremony with modern equipment does not automatically show both orientations.",
+        "text": "Ask whether an established custom is being changed to meet practical needs or upheld because people regard it as the proper way to act."
+      }
+    ]
+  },
+  "IVR": {
+    "summary": "How enjoying life, leisure, and fun are treated: as things people have room to pursue, or as things that should be limited to follow social expectations or duties.",
+    "steps": [
+      {
+        "title": "Identify the enjoyment at issue.",
+        "text": "Does the situation concern the place given to enjoyment, leisure, or fun? Identify the specific activity, expression, or opportunity whose treatment matters here, rather than just noting something enjoyable."
+      },
+      {
+        "title": "Examine how that enjoyment is treated.",
+        "text": "Does the conduct, response, or arrangement give enjoyment room for relatively free expression, or present it as something that should be limited by social expectations or duties? Explain how enjoyment is treated; whether an activity happens or is prevented is not enough."
+      }
+    ],
+    "endpoints": [
+      {
+        "label": "Indulgence",
+        "text": "Enjoying life is treated as something people are free to pursue and make room for."
+      },
+      {
+        "label": "Restraint",
+        "text": "Enjoyment is treated as something that ought to be limited, suppressed, or set aside to meet social expectations or duties."
+      }
+    ],
+    "reminder": "Indulgence need not mean excess or immediate pleasure, and does not require someone else’s permission. Restraint can be self-imposed; no one else has to enforce it.",
+    "evidence": "Use the prompt to understand what the enjoyment means in this situation. Look at how people pursue it, make time or space for it, or expect it to be limited. The important distinction is how enjoyment is treated, not simply whether an activity happens.",
+    "confusions": [
+      {
+        "title": "A person smiling at work may be pleased with finishing a task.",
+        "text": "The smile alone does not show Indulgence. Look for whether the scene gives room to enjoying life or having fun."
+      },
+      {
+        "title": "A picnic cancelled because of bad weather does not by itself show Restraint.",
+        "text": "A practical obstacle is different from an expectation that fun should be restricted—for example, treating time spent on enjoyment as irresponsible."
+      }
+    ]
+  }
+}

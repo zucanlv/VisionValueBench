@@ -1,0 +1,4012 @@
+{
+  "removals": [
+    {
+      "id": "idv_0017",
+      "in960": true,
+      "source_dimension": "idv",
+      "text": "a teacher evaluating a student's achievements with both individual and collaborative work visible",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": null,
+          "gemini": "evaluating a student's achievements"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "idv_0018",
+      "in960": true,
+      "source_dimension": "idv",
+      "text": "a person working on a project using what they learned from a lifelong education program",
+      "marks": [
+        {
+          "orientation": "long_term_orientation",
+          "reader": null,
+          "gemini": "using what they learned from a lifelong education program"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "idv_0062",
+      "in960": true,
+      "source_dimension": "idv",
+      "text": "a person carrying out their role in preventing the spread of diseases in their community",
+      "marks": [
+        {
+          "orientation": "care_and_quality_of_life_orientation",
+          "reader": null,
+          "gemini": "preventing the spread of diseases in their community"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "idv_0063",
+      "in960": true,
+      "source_dimension": "idv",
+      "text": "a manager presenting a reward to either an individual or a team for excellent work performance",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "presenting a reward ... for excellent work performance",
+          "gemini": "presenting a reward to either an individual or a team for excellent work performance"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "idv_0082",
+      "in960": true,
+      "source_dimension": "idv",
+      "text": "a worker with colleagues nearby after a successful project",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "after a successful project",
+          "gemini": null
+        }
+      ],
+      "flagged_by": "reader"
+    },
+    {
+      "id": "idv_0110",
+      "in960": true,
+      "source_dimension": "idv",
+      "text": "a person presenting an award for a successful technological innovation, with individual inventors and the collaborating team both present",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "presenting an award for a successful technological innovation",
+          "gemini": "presenting an award for a successful technological innovation"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "idv_0126",
+      "in960": false,
+      "source_dimension": "idv",
+      "text": "a child raising a hand during a family decision-making discussion",
+      "marks": [
+        {
+          "orientation": "low_power_distance",
+          "reader": null,
+          "gemini": "a child raising a hand during a family decision-making discussion"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "idv_0144",
+      "in960": false,
+      "source_dimension": "idv",
+      "text": "a child showing their parent a personal creation while family chores are left undone",
+      "marks": [
+        {
+          "orientation": "individualism",
+          "reader": "a personal creation while family chores are left undone",
+          "gemini": null
+        }
+      ],
+      "flagged_by": "reader"
+    },
+    {
+      "id": "idv_0161",
+      "in960": false,
+      "source_dimension": "idv",
+      "text": "a family member enacting their role in a family ritual",
+      "marks": [
+        {
+          "orientation": "collectivism",
+          "reader": "enacting their role in a family ritual",
+          "gemini": "enacting their role in a family ritual"
+        },
+        {
+          "orientation": "short_term_orientation",
+          "reader": null,
+          "gemini": "enacting their role in a family ritual"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "idv_0175",
+      "in960": false,
+      "source_dimension": "idv",
+      "text": "a person participating in a family tradition or ritual",
+      "marks": [
+        {
+          "orientation": "collectivism",
+          "reader": "participating in a family tradition or ritual",
+          "gemini": null
+        }
+      ],
+      "flagged_by": "reader"
+    },
+    {
+      "id": "idv_0191",
+      "in960": true,
+      "source_dimension": "idv",
+      "text": "a professional reaching a career milestone with colleagues nearby",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "reaching a career milestone",
+          "gemini": "reaching a career milestone"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "idv_0209",
+      "in960": false,
+      "source_dimension": "idv",
+      "text": "a professional receiving a reward while their team is nearby",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "receiving a reward",
+          "gemini": "receiving a reward"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "idv_0244",
+      "in960": false,
+      "source_dimension": "idv",
+      "text": "a classroom chart tracking student success",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "a classroom chart tracking student success",
+          "gemini": "tracking student success"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "idv_0270",
+      "in960": false,
+      "source_dimension": "idv",
+      "text": "a person in the personal space they have set up for themselves",
+      "marks": [
+        {
+          "orientation": "individualism",
+          "reader": null,
+          "gemini": "personal space they have set up for themselves"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "idv_0282",
+      "in960": false,
+      "source_dimension": "idv",
+      "text": "a professional and their team at a workplace recognition event for a career achievement",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "a workplace recognition event for a career achievement",
+          "gemini": "workplace recognition event for a career achievement"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "idv_0294",
+      "in960": false,
+      "source_dimension": "idv",
+      "text": "a professional pursuing their career goals while coworkers are nearby",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": null,
+          "gemini": "pursuing their career goals"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "idv_0299",
+      "in960": false,
+      "source_dimension": "idv",
+      "text": "a team leader publicly giving credit for a successfully completed project while team members look on",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "publicly giving credit for a successfully completed project",
+          "gemini": "publicly giving credit for a successfully completed project"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "idv_0311",
+      "in960": false,
+      "source_dimension": "idv",
+      "text": "a person celebrating a success while their family is nearby",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "celebrating a success",
+          "gemini": "celebrating a success"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "idv_0330",
+      "in960": false,
+      "source_dimension": "idv",
+      "text": "a parent praising their child for either a personal achievement or a contribution to the family's success",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "praising their child for ... a personal achievement or a contribution to the family's success",
+          "gemini": "praising their child for either a personal achievement or a contribution to the family's success"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "idv_0333",
+      "in960": true,
+      "source_dimension": "idv",
+      "text": "a person carrying on the family traditions they have chosen to uphold",
+      "marks": [
+        {
+          "orientation": "collectivism",
+          "reader": "carrying on the family traditions they have chosen to uphold",
+          "gemini": null
+        }
+      ],
+      "flagged_by": "reader"
+    },
+    {
+      "id": "idv_0343",
+      "in960": false,
+      "source_dimension": "idv",
+      "text": "a workplace award ceremony for a successful project",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "a workplace award ceremony for a successful project",
+          "gemini": "award ceremony for a successful project"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "idv_0403",
+      "in960": true,
+      "source_dimension": "idv",
+      "text": "a person participating in a family tradition",
+      "marks": [
+        {
+          "orientation": "collectivism",
+          "reader": "participating in a family tradition",
+          "gemini": null
+        }
+      ],
+      "flagged_by": "reader"
+    },
+    {
+      "id": "idv_0409",
+      "in960": false,
+      "source_dimension": "idv",
+      "text": "a reward presentation at a workplace",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "a reward presentation at a workplace",
+          "gemini": "reward presentation"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "idv_0427",
+      "in960": false,
+      "source_dimension": "idv",
+      "text": "an employee being congratulated by their team for an individual achievement",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "being congratulated by their team for an individual achievement",
+          "gemini": "being congratulated by their team for an individual achievement"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "idv_0439",
+      "in960": false,
+      "source_dimension": "idv",
+      "text": "a person using a new technology to diversify a traditional cultural practice while community members are nearby",
+      "marks": [
+        {
+          "orientation": "long_term_orientation",
+          "reader": null,
+          "gemini": "using a new technology to diversify a traditional cultural practice"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "idv_0454",
+      "in960": true,
+      "source_dimension": "idv",
+      "text": "a person planning their retirement while family members are nearby",
+      "marks": [
+        {
+          "orientation": "long_term_orientation",
+          "reader": null,
+          "gemini": "planning their retirement"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "idv_0461",
+      "in960": false,
+      "source_dimension": "idv",
+      "text": "a classroom display of performance highlights",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": null,
+          "gemini": "display of performance highlights"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "idv_0469",
+      "in960": false,
+      "source_dimension": "idv",
+      "text": "a person participating in a competition with peers in the workplace",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": null,
+          "gemini": "participating in a competition"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "ivr_0014",
+      "in960": true,
+      "source_dimension": "ivr",
+      "text": "a team receiving a group reward for their teamwork",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "receiving a group reward for their teamwork",
+          "gemini": "receiving a group reward for their teamwork"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "ivr_0036",
+      "in960": true,
+      "source_dimension": "ivr",
+      "text": "a family member in their own private space while other family members are nearby",
+      "marks": [
+        {
+          "orientation": "individualism",
+          "reader": null,
+          "gemini": "in their own private space"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "ivr_0039",
+      "in960": true,
+      "source_dimension": "ivr",
+      "text": "a health education session presenting exercise routines and healthy eating as habits to build",
+      "marks": [
+        {
+          "orientation": "long_term_orientation",
+          "reader": null,
+          "gemini": "habits to build"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "ivr_0048",
+      "in960": true,
+      "source_dimension": "ivr",
+      "text": "a person engaging with the learning materials they chose for their continuous learning",
+      "marks": [
+        {
+          "orientation": "long_term_orientation",
+          "reader": null,
+          "gemini": "continuous learning"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "ivr_0075",
+      "in960": false,
+      "source_dimension": "ivr",
+      "text": "a person engaged in a leisure activity with books and study materials nearby",
+      "marks": [
+        {
+          "orientation": "indulgence",
+          "reader": null,
+          "gemini": "engaged in a leisure activity with books and study materials nearby"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "ivr_0084",
+      "in960": false,
+      "source_dimension": "ivr",
+      "text": "a person spending a personal day in the way they chose, whether filled with activities they love or kept simple and relaxed",
+      "marks": [
+        {
+          "orientation": "indulgence",
+          "reader": null,
+          "gemini": "spending a personal day in the way they chose, whether filled with activities they love or kept simple and relaxed"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "ivr_0092",
+      "in960": false,
+      "source_dimension": "ivr",
+      "text": "a parent and child following through on the choice of reward for the child's good school performance, between a fun treat and an intellectual reward",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "reward for the child's good school performance",
+          "gemini": "reward for the child's good school performance"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "ivr_0099",
+      "in960": false,
+      "source_dimension": "ivr",
+      "text": "an adult studying the subject they chose for lifelong learning",
+      "marks": [
+        {
+          "orientation": "long_term_orientation",
+          "reader": null,
+          "gemini": "lifelong learning"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "ivr_0100",
+      "in960": false,
+      "source_dimension": "ivr",
+      "text": "a team celebrating a successful project at work",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "a team celebrating a successful project",
+          "gemini": "celebrating a successful project"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "ivr_0102",
+      "in960": false,
+      "source_dimension": "ivr",
+      "text": "a person's weekly calendar with their planned enjoyable leisure activities for mental health",
+      "marks": [
+        {
+          "orientation": "care_and_quality_of_life_orientation",
+          "reader": null,
+          "gemini": "planned enjoyable leisure activities for mental health"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "ivr_0104",
+      "in960": false,
+      "source_dimension": "ivr",
+      "text": "a person participating in a traditional arts event with a demeanor that shows how much it matters to them",
+      "marks": [
+        {
+          "orientation": "short_term_orientation",
+          "reader": null,
+          "gemini": "participating in a traditional arts event with a demeanor that shows how much it matters to them"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "ivr_0146",
+      "in960": false,
+      "source_dimension": "ivr",
+      "text": "a person indulging in their favorite dessert",
+      "marks": [
+        {
+          "orientation": "indulgence",
+          "reader": "indulging in their favorite dessert",
+          "gemini": "indulging in their favorite dessert"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "ivr_0169",
+      "in960": false,
+      "source_dimension": "ivr",
+      "text": "a young adult leaving home to venture on their own while family members watch from the doorway",
+      "marks": [
+        {
+          "orientation": "individualism",
+          "reader": "leaving home to venture on their own",
+          "gemini": "leaving home to venture on their own"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "ivr_0180",
+      "in960": false,
+      "source_dimension": "ivr",
+      "text": "a person spending a whole day doing nothing but relaxing and enjoying themselves",
+      "marks": [
+        {
+          "orientation": "indulgence",
+          "reader": "doing nothing but relaxing and enjoying themselves",
+          "gemini": "spending a whole day doing nothing but relaxing and enjoying themselves"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "ivr_0203",
+      "in960": true,
+      "source_dimension": "ivr",
+      "text": "a person trying an unconventional healthcare method",
+      "marks": [
+        {
+          "orientation": "low_uncertainty_avoidance",
+          "reader": "trying an unconventional healthcare method",
+          "gemini": null
+        }
+      ],
+      "flagged_by": "reader"
+    },
+    {
+      "id": "ivr_0274",
+      "in960": true,
+      "source_dimension": "ivr",
+      "text": "a family participating in a significant family tradition",
+      "marks": [
+        {
+          "orientation": "collectivism",
+          "reader": "participating in a significant family tradition",
+          "gemini": null
+        },
+        {
+          "orientation": "short_term_orientation",
+          "reader": null,
+          "gemini": "participating in a significant family tradition"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "ivr_0287",
+      "in960": false,
+      "source_dimension": "ivr",
+      "text": "a teenager listening to a wide range of music genres, including explicit content, while an adult is nearby",
+      "marks": [
+        {
+          "orientation": "indulgence",
+          "reader": null,
+          "gemini": "listening to a wide range of music genres, including explicit content, while an adult is nearby"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "ivr_0312",
+      "in960": false,
+      "source_dimension": "ivr",
+      "text": "a person following a strict diet or meal plan",
+      "marks": [
+        {
+          "orientation": "restraint",
+          "reader": "following a strict diet or meal plan",
+          "gemini": null
+        }
+      ],
+      "flagged_by": "reader"
+    },
+    {
+      "id": "ivr_0339",
+      "in960": false,
+      "source_dimension": "ivr",
+      "text": "students in a classroom being given free time as a reward for their academic performance",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "given free time as a reward for their academic performance",
+          "gemini": "reward for their academic performance"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "ivr_0361",
+      "in960": true,
+      "source_dimension": "ivr",
+      "text": "a person having personal time to unwind while a nearby family member needs emotional support",
+      "marks": [
+        {
+          "orientation": "individualism",
+          "reader": null,
+          "gemini": "having personal time to unwind while a nearby family member needs emotional support"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "ivr_0372",
+      "in960": false,
+      "source_dimension": "ivr",
+      "text": "an employee expressing personal creativity in a professional workplace",
+      "marks": [
+        {
+          "orientation": "individualism",
+          "reader": null,
+          "gemini": "expressing personal creativity"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "ivr_0417",
+      "in960": false,
+      "source_dimension": "ivr",
+      "text": "a family ceremony reflecting the role of humor and laughter in the family's traditions",
+      "marks": [
+        {
+          "orientation": "indulgence",
+          "reader": null,
+          "gemini": "a family ceremony reflecting the role of humor and laughter in the family's traditions"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "ivr_0422",
+      "in960": false,
+      "source_dimension": "ivr",
+      "text": "an employee engaging in a leisure activity during work hours while a supervisor is nearby",
+      "marks": [
+        {
+          "orientation": "indulgence",
+          "reader": "engaging in a leisure activity during work hours",
+          "gemini": "engaging in a leisure activity during work hours"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "ivr_0424",
+      "in960": true,
+      "source_dimension": "ivr",
+      "text": "a family carrying out a family tradition",
+      "marks": [
+        {
+          "orientation": "collectivism",
+          "reader": "a family carrying out a family tradition",
+          "gemini": null
+        },
+        {
+          "orientation": "short_term_orientation",
+          "reader": null,
+          "gemini": "carrying out a family tradition"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "ivr_0443",
+      "in960": true,
+      "source_dimension": "ivr",
+      "text": "a family participating in a family tradition",
+      "marks": [
+        {
+          "orientation": "collectivism",
+          "reader": "a family participating in a family tradition",
+          "gemini": null
+        },
+        {
+          "orientation": "short_term_orientation",
+          "reader": null,
+          "gemini": "participating in a family tradition"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "ivr_0458",
+      "in960": false,
+      "source_dimension": "ivr",
+      "text": "a person celebrating a personal achievement at work with their colleagues",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "celebrating a personal achievement at work",
+          "gemini": "celebrating a personal achievement"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "ivr_0467",
+      "in960": true,
+      "source_dimension": "ivr",
+      "text": "a lifelong learner studying at a desk, with a framed certificate on the wall behind them",
+      "marks": [
+        {
+          "orientation": "long_term_orientation",
+          "reader": null,
+          "gemini": "lifelong learner studying"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "ivr_0478",
+      "in960": true,
+      "source_dimension": "ivr",
+      "text": "a successful student",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "a successful student",
+          "gemini": "successful student"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "ivr_0483",
+      "in960": true,
+      "source_dimension": "ivr",
+      "text": "students playing a game during an academic lesson",
+      "marks": [
+        {
+          "orientation": "indulgence",
+          "reader": null,
+          "gemini": "playing a game during an academic lesson"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "ivr_0484",
+      "in960": true,
+      "source_dimension": "ivr",
+      "text": "a person with the traditional medicines they have chosen to use to improve their quality of life",
+      "marks": [
+        {
+          "orientation": "care_and_quality_of_life_orientation",
+          "reader": null,
+          "gemini": "to improve their quality of life"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "ivr_0486",
+      "in960": false,
+      "source_dimension": "ivr",
+      "text": "a person taking time for relaxation and leisure as part of their healthcare and prevention routine",
+      "marks": [
+        {
+          "orientation": "care_and_quality_of_life_orientation",
+          "reader": null,
+          "gemini": "taking time for relaxation and leisure as part of their healthcare and prevention routine"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "lto_0043",
+      "in960": false,
+      "source_dimension": "lto",
+      "text": "a person dedicating time and effort to mental health education and self-care practices",
+      "marks": [
+        {
+          "orientation": "care_and_quality_of_life_orientation",
+          "reader": null,
+          "gemini": "dedicating time and effort to mental health education and self-care practices"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "lto_0054",
+      "in960": true,
+      "source_dimension": "lto",
+      "text": "students being evaluated on their academic performance",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": null,
+          "gemini": "evaluated on their academic performance"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "lto_0062",
+      "in960": true,
+      "source_dimension": "lto",
+      "text": "a professional looking at a chart of their career advancement",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "a chart of their career advancement",
+          "gemini": null
+        }
+      ],
+      "flagged_by": "reader"
+    },
+    {
+      "id": "lto_0064",
+      "in960": false,
+      "source_dimension": "lto",
+      "text": "a husband and wife pursuing their career goals at home with their family nearby",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": null,
+          "gemini": "pursuing their career goals"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "lto_0083",
+      "in960": false,
+      "source_dimension": "lto",
+      "text": "a person organizing their tasks for a project with a distant deadline",
+      "marks": [
+        {
+          "orientation": "long_term_orientation",
+          "reader": null,
+          "gemini": "organizing their tasks for a project with a distant deadline"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "lto_0101",
+      "in960": false,
+      "source_dimension": "lto",
+      "text": "a parent teaching a child to share",
+      "marks": [
+        {
+          "orientation": "care_and_quality_of_life_orientation",
+          "reader": null,
+          "gemini": "teaching a child to share"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "lto_0112",
+      "in960": true,
+      "source_dimension": "lto",
+      "text": "a person on a career path, with their current position and the road ahead both in view",
+      "marks": [
+        {
+          "orientation": "long_term_orientation",
+          "reader": null,
+          "gemini": "their current position and the road ahead both in view"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "lto_0151",
+      "in960": false,
+      "source_dimension": "lto",
+      "text": "a couple caring for an aging parent in their home",
+      "marks": [
+        {
+          "orientation": "care_and_quality_of_life_orientation",
+          "reader": "caring for an aging parent",
+          "gemini": "caring for an aging parent"
+        },
+        {
+          "orientation": "collectivism",
+          "reader": "a couple caring for an aging parent in their home",
+          "gemini": "caring for an aging parent in their home"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "lto_0157",
+      "in960": false,
+      "source_dimension": "lto",
+      "text": "an elderly relative receiving care while family members are nearby",
+      "marks": [
+        {
+          "orientation": "care_and_quality_of_life_orientation",
+          "reader": "an elderly relative receiving care",
+          "gemini": "receiving care"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "lto_0168",
+      "in960": true,
+      "source_dimension": "lto",
+      "text": "a person taking action to improve an underperforming team",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "taking action to improve an underperforming team",
+          "gemini": null
+        }
+      ],
+      "flagged_by": "reader"
+    },
+    {
+      "id": "lto_0194",
+      "in960": true,
+      "source_dimension": "lto",
+      "text": "a child being cared for by their parent or parents",
+      "marks": [
+        {
+          "orientation": "care_and_quality_of_life_orientation",
+          "reader": "a child being cared for by their parent or parents",
+          "gemini": "cared for by their parent or parents"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "lto_0198",
+      "in960": false,
+      "source_dimension": "lto",
+      "text": "a parent planning for their child's higher education",
+      "marks": [
+        {
+          "orientation": "long_term_orientation",
+          "reader": null,
+          "gemini": "planning for their child's higher education"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "lto_0211",
+      "in960": true,
+      "source_dimension": "lto",
+      "text": "an employee who has divided their paycheck between retirement savings and current expenses",
+      "marks": [
+        {
+          "orientation": "long_term_orientation",
+          "reader": null,
+          "gemini": "retirement savings"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "lto_0254",
+      "in960": true,
+      "source_dimension": "lto",
+      "text": "a parent making financial arrangements for their child's education",
+      "marks": [
+        {
+          "orientation": "long_term_orientation",
+          "reader": null,
+          "gemini": "making financial arrangements for their child's education"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "lto_0277",
+      "in960": false,
+      "source_dimension": "lto",
+      "text": "a family taking part in a traditional ritual",
+      "marks": [
+        {
+          "orientation": "short_term_orientation",
+          "reader": null,
+          "gemini": "taking part in a traditional ritual"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "lto_0281",
+      "in960": false,
+      "source_dimension": "lto",
+      "text": "a family celebrating a tradition that has been handed down through generations",
+      "marks": [
+        {
+          "orientation": "collectivism",
+          "reader": "a family celebrating a tradition that has been handed down through generations",
+          "gemini": null
+        },
+        {
+          "orientation": "short_term_orientation",
+          "reader": null,
+          "gemini": "celebrating a tradition that has been handed down through generations"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "lto_0309",
+      "in960": true,
+      "source_dimension": "lto",
+      "text": "a person working out as part of their daily routine",
+      "marks": [
+        {
+          "orientation": "long_term_orientation",
+          "reader": "working out as part of their daily routine",
+          "gemini": null
+        }
+      ],
+      "flagged_by": "reader"
+    },
+    {
+      "id": "lto_0353",
+      "in960": false,
+      "source_dimension": "lto",
+      "text": "a person engaged in the learning activity they chose to invest in for their personal skills and knowledge",
+      "marks": [
+        {
+          "orientation": "long_term_orientation",
+          "reader": null,
+          "gemini": "invest in for their personal skills and knowledge"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "lto_0354",
+      "in960": true,
+      "source_dimension": "lto",
+      "text": "a family passing down its historical records and stories to younger generations",
+      "marks": [
+        {
+          "orientation": "collectivism",
+          "reader": null,
+          "gemini": "a family passing down its historical records and stories to younger generations"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "lto_0365",
+      "in960": false,
+      "source_dimension": "lto",
+      "text": "a person advancing on their career path",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "advancing on their career path",
+          "gemini": "advancing on their career path"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "lto_0391",
+      "in960": false,
+      "source_dimension": "lto",
+      "text": "a person working toward a life goal with an image of the desired outcome in the background",
+      "marks": [
+        {
+          "orientation": "long_term_orientation",
+          "reader": null,
+          "gemini": "working toward a life goal with an image of the desired outcome in the background"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "lto_0420",
+      "in960": false,
+      "source_dimension": "lto",
+      "text": "a person with an alcoholic drink, having decided how to drink with long-term health in mind",
+      "marks": [
+        {
+          "orientation": "long_term_orientation",
+          "reader": null,
+          "gemini": "having decided how to drink with long-term health in mind"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "lto_0432",
+      "in960": false,
+      "source_dimension": "lto",
+      "text": "a professional reviewing the evidence of their career success",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "reviewing the evidence of their career success",
+          "gemini": "reviewing the evidence of their career success"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "lto_0454",
+      "in960": false,
+      "source_dimension": "lto",
+      "text": "a family planning for future financial security",
+      "marks": [
+        {
+          "orientation": "long_term_orientation",
+          "reader": null,
+          "gemini": "planning for future financial security"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "lto_0472",
+      "in960": false,
+      "source_dimension": "lto",
+      "text": "a parent planning for their child's higher education",
+      "marks": [
+        {
+          "orientation": "long_term_orientation",
+          "reader": null,
+          "gemini": "planning for their child's higher education"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "mas_0011",
+      "in960": true,
+      "source_dimension": "mas",
+      "text": "an elderly family member being cared for by family",
+      "marks": [
+        {
+          "orientation": "care_and_quality_of_life_orientation",
+          "reader": "an elderly family member being cared for by family",
+          "gemini": "an elderly family member being cared for by family"
+        },
+        {
+          "orientation": "collectivism",
+          "reader": "being cared for by family",
+          "gemini": "an elderly family member being cared for by family"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "mas_0026",
+      "in960": false,
+      "source_dimension": "mas",
+      "text": "a group of adult children caring for their elderly parent in a family home",
+      "marks": [
+        {
+          "orientation": "care_and_quality_of_life_orientation",
+          "reader": "adult children caring for their elderly parent",
+          "gemini": "caring for their elderly parent"
+        },
+        {
+          "orientation": "collectivism",
+          "reader": "adult children caring for their elderly parent in a family home",
+          "gemini": "a group of adult children caring for their elderly parent in a family home"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "mas_0032",
+      "in960": false,
+      "source_dimension": "mas",
+      "text": "an employer implementing a chosen workplace health and safety improvement",
+      "marks": [
+        {
+          "orientation": "care_and_quality_of_life_orientation",
+          "reader": null,
+          "gemini": "workplace health and safety improvement"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "mas_0039",
+      "in960": false,
+      "source_dimension": "mas",
+      "text": "people celebrating a technological breakthrough",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "celebrating a technological breakthrough",
+          "gemini": "celebrating a technological breakthrough"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "mas_0044",
+      "in960": false,
+      "source_dimension": "mas",
+      "text": "a student being recognized by their school for success",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "being recognized by their school for success",
+          "gemini": "being recognized by their school for success"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "mas_0045",
+      "in960": false,
+      "source_dimension": "mas",
+      "text": "an employee receiving recognition at work",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "receiving recognition at work",
+          "gemini": "receiving recognition at work"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "mas_0049",
+      "in960": true,
+      "source_dimension": "mas",
+      "text": "an aging parent cared for by family",
+      "marks": [
+        {
+          "orientation": "care_and_quality_of_life_orientation",
+          "reader": "an aging parent cared for by family",
+          "gemini": "cared for"
+        },
+        {
+          "orientation": "collectivism",
+          "reader": "cared for by family",
+          "gemini": "cared for by family"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "mas_0055",
+      "in960": false,
+      "source_dimension": "mas",
+      "text": "a stay-at-home dad caring for his child in a public playground while other adults look on",
+      "marks": [
+        {
+          "orientation": "care_and_quality_of_life_orientation",
+          "reader": "caring for his child",
+          "gemini": "caring for his child"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "mas_0058",
+      "in960": true,
+      "source_dimension": "mas",
+      "text": "a family caring for an elderly relative",
+      "marks": [
+        {
+          "orientation": "care_and_quality_of_life_orientation",
+          "reader": "a family caring for an elderly relative",
+          "gemini": "caring for an elderly relative"
+        },
+        {
+          "orientation": "collectivism",
+          "reader": "a family caring for an elderly relative",
+          "gemini": "a family caring for an elderly relative"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "mas_0083",
+      "in960": false,
+      "source_dimension": "mas",
+      "text": "a professional using technological innovation to advance their career while colleagues are nearby",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "to advance their career",
+          "gemini": "to advance their career"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "mas_0089",
+      "in960": false,
+      "source_dimension": "mas",
+      "text": "a person posing with what they consider their greatest accomplishment",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "posing with what they consider their greatest accomplishment",
+          "gemini": "posing with what they consider their greatest accomplishment"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "mas_0099",
+      "in960": true,
+      "source_dimension": "mas",
+      "text": "a technical education student presenting their successful project to an audience",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "presenting their successful project",
+          "gemini": "presenting their successful project"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "mas_0102",
+      "in960": false,
+      "source_dimension": "mas",
+      "text": "a person carrying out their personal health and well-being routine",
+      "marks": [
+        {
+          "orientation": "care_and_quality_of_life_orientation",
+          "reader": null,
+          "gemini": "carrying out their personal health and well-being routine"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "mas_0103",
+      "in960": false,
+      "source_dimension": "mas",
+      "text": "a successful student being recognized at school",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "a successful student being recognized at school",
+          "gemini": "successful student being recognized"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "mas_0118",
+      "in960": false,
+      "source_dimension": "mas",
+      "text": "a professional working on a career advancement project with colleagues nearby",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": null,
+          "gemini": "working on a career advancement project"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "mas_0125",
+      "in960": true,
+      "source_dimension": "mas",
+      "text": "a person making sure everyone at a group meal has what they need",
+      "marks": [
+        {
+          "orientation": "care_and_quality_of_life_orientation",
+          "reader": "making sure everyone at a group meal has what they need",
+          "gemini": "making sure everyone at a group meal has what they need"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "mas_0149",
+      "in960": true,
+      "source_dimension": "mas",
+      "text": "a technology innovation award ceremony",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "a technology innovation award ceremony",
+          "gemini": "technology innovation award ceremony"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "mas_0152",
+      "in960": false,
+      "source_dimension": "mas",
+      "text": "a person living out their own definition of career success",
+      "marks": [
+        {
+          "orientation": "individualism",
+          "reader": null,
+          "gemini": "their own definition of career success"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "mas_0155",
+      "in960": false,
+      "source_dimension": "mas",
+      "text": "a person celebrating a career advancement with colleagues",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "celebrating a career advancement",
+          "gemini": "celebrating a career advancement"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "mas_0166",
+      "in960": false,
+      "source_dimension": "mas",
+      "text": "a technological innovation being honored for its success",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "being honored for its success",
+          "gemini": "honored for its success"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "mas_0167",
+      "in960": false,
+      "source_dimension": "mas",
+      "text": "a family addressing an outside party about a conflict affecting one of its members",
+      "marks": [
+        {
+          "orientation": "collectivism",
+          "reader": null,
+          "gemini": "a family addressing an outside party about a conflict affecting one of its members"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "mas_0171",
+      "in960": false,
+      "source_dimension": "mas",
+      "text": "a person being acknowledged by their community for their accumulated traditional medicinal knowledge",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": null,
+          "gemini": "being acknowledged by their community for their accumulated traditional medicinal knowledge"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "mas_0196",
+      "in960": false,
+      "source_dimension": "mas",
+      "text": "a person taking personal protective measures while a community health discussion takes place nearby",
+      "marks": [
+        {
+          "orientation": "individualism",
+          "reader": null,
+          "gemini": "taking personal protective measures"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "mas_0197",
+      "in960": true,
+      "source_dimension": "mas",
+      "text": "a school display showcasing student success",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "a school display showcasing student success",
+          "gemini": "showcasing student success"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "mas_0201",
+      "in960": true,
+      "source_dimension": "mas",
+      "text": "a performer or ensemble receiving an award",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "receiving an award",
+          "gemini": "receiving an award"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "mas_0204",
+      "in960": false,
+      "source_dimension": "mas",
+      "text": "a school awards ceremony for its students",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "a school awards ceremony",
+          "gemini": "awards ceremony"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "mas_0228",
+      "in960": false,
+      "source_dimension": "mas",
+      "text": "a person striving to excel at work among colleagues",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "striving to excel at work",
+          "gemini": "striving to excel at work"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "mas_0231",
+      "in960": false,
+      "source_dimension": "mas",
+      "text": "a business team presenting the success of a technological innovation",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "presenting the success of a technological innovation",
+          "gemini": "presenting the success of a technological innovation"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "mas_0251",
+      "in960": false,
+      "source_dimension": "mas",
+      "text": "a person eating according to their personal approach to diet and nutrition",
+      "marks": [
+        {
+          "orientation": "individualism",
+          "reader": null,
+          "gemini": "their personal approach"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "mas_0260",
+      "in960": false,
+      "source_dimension": "mas",
+      "text": "a successful artist",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "a successful artist",
+          "gemini": "successful"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "mas_0261",
+      "in960": true,
+      "source_dimension": "mas",
+      "text": "a family member comforting another family member",
+      "marks": [
+        {
+          "orientation": "care_and_quality_of_life_orientation",
+          "reader": "comforting another family member",
+          "gemini": "comforting another family member"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "mas_0276",
+      "in960": false,
+      "source_dimension": "mas",
+      "text": "a person receiving a work award while their family watches",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "receiving a work award",
+          "gemini": "receiving a work award"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "mas_0320",
+      "in960": false,
+      "source_dimension": "mas",
+      "text": "a student being congratulated by classmates for their success in school",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "being congratulated by classmates for their success in school",
+          "gemini": "congratulated by classmates for their success in school"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "mas_0322",
+      "in960": true,
+      "source_dimension": "mas",
+      "text": "a family celebrating New Year's Eve according to their tradition",
+      "marks": [
+        {
+          "orientation": "short_term_orientation",
+          "reader": null,
+          "gemini": "according to their tradition"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "mas_0342",
+      "in960": true,
+      "source_dimension": "mas",
+      "text": "a teacher rewarding students for their achievements in a classroom",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "rewarding students for their achievements",
+          "gemini": "rewarding students for their achievements"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "mas_0364",
+      "in960": false,
+      "source_dimension": "mas",
+      "text": "a parent comforting a child who is upset about not winning at a social event",
+      "marks": [
+        {
+          "orientation": "care_and_quality_of_life_orientation",
+          "reader": "comforting a child who is upset",
+          "gemini": "comforting a child who is upset"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "mas_0383",
+      "in960": false,
+      "source_dimension": "mas",
+      "text": "a family celebrating their child's graduation",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "celebrating their child's graduation",
+          "gemini": "celebrating their child's graduation"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "mas_0385",
+      "in960": false,
+      "source_dimension": "mas",
+      "text": "a professional presenting an idea to colleagues, who acknowledge their initiative",
+      "marks": [
+        {
+          "orientation": "individualism",
+          "reader": null,
+          "gemini": "presenting an idea to colleagues, who acknowledge their initiative"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "mas_0400",
+      "in960": false,
+      "source_dimension": "mas",
+      "text": "a person in a workplace receiving recognition for their achievements",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "receiving recognition for their achievements",
+          "gemini": "receiving recognition for their achievements"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "mas_0406",
+      "in960": true,
+      "source_dimension": "mas",
+      "text": "a person at a retirement celebration after a long career",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": null,
+          "gemini": "retirement celebration after a long career"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "mas_0412",
+      "in960": false,
+      "source_dimension": "mas",
+      "text": "people celebrating the success of a cultural festival",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "celebrating the success of a cultural festival",
+          "gemini": "celebrating the success"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "mas_0422",
+      "in960": true,
+      "source_dimension": "mas",
+      "text": "a family member caring for an elderly relative",
+      "marks": [
+        {
+          "orientation": "care_and_quality_of_life_orientation",
+          "reader": "a family member caring for an elderly relative",
+          "gemini": "caring for an elderly relative"
+        },
+        {
+          "orientation": "collectivism",
+          "reader": "a family member caring for an elderly relative",
+          "gemini": "a family member caring for an elderly relative"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "mas_0444",
+      "in960": false,
+      "source_dimension": "mas",
+      "text": "a parent proudly watching their child being honored at their graduation",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "their child being honored at their graduation",
+          "gemini": "proudly watching their child being honored at their graduation"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "mas_0445",
+      "in960": true,
+      "source_dimension": "mas",
+      "text": "a parent advising a child who has difficulty expressing their feelings",
+      "marks": [
+        {
+          "orientation": "care_and_quality_of_life_orientation",
+          "reader": "advising a child who has difficulty expressing their feelings",
+          "gemini": null
+        }
+      ],
+      "flagged_by": "reader"
+    },
+    {
+      "id": "pdi_0035",
+      "in960": false,
+      "source_dimension": "pdi",
+      "text": "a person confronting someone of higher social status",
+      "marks": [
+        {
+          "orientation": "low_power_distance",
+          "reader": "confronting someone of higher social status",
+          "gemini": "confronting someone of higher social status"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "pdi_0040",
+      "in960": true,
+      "source_dimension": "pdi",
+      "text": "a superior and a subordinate disagreeing over a work issue in a meeting",
+      "marks": [
+        {
+          "orientation": "low_power_distance",
+          "reader": null,
+          "gemini": "subordinate disagreeing over a work issue in a meeting"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "pdi_0105",
+      "in960": false,
+      "source_dimension": "pdi",
+      "text": "a patient asking a doctor a detailed or challenging question",
+      "marks": [
+        {
+          "orientation": "low_power_distance",
+          "reader": "a patient asking a doctor a detailed or challenging question",
+          "gemini": "asking a doctor a detailed or challenging question"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "pdi_0129",
+      "in960": false,
+      "source_dimension": "pdi",
+      "text": "employees of different ranks contributing their ideas to a technological innovation project",
+      "marks": [
+        {
+          "orientation": "low_power_distance",
+          "reader": "employees of different ranks contributing their ideas",
+          "gemini": "employees of different ranks contributing their ideas"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "pdi_0132",
+      "in960": false,
+      "source_dimension": "pdi",
+      "text": "a family member performing a traditional ceremony in their own adapted style while elders watch",
+      "marks": [
+        {
+          "orientation": "long_term_orientation",
+          "reader": null,
+          "gemini": "performing a traditional ceremony in their own adapted style"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "pdi_0149",
+      "in960": true,
+      "source_dimension": "pdi",
+      "text": "a patient applying a traditional medical treatment prescribed by an elder",
+      "marks": [
+        {
+          "orientation": "short_term_orientation",
+          "reader": null,
+          "gemini": "applying a traditional medical treatment prescribed by an elder"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "pdi_0179",
+      "in960": true,
+      "source_dimension": "pdi",
+      "text": "a learner questioning a superior in an educational setting",
+      "marks": [
+        {
+          "orientation": "low_power_distance",
+          "reader": "a learner questioning a superior",
+          "gemini": "a learner questioning a superior"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "pdi_0188",
+      "in960": true,
+      "source_dimension": "pdi",
+      "text": "a junior employee raising a hand during a workplace decision-making meeting",
+      "marks": [
+        {
+          "orientation": "low_power_distance",
+          "reader": null,
+          "gemini": "a junior employee raising a hand during a workplace decision-making meeting"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "pdi_0193",
+      "in960": true,
+      "source_dimension": "pdi",
+      "text": "participants receiving recognition at the end of a cultural festival",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "participants receiving recognition",
+          "gemini": "receiving recognition"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "pdi_0201",
+      "in960": false,
+      "source_dimension": "pdi",
+      "text": "an employee presenting their case for a promotion to their supervisor",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": null,
+          "gemini": "presenting their case for a promotion"
+        },
+        {
+          "orientation": "low_power_distance",
+          "reader": "an employee presenting their case for a promotion to their supervisor",
+          "gemini": null
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "pdi_0245",
+      "in960": false,
+      "source_dimension": "pdi",
+      "text": "a junior team member openly criticizing a leader's decision during a team meeting",
+      "marks": [
+        {
+          "orientation": "low_power_distance",
+          "reader": "a junior team member openly criticizing a leader's decision",
+          "gemini": "a junior team member openly criticizing a leader's decision"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "pdi_0266",
+      "in960": false,
+      "source_dimension": "pdi",
+      "text": "a leader and team members at an awards ceremony for a successful technological innovation",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "an awards ceremony for a successful technological innovation",
+          "gemini": "awards ceremony for a successful technological innovation"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "pdi_0271",
+      "in960": true,
+      "source_dimension": "pdi",
+      "text": "a family preparing for a traditional family ritual, with responsibilities distributed among members",
+      "marks": [
+        {
+          "orientation": "collectivism",
+          "reader": "a family preparing for a traditional family ritual, with responsibilities distributed among members",
+          "gemini": "family preparing for a traditional family ritual, with responsibilities distributed among members"
+        },
+        {
+          "orientation": "short_term_orientation",
+          "reader": null,
+          "gemini": "preparing for a traditional family ritual"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "pdi_0300",
+      "in960": false,
+      "source_dimension": "pdi",
+      "text": "fashion icons and ordinary people contributing to the selection of the next fashion trend",
+      "marks": [
+        {
+          "orientation": "low_power_distance",
+          "reader": null,
+          "gemini": "fashion icons and ordinary people contributing to the selection of the next fashion trend"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "pdi_0305",
+      "in960": false,
+      "source_dimension": "pdi",
+      "text": "a family conversation showing their communication hierarchy",
+      "marks": [
+        {
+          "orientation": "high_power_distance",
+          "reader": null,
+          "gemini": "communication hierarchy"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "pdi_0324",
+      "in960": true,
+      "source_dimension": "pdi",
+      "text": "an employee working on personalizing their work schedule to fit family needs while a supervisor is nearby",
+      "marks": [
+        {
+          "orientation": "care_and_quality_of_life_orientation",
+          "reader": "personalizing their work schedule to fit family needs",
+          "gemini": "working on personalizing their work schedule to fit family needs"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "pdi_0358",
+      "in960": false,
+      "source_dimension": "pdi",
+      "text": "a student challenging a teacher's technical views in a classroom",
+      "marks": [
+        {
+          "orientation": "low_power_distance",
+          "reader": "a student challenging a teacher's technical views",
+          "gemini": "a student challenging a teacher's technical views"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "pdi_0371",
+      "in960": false,
+      "source_dimension": "pdi",
+      "text": "a classroom after a student voices an opinion that differs from the teacher's perspective",
+      "marks": [
+        {
+          "orientation": "low_power_distance",
+          "reader": null,
+          "gemini": "student voices an opinion that differs from the teacher's perspective"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "pdi_0388",
+      "in960": false,
+      "source_dimension": "pdi",
+      "text": "an employee giving feedback to their superior at work",
+      "marks": [
+        {
+          "orientation": "low_power_distance",
+          "reader": "an employee giving feedback to their superior",
+          "gemini": "giving feedback to their superior"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "pdi_0439",
+      "in960": true,
+      "source_dimension": "pdi",
+      "text": "a person suggesting an alternative solution to higher authorities after a technological decision fails",
+      "marks": [
+        {
+          "orientation": "low_power_distance",
+          "reader": "suggesting an alternative solution to higher authorities",
+          "gemini": "suggesting an alternative solution to higher authorities"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "pdi_0465",
+      "in960": false,
+      "source_dimension": "pdi",
+      "text": "a family performing a traditional ritual with elders and younger members each fulfilling their roles",
+      "marks": [
+        {
+          "orientation": "collectivism",
+          "reader": "a family performing a traditional ritual with elders and younger members each fulfilling their roles",
+          "gemini": "a family performing a traditional ritual with elders and younger members each fulfilling their roles"
+        },
+        {
+          "orientation": "short_term_orientation",
+          "reader": null,
+          "gemini": "performing a traditional ritual with elders and younger members each fulfilling their roles"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "pdi_0490",
+      "in960": true,
+      "source_dimension": "pdi",
+      "text": "a group of people deciding what music a society listens to",
+      "marks": [
+        {
+          "orientation": "high_power_distance",
+          "reader": null,
+          "gemini": "deciding what music a society listens to"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "pdi_0501",
+      "in960": false,
+      "source_dimension": "pdi",
+      "text": "a subordinate expressing an idea to superiors during a professional meeting",
+      "marks": [
+        {
+          "orientation": "low_power_distance",
+          "reader": "a subordinate expressing an idea to superiors",
+          "gemini": null
+        }
+      ],
+      "flagged_by": "reader"
+    },
+    {
+      "id": "pdi_0505",
+      "in960": false,
+      "source_dimension": "pdi",
+      "text": "a medical emergency scene with a traditional healer and a family member, where one has decided to use a traditional healing method",
+      "marks": [
+        {
+          "orientation": "short_term_orientation",
+          "reader": null,
+          "gemini": "decided to use a traditional healing method"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "pdi_0511",
+      "in960": false,
+      "source_dimension": "pdi",
+      "text": "a lower-position employee addressing an obvious mistake made by a higher-position teammate",
+      "marks": [
+        {
+          "orientation": "low_power_distance",
+          "reader": "a lower-position employee addressing an obvious mistake made by a higher-position teammate",
+          "gemini": "a lower-position employee addressing an obvious mistake made by a higher-position teammate"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "uai_0018",
+      "in960": true,
+      "source_dimension": "uai",
+      "text": "a person using a contactless payment method despite the risk of data theft",
+      "marks": [
+        {
+          "orientation": "low_uncertainty_avoidance",
+          "reader": "using a contactless payment method despite the risk of data theft",
+          "gemini": "using a contactless payment method despite the risk of data theft"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "uai_0035",
+      "in960": false,
+      "source_dimension": "uai",
+      "text": "a student taking an exam with the format they chose",
+      "marks": [
+        {
+          "orientation": "low_power_distance",
+          "reader": null,
+          "gemini": "format they chose"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "uai_0074",
+      "in960": false,
+      "source_dimension": "uai",
+      "text": "a family performing a ritual or tradition together",
+      "marks": [
+        {
+          "orientation": "collectivism",
+          "reader": "a family performing a ritual or tradition together",
+          "gemini": null
+        },
+        {
+          "orientation": "short_term_orientation",
+          "reader": null,
+          "gemini": "performing a ritual or tradition"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "uai_0118",
+      "in960": true,
+      "source_dimension": "uai",
+      "text": "a shopper with the groceries they chose to buy while adapting to shifting consumption patterns",
+      "marks": [
+        {
+          "orientation": "long_term_orientation",
+          "reader": null,
+          "gemini": "adapting to shifting consumption patterns"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "uai_0119",
+      "in960": false,
+      "source_dimension": "uai",
+      "text": "a traveler communicating with a local person during a trip despite not knowing the local language",
+      "marks": [
+        {
+          "orientation": "low_uncertainty_avoidance",
+          "reader": null,
+          "gemini": "communicating with a local person during a trip despite not knowing the local language"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "uai_0125",
+      "in960": false,
+      "source_dimension": "uai",
+      "text": "a husband and wife creating a plan for their family's future",
+      "marks": [
+        {
+          "orientation": "long_term_orientation",
+          "reader": null,
+          "gemini": "creating a plan for their family's future"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "uai_0145",
+      "in960": true,
+      "source_dimension": "uai",
+      "text": "a panel of judges evaluating a painting at an art competition",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": null,
+          "gemini": "evaluating a painting at an art competition"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "uai_0178",
+      "in960": false,
+      "source_dimension": "uai",
+      "text": "a teacher giving a lesson in a rapidly changing subject, with the teaching materials showing how the school updates the curriculum",
+      "marks": [
+        {
+          "orientation": "long_term_orientation",
+          "reader": null,
+          "gemini": "teaching materials showing how the school updates the curriculum"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "uai_0219",
+      "in960": true,
+      "source_dimension": "uai",
+      "text": "a person organizing sporadic work travel around family commitments",
+      "marks": [
+        {
+          "orientation": "care_and_quality_of_life_orientation",
+          "reader": "organizing sporadic work travel around family commitments",
+          "gemini": "organizing sporadic work travel around family commitments"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "uai_0225",
+      "in960": false,
+      "source_dimension": "uai",
+      "text": "a person trying an unfamiliar dish from another culture",
+      "marks": [
+        {
+          "orientation": "low_uncertainty_avoidance",
+          "reader": "trying an unfamiliar dish from another culture",
+          "gemini": null
+        }
+      ],
+      "flagged_by": "reader"
+    },
+    {
+      "id": "uai_0228",
+      "in960": false,
+      "source_dimension": "uai",
+      "text": "an educator updating curriculum contents to keep up with evolving knowledge",
+      "marks": [
+        {
+          "orientation": "long_term_orientation",
+          "reader": null,
+          "gemini": "updating curriculum contents to keep up with evolving knowledge"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "uai_0264",
+      "in960": false,
+      "source_dimension": "uai",
+      "text": "a family planning their financial future",
+      "marks": [
+        {
+          "orientation": "long_term_orientation",
+          "reader": null,
+          "gemini": "planning their financial future"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "uai_0266",
+      "in960": false,
+      "source_dimension": "uai",
+      "text": "a family elder teaching a traditional ritual to a child",
+      "marks": [
+        {
+          "orientation": "short_term_orientation",
+          "reader": null,
+          "gemini": "teaching a traditional ritual to a child"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "uai_0298",
+      "in960": false,
+      "source_dimension": "uai",
+      "text": "a person trying out a new experimental health treatment",
+      "marks": [
+        {
+          "orientation": "low_uncertainty_avoidance",
+          "reader": "trying out a new experimental health treatment",
+          "gemini": null
+        }
+      ],
+      "flagged_by": "reader"
+    },
+    {
+      "id": "uai_0384",
+      "in960": true,
+      "source_dimension": "uai",
+      "text": "a workplace team covering the duties of an employee absent due to a family emergency",
+      "marks": [
+        {
+          "orientation": "care_and_quality_of_life_orientation",
+          "reader": "covering the duties of an employee absent due to a family emergency",
+          "gemini": "covering the duties of an employee absent due to a family emergency"
+        },
+        {
+          "orientation": "collectivism",
+          "reader": "a workplace team covering the duties of an employee absent",
+          "gemini": null
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "uai_0394",
+      "in960": false,
+      "source_dimension": "uai",
+      "text": "a curriculum being adapted to rapid technological advancements",
+      "marks": [
+        {
+          "orientation": "long_term_orientation",
+          "reader": null,
+          "gemini": "a curriculum being adapted to rapid technological advancements"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "uai_0399",
+      "in960": false,
+      "source_dimension": "uai",
+      "text": "a family performing a traditional ritual",
+      "marks": [
+        {
+          "orientation": "short_term_orientation",
+          "reader": null,
+          "gemini": "performing a traditional ritual"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "uai_0407",
+      "in960": false,
+      "source_dimension": "uai",
+      "text": "a technical institution implementing a groundbreaking but unproven curriculum",
+      "marks": [
+        {
+          "orientation": "low_uncertainty_avoidance",
+          "reader": null,
+          "gemini": "implementing a groundbreaking but unproven curriculum"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "uai_0410",
+      "in960": true,
+      "source_dimension": "uai",
+      "text": "a person receiving mental health support",
+      "marks": [
+        {
+          "orientation": "care_and_quality_of_life_orientation",
+          "reader": "receiving mental health support",
+          "gemini": "receiving mental health support"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "uai_0426",
+      "in960": true,
+      "source_dimension": "uai",
+      "text": "a person integrating new technology into a traditional practice",
+      "marks": [
+        {
+          "orientation": "long_term_orientation",
+          "reader": null,
+          "gemini": "integrating new technology into a traditional practice"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "uai_0427",
+      "in960": false,
+      "source_dimension": "uai",
+      "text": "an employee working on their career advancement plan while a manager with a direct and instructive management style is nearby",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": null,
+          "gemini": "working on their career advancement plan"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "uai_0461",
+      "in960": false,
+      "source_dimension": "uai",
+      "text": "a person integrating a new technology into a traditional process with their chosen level of precaution",
+      "marks": [
+        {
+          "orientation": "long_term_orientation",
+          "reader": null,
+          "gemini": "integrating a new technology into a traditional process"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "uai_0489",
+      "in960": false,
+      "source_dimension": "uai",
+      "text": "a family taking part in a tradition that has been in the family for generations",
+      "marks": [
+        {
+          "orientation": "collectivism",
+          "reader": "a family taking part in a tradition that has been in the family for generations",
+          "gemini": null
+        },
+        {
+          "orientation": "short_term_orientation",
+          "reader": null,
+          "gemini": "taking part in a tradition that has been in the family for generations"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "uai_0505",
+      "in960": false,
+      "source_dimension": "uai",
+      "text": "an employee working extra hours at home on a promotion, while family members are nearby",
+      "marks": [
+        {
+          "orientation": "achievement_and_competition_orientation",
+          "reader": "working extra hours at home on a promotion",
+          "gemini": "working extra hours at home on a promotion"
+        }
+      ],
+      "flagged_by": "both"
+    },
+    {
+      "id": "uai_0509",
+      "in960": true,
+      "source_dimension": "uai",
+      "text": "a person trying a new health and wellness trend while a healthcare professional is nearby",
+      "marks": [
+        {
+          "orientation": "low_uncertainty_avoidance",
+          "reader": "trying a new health and wellness trend",
+          "gemini": null
+        }
+      ],
+      "flagged_by": "reader"
+    },
+    {
+      "id": "uai_0523",
+      "in960": false,
+      "source_dimension": "uai",
+      "text": "a person managing their future expenses",
+      "marks": [
+        {
+          "orientation": "long_term_orientation",
+          "reader": null,
+          "gemini": "managing their future expenses"
+        }
+      ],
+      "flagged_by": "gemini"
+    },
+    {
+      "id": "uai_0530",
+      "in960": false,
+      "source_dimension": "uai",
+      "text": "a team evaluating the potential risks of a new technology before implementing it",
+      "marks": [
+        {
+          "orientation": "high_uncertainty_avoidance",
+          "reader": "evaluating the potential risks of a new technology before implementing it",
+          "gemini": null
+        }
+      ],
+      "flagged_by": "reader"
+    }
+  ],
+  "final_sampling": {
+    "seed": 20260921,
+    "rule": "Refill the 960-scenario set to 160 per dimension after removing the fixed-orientation scenarios (user rule, 2026-09-21):\nfor each source dimension, draw the shortfall at random from the corpus scenarios that are outside the 960 set and outside the removal list.\nA candidate whose text already occurs in the set is skipped, so the refill adds no repeated sentence. Seed 20260921.",
+    "kept": 897,
+    "removed_from_960": [
+      "idv_0017",
+      "idv_0018",
+      "idv_0062",
+      "idv_0063",
+      "idv_0082",
+      "idv_0110",
+      "idv_0191",
+      "idv_0333",
+      "idv_0403",
+      "idv_0454",
+      "ivr_0014",
+      "ivr_0036",
+      "ivr_0039",
+      "ivr_0048",
+      "ivr_0203",
+      "ivr_0274",
+      "ivr_0361",
+      "ivr_0424",
+      "ivr_0443",
+      "ivr_0467",
+      "ivr_0478",
+      "ivr_0483",
+      "ivr_0484",
+      "lto_0054",
+      "lto_0062",
+      "lto_0112",
+      "lto_0168",
+      "lto_0194",
+      "lto_0211",
+      "lto_0254",
+      "lto_0309",
+      "lto_0354",
+      "mas_0011",
+      "mas_0049",
+      "mas_0058",
+      "mas_0099",
+      "mas_0125",
+      "mas_0149",
+      "mas_0197",
+      "mas_0201",
+      "mas_0261",
+      "mas_0322",
+      "mas_0342",
+      "mas_0406",
+      "mas_0422",
+      "mas_0445",
+      "pdi_0040",
+      "pdi_0149",
+      "pdi_0179",
+      "pdi_0188",
+      "pdi_0193",
+      "pdi_0271",
+      "pdi_0324",
+      "pdi_0439",
+      "pdi_0490",
+      "uai_0018",
+      "uai_0118",
+      "uai_0145",
+      "uai_0219",
+      "uai_0384",
+      "uai_0410",
+      "uai_0426",
+      "uai_0509"
+    ],
+    "added": [
+      {
+        "id": "idv_0037",
+        "scenario": "an employer responding to an employee's request for family accommodation"
+      },
+      {
+        "id": "idv_0105",
+        "scenario": "a person practicing a newly learned exercise method while other people are nearby"
+      },
+      {
+        "id": "idv_0151",
+        "scenario": "a person following through on the choice they made between attending a family dinner and going for a solo hike"
+      },
+      {
+        "id": "idv_0155",
+        "scenario": "a person following through on their choice between dining alone and eating in a communal setting"
+      },
+      {
+        "id": "idv_0196",
+        "scenario": "a work team in a meeting to define leadership"
+      },
+      {
+        "id": "idv_0206",
+        "scenario": "a person planning a cultural festival while community members are nearby"
+      },
+      {
+        "id": "idv_0211",
+        "scenario": "a student following through on their choice between participating with an original individual idea and joining a group discussion"
+      },
+      {
+        "id": "idv_0350",
+        "scenario": "a person managing their chronic illness with maintenance medications, with family or friends nearby"
+      },
+      {
+        "id": "idv_0371",
+        "scenario": "a healthcare professional following through on their choice to use technology for either personalized treatment or community health"
+      },
+      {
+        "id": "idv_0401",
+        "scenario": "a married couple with household chores divided between them"
+      },
+      {
+        "id": "ivr_0026",
+        "scenario": "a person reacting to a technological platform's request to share personal details for a more personalized experience"
+      },
+      {
+        "id": "ivr_0052",
+        "scenario": "a student completing an assessment"
+      },
+      {
+        "id": "ivr_0069",
+        "scenario": "a parent observing their child playing with friends"
+      },
+      {
+        "id": "ivr_0093",
+        "scenario": "a teacher following through on their choice between encouraging creativity and focusing on structured knowledge"
+      },
+      {
+        "id": "ivr_0127",
+        "scenario": "a person with the leisure items they chose to purchase"
+      },
+      {
+        "id": "ivr_0225",
+        "scenario": "employees reacting to a cutting-edge technology that disrupts their established work routine"
+      },
+      {
+        "id": "ivr_0278",
+        "scenario": "a person in a stressful work situation following through on the choice they made between taking a break and pressing on with work"
+      },
+      {
+        "id": "ivr_0285",
+        "scenario": "a person using their chosen problem-solving approach on a technical education task"
+      },
+      {
+        "id": "ivr_0309",
+        "scenario": "a person in the doorway of their home, looking out at a lively public entertainment event taking place outside"
+      },
+      {
+        "id": "ivr_0324",
+        "scenario": "a person in their home with a travel suitcase and a work desk"
+      },
+      {
+        "id": "ivr_0350",
+        "scenario": "a person at a social gathering with a convenient device nearby"
+      },
+      {
+        "id": "ivr_0414",
+        "scenario": "a person responding to a tempting display of sweets and high-calorie foods"
+      },
+      {
+        "id": "ivr_0480",
+        "scenario": "a person following through on the choice they made between taking breaks and enjoying leisure or devoting all their time to work under a demanding deadline"
+      },
+      {
+        "id": "lto_0031",
+        "scenario": "a young adult receiving encouragement about whether to continue their education beyond a basic degree or start gaining work experience"
+      },
+      {
+        "id": "lto_0042",
+        "scenario": "a classroom lesson shaped by the school curriculum's primary goal"
+      },
+      {
+        "id": "lto_0114",
+        "scenario": "a person following through on their choice between an artist's evolution exhibit and a one-time variety exhibit"
+      },
+      {
+        "id": "lto_0250",
+        "scenario": "a family in the house they chose to move to"
+      },
+      {
+        "id": "lto_0259",
+        "scenario": "a person with the meal they are about to eat"
+      },
+      {
+        "id": "lto_0333",
+        "scenario": "a person observing an unfinished revolutionary technology prototype"
+      },
+      {
+        "id": "lto_0343",
+        "scenario": "a person following through on the choice they made between taking in the thematic arc across an artist's body of work and focusing on the immediate impact of individual pieces in an art exhibition"
+      },
+      {
+        "id": "lto_0384",
+        "scenario": "a shopper with a product from the brand they chose for its sustainability or popularity"
+      },
+      {
+        "id": "lto_0444",
+        "scenario": "a person following through on the choice they made between practicing planned stress-management techniques and dealing with stress as it arises"
+      },
+      {
+        "id": "mas_0030",
+        "scenario": "a person being respected by their family"
+      },
+      {
+        "id": "mas_0064",
+        "scenario": "a person wearing the fashion brand they support"
+      },
+      {
+        "id": "mas_0117",
+        "scenario": "a teacher leading children in a game at school"
+      },
+      {
+        "id": "mas_0135",
+        "scenario": "a team of researchers with the technology innovation they developed"
+      },
+      {
+        "id": "mas_0143",
+        "scenario": "a business team reacting to a technological innovation"
+      },
+      {
+        "id": "mas_0195",
+        "scenario": "a person interacting with other learners in a lifelong learning context"
+      },
+      {
+        "id": "mas_0206",
+        "scenario": "a person wearing a clothing item that features either a prominent brand name or a social equality message"
+      },
+      {
+        "id": "mas_0226",
+        "scenario": "a person reacting to a dish of unfamiliar cuisine"
+      },
+      {
+        "id": "mas_0340",
+        "scenario": "a person preparing a healthy meal while other people are nearby"
+      },
+      {
+        "id": "mas_0361",
+        "scenario": "a team presenting the technology they chose to develop"
+      },
+      {
+        "id": "mas_0365",
+        "scenario": "an artist creating a traditional artwork with observers present"
+      },
+      {
+        "id": "mas_0380",
+        "scenario": "a person at their desk, with a family photo and a professional award, looking at the one that matters most to them"
+      },
+      {
+        "id": "mas_0391",
+        "scenario": "a workplace leader responding to an employee's novel and risky idea"
+      },
+      {
+        "id": "mas_0442",
+        "scenario": "an audience reacting to a controversial artwork"
+      },
+      {
+        "id": "pdi_0026",
+        "scenario": "a crowd reacting to a celebrity's fashion look"
+      },
+      {
+        "id": "pdi_0034",
+        "scenario": "a teacher and students in a technical education classroom during a discussion about which educational technology to use"
+      },
+      {
+        "id": "pdi_0062",
+        "scenario": "a family determining roles and responsibilities during a traditional family ritual"
+      },
+      {
+        "id": "pdi_0126",
+        "scenario": "a teacher or administrator handling students' suggestions or complaints about a class"
+      },
+      {
+        "id": "pdi_0150",
+        "scenario": "a dissatisfied patient with their current doctor"
+      },
+      {
+        "id": "pdi_0151",
+        "scenario": "an employee reacting to a career decision made by their superior"
+      },
+      {
+        "id": "pdi_0195",
+        "scenario": "a community and its health authorities working on disease prevention"
+      },
+      {
+        "id": "pdi_0275",
+        "scenario": "a team member sharing an idea or concern while a supervisor and coworkers are present"
+      },
+      {
+        "id": "pdi_0293",
+        "scenario": "a team member reacting to a decision made by their supervisor"
+      },
+      {
+        "id": "uai_0040",
+        "scenario": "a person reacting to a stay-at-home father"
+      },
+      {
+        "id": "uai_0079",
+        "scenario": "a patient responding to their doctor's suggestion of a new experimental treatment"
+      },
+      {
+        "id": "uai_0120",
+        "scenario": "a person reacting to a revolutionary technology that is not yet fully understood"
+      },
+      {
+        "id": "uai_0137",
+        "scenario": "a person following through on their choice between appreciating art based on cultural conventions and appreciating art based on personal taste"
+      },
+      {
+        "id": "uai_0203",
+        "scenario": "a person following through on their choice between a structured learning program and self-guided exploration to gain new skills"
+      },
+      {
+        "id": "uai_0210",
+        "scenario": "a festival visitor reacting to the festival's formal rules and procedures"
+      },
+      {
+        "id": "uai_0301",
+        "scenario": "a festival attendee reacting to the digital ticket system at the festival entrance"
+      },
+      {
+        "id": "uai_0458",
+        "scenario": "a person spending time with the artwork they prefer in a gallery displaying both traditional and experimental artworks"
+      }
+    ],
+    "added_per_dimension": {
+      "pdi": 9,
+      "idv": 10,
+      "mas": 14,
+      "uai": 8,
+      "lto": 9,
+      "ivr": 13
+    },
+    "eligible_pool_per_dimension": {
+      "pdi": 333,
+      "idv": 293,
+      "mas": 258,
+      "uai": 348,
+      "lto": 304,
+      "ivr": 324
+    },
+    "ids": [
+      "idv_0004",
+      "idv_0007",
+      "idv_0008",
+      "idv_0009",
+      "idv_0016",
+      "idv_0023",
+      "idv_0024",
+      "idv_0026",
+      "idv_0027",
+      "idv_0028",
+      "idv_0029",
+      "idv_0031",
+      "idv_0032",
+      "idv_0037",
+      "idv_0039",
+      "idv_0044",
+      "idv_0059",
+      "idv_0061",
+      "idv_0066",
+      "idv_0067",
+      "idv_0069",
+      "idv_0070",
+      "idv_0071",
+      "idv_0073",
+      "idv_0074",
+      "idv_0075",
+      "idv_0076",
+      "idv_0078",
+      "idv_0079",
+      "idv_0080",
+      "idv_0081",
+      "idv_0088",
+      "idv_0089",
+      "idv_0091",
+      "idv_0097",
+      "idv_0103",
+      "idv_0104",
+      "idv_0105",
+      "idv_0107",
+      "idv_0109",
+      "idv_0111",
+      "idv_0114",
+      "idv_0117",
+      "idv_0118",
+      "idv_0121",
+      "idv_0123",
+      "idv_0124",
+      "idv_0125",
+      "idv_0127",
+      "idv_0130",
+      "idv_0137",
+      "idv_0139",
+      "idv_0140",
+      "idv_0142",
+      "idv_0151",
+      "idv_0153",
+      "idv_0155",
+      "idv_0156",
+      "idv_0157",
+      "idv_0159",
+      "idv_0160",
+      "idv_0163",
+      "idv_0165",
+      "idv_0168",
+      "idv_0169",
+      "idv_0171",
+      "idv_0172",
+      "idv_0176",
+      "idv_0177",
+      "idv_0179",
+      "idv_0183",
+      "idv_0185",
+      "idv_0189",
+      "idv_0192",
+      "idv_0195",
+      "idv_0196",
+      "idv_0197",
+      "idv_0200",
+      "idv_0205",
+      "idv_0206",
+      "idv_0211",
+      "idv_0215",
+      "idv_0216",
+      "idv_0218",
+      "idv_0226",
+      "idv_0230",
+      "idv_0242",
+      "idv_0243",
+      "idv_0247",
+      "idv_0254",
+      "idv_0256",
+      "idv_0261",
+      "idv_0262",
+      "idv_0264",
+      "idv_0266",
+      "idv_0267",
+      "idv_0269",
+      "idv_0275",
+      "idv_0276",
+      "idv_0280",
+      "idv_0286",
+      "idv_0291",
+      "idv_0295",
+      "idv_0300",
+      "idv_0308",
+      "idv_0310",
+      "idv_0312",
+      "idv_0314",
+      "idv_0319",
+      "idv_0322",
+      "idv_0323",
+      "idv_0329",
+      "idv_0335",
+      "idv_0345",
+      "idv_0348",
+      "idv_0350",
+      "idv_0355",
+      "idv_0358",
+      "idv_0359",
+      "idv_0361",
+      "idv_0364",
+      "idv_0365",
+      "idv_0367",
+      "idv_0368",
+      "idv_0371",
+      "idv_0372",
+      "idv_0376",
+      "idv_0380",
+      "idv_0382",
+      "idv_0384",
+      "idv_0386",
+      "idv_0387",
+      "idv_0388",
+      "idv_0390",
+      "idv_0393",
+      "idv_0394",
+      "idv_0396",
+      "idv_0397",
+      "idv_0399",
+      "idv_0401",
+      "idv_0402",
+      "idv_0407",
+      "idv_0411",
+      "idv_0412",
+      "idv_0414",
+      "idv_0425",
+      "idv_0428",
+      "idv_0431",
+      "idv_0438",
+      "idv_0444",
+      "idv_0446",
+      "idv_0448",
+      "idv_0449",
+      "idv_0451",
+      "idv_0457",
+      "idv_0459",
+      "idv_0460",
+      "idv_0462",
+      "idv_0465",
+      "idv_0472",
+      "ivr_0008",
+      "ivr_0009",
+      "ivr_0011",
+      "ivr_0015",
+      "ivr_0017",
+      "ivr_0019",
+      "ivr_0021",
+      "ivr_0022",
+      "ivr_0024",
+      "ivr_0025",
+      "ivr_0026",
+      "ivr_0029",
+      "ivr_0030",
+      "ivr_0031",
+      "ivr_0032",
+      "ivr_0033",
+      "ivr_0041",
+      "ivr_0052",
+      "ivr_0053",
+      "ivr_0055",
+      "ivr_0056",
+      "ivr_0057",
+      "ivr_0058",
+      "ivr_0060",
+      "ivr_0063",
+      "ivr_0069",
+      "ivr_0071",
+      "ivr_0074",
+      "ivr_0077",
+      "ivr_0078",
+      "ivr_0079",
+      "ivr_0080",
+      "ivr_0082",
+      "ivr_0085",
+      "ivr_0087",
+      "ivr_0091",
+      "ivr_0093",
+      "ivr_0094",
+      "ivr_0095",
+      "ivr_0109",
+      "ivr_0115",
+      "ivr_0118",
+      "ivr_0119",
+      "ivr_0121",
+      "ivr_0123",
+      "ivr_0124",
+      "ivr_0126",
+      "ivr_0127",
+      "ivr_0132",
+      "ivr_0134",
+      "ivr_0135",
+      "ivr_0136",
+      "ivr_0140",
+      "ivr_0148",
+      "ivr_0159",
+      "ivr_0160",
+      "ivr_0163",
+      "ivr_0166",
+      "ivr_0167",
+      "ivr_0168",
+      "ivr_0171",
+      "ivr_0173",
+      "ivr_0182",
+      "ivr_0183",
+      "ivr_0185",
+      "ivr_0187",
+      "ivr_0188",
+      "ivr_0189",
+      "ivr_0190",
+      "ivr_0191",
+      "ivr_0192",
+      "ivr_0195",
+      "ivr_0201",
+      "ivr_0202",
+      "ivr_0210",
+      "ivr_0212",
+      "ivr_0214",
+      "ivr_0217",
+      "ivr_0220",
+      "ivr_0221",
+      "ivr_0225",
+      "ivr_0230",
+      "ivr_0231",
+      "ivr_0235",
+      "ivr_0242",
+      "ivr_0243",
+      "ivr_0247",
+      "ivr_0251",
+      "ivr_0255",
+      "ivr_0259",
+      "ivr_0260",
+      "ivr_0261",
+      "ivr_0262",
+      "ivr_0276",
+      "ivr_0278",
+      "ivr_0279",
+      "ivr_0280",
+      "ivr_0285",
+      "ivr_0286",
+      "ivr_0291",
+      "ivr_0299",
+      "ivr_0309",
+      "ivr_0317",
+      "ivr_0318",
+      "ivr_0319",
+      "ivr_0324",
+      "ivr_0325",
+      "ivr_0326",
+      "ivr_0328",
+      "ivr_0329",
+      "ivr_0331",
+      "ivr_0332",
+      "ivr_0334",
+      "ivr_0343",
+      "ivr_0346",
+      "ivr_0349",
+      "ivr_0350",
+      "ivr_0356",
+      "ivr_0357",
+      "ivr_0362",
+      "ivr_0363",
+      "ivr_0369",
+      "ivr_0373",
+      "ivr_0374",
+      "ivr_0377",
+      "ivr_0381",
+      "ivr_0390",
+      "ivr_0398",
+      "ivr_0412",
+      "ivr_0414",
+      "ivr_0415",
+      "ivr_0416",
+      "ivr_0418",
+      "ivr_0426",
+      "ivr_0427",
+      "ivr_0428",
+      "ivr_0431",
+      "ivr_0433",
+      "ivr_0435",
+      "ivr_0437",
+      "ivr_0438",
+      "ivr_0440",
+      "ivr_0441",
+      "ivr_0444",
+      "ivr_0451",
+      "ivr_0454",
+      "ivr_0462",
+      "ivr_0465",
+      "ivr_0469",
+      "ivr_0472",
+      "ivr_0476",
+      "ivr_0477",
+      "ivr_0479",
+      "ivr_0480",
+      "ivr_0481",
+      "ivr_0487",
+      "ivr_0489",
+      "ivr_0496",
+      "ivr_0497",
+      "ivr_0500",
+      "lto_0005",
+      "lto_0015",
+      "lto_0022",
+      "lto_0023",
+      "lto_0024",
+      "lto_0025",
+      "lto_0031",
+      "lto_0032",
+      "lto_0039",
+      "lto_0040",
+      "lto_0042",
+      "lto_0044",
+      "lto_0048",
+      "lto_0049",
+      "lto_0063",
+      "lto_0068",
+      "lto_0072",
+      "lto_0074",
+      "lto_0076",
+      "lto_0077",
+      "lto_0078",
+      "lto_0081",
+      "lto_0084",
+      "lto_0090",
+      "lto_0092",
+      "lto_0102",
+      "lto_0103",
+      "lto_0106",
+      "lto_0109",
+      "lto_0111",
+      "lto_0114",
+      "lto_0120",
+      "lto_0122",
+      "lto_0126",
+      "lto_0127",
+      "lto_0128",
+      "lto_0129",
+      "lto_0130",
+      "lto_0136",
+      "lto_0139",
+      "lto_0142",
+      "lto_0146",
+      "lto_0147",
+      "lto_0155",
+      "lto_0156",
+      "lto_0158",
+      "lto_0163",
+      "lto_0167",
+      "lto_0170",
+      "lto_0172",
+      "lto_0173",
+      "lto_0174",
+      "lto_0175",
+      "lto_0177",
+      "lto_0180",
+      "lto_0181",
+      "lto_0186",
+      "lto_0188",
+      "lto_0190",
+      "lto_0191",
+      "lto_0193",
+      "lto_0199",
+      "lto_0206",
+      "lto_0207",
+      "lto_0209",
+      "lto_0212",
+      "lto_0214",
+      "lto_0216",
+      "lto_0219",
+      "lto_0225",
+      "lto_0226",
+      "lto_0228",
+      "lto_0229",
+      "lto_0230",
+      "lto_0233",
+      "lto_0235",
+      "lto_0236",
+      "lto_0241",
+      "lto_0242",
+      "lto_0243",
+      "lto_0246",
+      "lto_0250",
+      "lto_0251",
+      "lto_0255",
+      "lto_0257",
+      "lto_0259",
+      "lto_0261",
+      "lto_0262",
+      "lto_0263",
+      "lto_0269",
+      "lto_0275",
+      "lto_0279",
+      "lto_0282",
+      "lto_0284",
+      "lto_0286",
+      "lto_0287",
+      "lto_0290",
+      "lto_0292",
+      "lto_0293",
+      "lto_0294",
+      "lto_0300",
+      "lto_0304",
+      "lto_0307",
+      "lto_0316",
+      "lto_0324",
+      "lto_0332",
+      "lto_0333",
+      "lto_0334",
+      "lto_0336",
+      "lto_0337",
+      "lto_0343",
+      "lto_0347",
+      "lto_0351",
+      "lto_0352",
+      "lto_0355",
+      "lto_0356",
+      "lto_0357",
+      "lto_0359",
+      "lto_0363",
+      "lto_0366",
+      "lto_0369",
+      "lto_0376",
+      "lto_0378",
+      "lto_0379",
+      "lto_0382",
+      "lto_0384",
+      "lto_0385",
+      "lto_0389",
+      "lto_0390",
+      "lto_0394",
+      "lto_0395",
+      "lto_0398",
+      "lto_0400",
+      "lto_0401",
+      "lto_0408",
+      "lto_0409",
+      "lto_0415",
+      "lto_0417",
+      "lto_0418",
+      "lto_0428",
+      "lto_0435",
+      "lto_0438",
+      "lto_0444",
+      "lto_0447",
+      "lto_0449",
+      "lto_0451",
+      "lto_0452",
+      "lto_0455",
+      "lto_0456",
+      "lto_0458",
+      "lto_0460",
+      "lto_0461",
+      "lto_0462",
+      "lto_0465",
+      "lto_0469",
+      "lto_0470",
+      "lto_0479",
+      "lto_0481",
+      "lto_0482",
+      "lto_0485",
+      "mas_0001",
+      "mas_0002",
+      "mas_0003",
+      "mas_0004",
+      "mas_0005",
+      "mas_0006",
+      "mas_0007",
+      "mas_0008",
+      "mas_0010",
+      "mas_0012",
+      "mas_0016",
+      "mas_0020",
+      "mas_0024",
+      "mas_0030",
+      "mas_0034",
+      "mas_0035",
+      "mas_0036",
+      "mas_0037",
+      "mas_0043",
+      "mas_0047",
+      "mas_0048",
+      "mas_0050",
+      "mas_0052",
+      "mas_0053",
+      "mas_0054",
+      "mas_0056",
+      "mas_0061",
+      "mas_0062",
+      "mas_0063",
+      "mas_0064",
+      "mas_0067",
+      "mas_0068",
+      "mas_0075",
+      "mas_0076",
+      "mas_0078",
+      "mas_0079",
+      "mas_0085",
+      "mas_0086",
+      "mas_0087",
+      "mas_0090",
+      "mas_0091",
+      "mas_0093",
+      "mas_0095",
+      "mas_0098",
+      "mas_0106",
+      "mas_0107",
+      "mas_0112",
+      "mas_0117",
+      "mas_0120",
+      "mas_0121",
+      "mas_0122",
+      "mas_0123",
+      "mas_0128",
+      "mas_0130",
+      "mas_0131",
+      "mas_0133",
+      "mas_0134",
+      "mas_0135",
+      "mas_0137",
+      "mas_0139",
+      "mas_0141",
+      "mas_0142",
+      "mas_0143",
+      "mas_0148",
+      "mas_0153",
+      "mas_0174",
+      "mas_0177",
+      "mas_0178",
+      "mas_0180",
+      "mas_0182",
+      "mas_0193",
+      "mas_0195",
+      "mas_0198",
+      "mas_0202",
+      "mas_0206",
+      "mas_0212",
+      "mas_0218",
+      "mas_0224",
+      "mas_0225",
+      "mas_0226",
+      "mas_0234",
+      "mas_0237",
+      "mas_0239",
+      "mas_0243",
+      "mas_0244",
+      "mas_0246",
+      "mas_0248",
+      "mas_0252",
+      "mas_0256",
+      "mas_0262",
+      "mas_0263",
+      "mas_0266",
+      "mas_0269",
+      "mas_0271",
+      "mas_0273",
+      "mas_0274",
+      "mas_0275",
+      "mas_0283",
+      "mas_0285",
+      "mas_0286",
+      "mas_0292",
+      "mas_0293",
+      "mas_0295",
+      "mas_0303",
+      "mas_0304",
+      "mas_0309",
+      "mas_0312",
+      "mas_0315",
+      "mas_0316",
+      "mas_0321",
+      "mas_0323",
+      "mas_0326",
+      "mas_0328",
+      "mas_0329",
+      "mas_0332",
+      "mas_0335",
+      "mas_0338",
+      "mas_0340",
+      "mas_0343",
+      "mas_0344",
+      "mas_0346",
+      "mas_0352",
+      "mas_0355",
+      "mas_0357",
+      "mas_0358",
+      "mas_0359",
+      "mas_0360",
+      "mas_0361",
+      "mas_0362",
+      "mas_0365",
+      "mas_0366",
+      "mas_0368",
+      "mas_0369",
+      "mas_0371",
+      "mas_0372",
+      "mas_0376",
+      "mas_0380",
+      "mas_0386",
+      "mas_0388",
+      "mas_0391",
+      "mas_0395",
+      "mas_0405",
+      "mas_0407",
+      "mas_0413",
+      "mas_0416",
+      "mas_0423",
+      "mas_0425",
+      "mas_0426",
+      "mas_0427",
+      "mas_0429",
+      "mas_0432",
+      "mas_0433",
+      "mas_0434",
+      "mas_0437",
+      "mas_0438",
+      "mas_0439",
+      "mas_0440",
+      "mas_0442",
+      "mas_0447",
+      "mas_0450",
+      "pdi_0004",
+      "pdi_0006",
+      "pdi_0007",
+      "pdi_0017",
+      "pdi_0018",
+      "pdi_0020",
+      "pdi_0025",
+      "pdi_0026",
+      "pdi_0027",
+      "pdi_0030",
+      "pdi_0032",
+      "pdi_0034",
+      "pdi_0037",
+      "pdi_0042",
+      "pdi_0044",
+      "pdi_0045",
+      "pdi_0046",
+      "pdi_0047",
+      "pdi_0050",
+      "pdi_0054",
+      "pdi_0055",
+      "pdi_0060",
+      "pdi_0062",
+      "pdi_0064",
+      "pdi_0066",
+      "pdi_0070",
+      "pdi_0072",
+      "pdi_0074",
+      "pdi_0076",
+      "pdi_0078",
+      "pdi_0084",
+      "pdi_0087",
+      "pdi_0089",
+      "pdi_0090",
+      "pdi_0092",
+      "pdi_0096",
+      "pdi_0099",
+      "pdi_0100",
+      "pdi_0103",
+      "pdi_0107",
+      "pdi_0109",
+      "pdi_0117",
+      "pdi_0118",
+      "pdi_0119",
+      "pdi_0124",
+      "pdi_0126",
+      "pdi_0135",
+      "pdi_0136",
+      "pdi_0141",
+      "pdi_0142",
+      "pdi_0145",
+      "pdi_0150",
+      "pdi_0151",
+      "pdi_0156",
+      "pdi_0157",
+      "pdi_0158",
+      "pdi_0161",
+      "pdi_0162",
+      "pdi_0169",
+      "pdi_0171",
+      "pdi_0173",
+      "pdi_0177",
+      "pdi_0180",
+      "pdi_0181",
+      "pdi_0183",
+      "pdi_0186",
+      "pdi_0191",
+      "pdi_0192",
+      "pdi_0195",
+      "pdi_0198",
+      "pdi_0199",
+      "pdi_0202",
+      "pdi_0204",
+      "pdi_0218",
+      "pdi_0221",
+      "pdi_0226",
+      "pdi_0227",
+      "pdi_0231",
+      "pdi_0232",
+      "pdi_0236",
+      "pdi_0243",
+      "pdi_0246",
+      "pdi_0247",
+      "pdi_0248",
+      "pdi_0251",
+      "pdi_0261",
+      "pdi_0265",
+      "pdi_0270",
+      "pdi_0272",
+      "pdi_0274",
+      "pdi_0275",
+      "pdi_0279",
+      "pdi_0288",
+      "pdi_0293",
+      "pdi_0298",
+      "pdi_0306",
+      "pdi_0307",
+      "pdi_0310",
+      "pdi_0311",
+      "pdi_0315",
+      "pdi_0316",
+      "pdi_0317",
+      "pdi_0320",
+      "pdi_0321",
+      "pdi_0322",
+      "pdi_0325",
+      "pdi_0329",
+      "pdi_0330",
+      "pdi_0334",
+      "pdi_0337",
+      "pdi_0346",
+      "pdi_0347",
+      "pdi_0349",
+      "pdi_0351",
+      "pdi_0352",
+      "pdi_0354",
+      "pdi_0361",
+      "pdi_0364",
+      "pdi_0369",
+      "pdi_0370",
+      "pdi_0372",
+      "pdi_0374",
+      "pdi_0376",
+      "pdi_0380",
+      "pdi_0390",
+      "pdi_0391",
+      "pdi_0393",
+      "pdi_0399",
+      "pdi_0401",
+      "pdi_0402",
+      "pdi_0410",
+      "pdi_0421",
+      "pdi_0424",
+      "pdi_0426",
+      "pdi_0429",
+      "pdi_0433",
+      "pdi_0436",
+      "pdi_0440",
+      "pdi_0441",
+      "pdi_0445",
+      "pdi_0448",
+      "pdi_0449",
+      "pdi_0450",
+      "pdi_0451",
+      "pdi_0455",
+      "pdi_0457",
+      "pdi_0460",
+      "pdi_0461",
+      "pdi_0462",
+      "pdi_0466",
+      "pdi_0468",
+      "pdi_0469",
+      "pdi_0475",
+      "pdi_0485",
+      "pdi_0489",
+      "pdi_0498",
+      "pdi_0504",
+      "pdi_0506",
+      "pdi_0507",
+      "pdi_0508",
+      "uai_0001",
+      "uai_0006",
+      "uai_0017",
+      "uai_0019",
+      "uai_0021",
+      "uai_0023",
+      "uai_0027",
+      "uai_0028",
+      "uai_0040",
+      "uai_0052",
+      "uai_0054",
+      "uai_0057",
+      "uai_0058",
+      "uai_0061",
+      "uai_0067",
+      "uai_0069",
+      "uai_0070",
+      "uai_0073",
+      "uai_0076",
+      "uai_0077",
+      "uai_0079",
+      "uai_0080",
+      "uai_0081",
+      "uai_0082",
+      "uai_0084",
+      "uai_0086",
+      "uai_0087",
+      "uai_0089",
+      "uai_0090",
+      "uai_0093",
+      "uai_0098",
+      "uai_0099",
+      "uai_0102",
+      "uai_0104",
+      "uai_0105",
+      "uai_0106",
+      "uai_0120",
+      "uai_0122",
+      "uai_0123",
+      "uai_0128",
+      "uai_0129",
+      "uai_0132",
+      "uai_0133",
+      "uai_0134",
+      "uai_0136",
+      "uai_0137",
+      "uai_0138",
+      "uai_0142",
+      "uai_0146",
+      "uai_0150",
+      "uai_0151",
+      "uai_0152",
+      "uai_0158",
+      "uai_0164",
+      "uai_0166",
+      "uai_0167",
+      "uai_0172",
+      "uai_0173",
+      "uai_0175",
+      "uai_0177",
+      "uai_0181",
+      "uai_0183",
+      "uai_0185",
+      "uai_0187",
+      "uai_0196",
+      "uai_0201",
+      "uai_0203",
+      "uai_0205",
+      "uai_0210",
+      "uai_0217",
+      "uai_0218",
+      "uai_0220",
+      "uai_0223",
+      "uai_0224",
+      "uai_0230",
+      "uai_0236",
+      "uai_0237",
+      "uai_0239",
+      "uai_0242",
+      "uai_0251",
+      "uai_0253",
+      "uai_0254",
+      "uai_0255",
+      "uai_0265",
+      "uai_0268",
+      "uai_0269",
+      "uai_0270",
+      "uai_0273",
+      "uai_0278",
+      "uai_0281",
+      "uai_0288",
+      "uai_0292",
+      "uai_0293",
+      "uai_0295",
+      "uai_0301",
+      "uai_0307",
+      "uai_0314",
+      "uai_0315",
+      "uai_0324",
+      "uai_0325",
+      "uai_0336",
+      "uai_0337",
+      "uai_0339",
+      "uai_0342",
+      "uai_0351",
+      "uai_0352",
+      "uai_0362",
+      "uai_0364",
+      "uai_0367",
+      "uai_0368",
+      "uai_0369",
+      "uai_0373",
+      "uai_0374",
+      "uai_0379",
+      "uai_0381",
+      "uai_0389",
+      "uai_0392",
+      "uai_0408",
+      "uai_0411",
+      "uai_0413",
+      "uai_0414",
+      "uai_0415",
+      "uai_0418",
+      "uai_0420",
+      "uai_0421",
+      "uai_0423",
+      "uai_0425",
+      "uai_0429",
+      "uai_0430",
+      "uai_0431",
+      "uai_0439",
+      "uai_0440",
+      "uai_0441",
+      "uai_0444",
+      "uai_0445",
+      "uai_0447",
+      "uai_0448",
+      "uai_0449",
+      "uai_0451",
+      "uai_0458",
+      "uai_0466",
+      "uai_0468",
+      "uai_0470",
+      "uai_0471",
+      "uai_0472",
+      "uai_0476",
+      "uai_0483",
+      "uai_0487",
+      "uai_0488",
+      "uai_0491",
+      "uai_0496",
+      "uai_0497",
+      "uai_0503",
+      "uai_0504",
+      "uai_0516",
+      "uai_0520",
+      "uai_0522",
+      "uai_0524",
+      "uai_0525",
+      "uai_0529"
+    ]
+  },
+  "counts_by_dimension": [
+    [
+      "PDI",
+      512,
+      25,
+      487,
+      9,
+      160
+    ],
+    [
+      "IDV",
+      472,
+      28,
+      444,
+      10,
+      160
+    ],
+    [
+      "MAS",
+      452,
+      44,
+      408,
+      14,
+      160
+    ],
+    [
+      "UAI",
+      530,
+      27,
+      503,
+      8,
+      160
+    ],
+    [
+      "LTO",
+      485,
+      25,
+      460,
+      9,
+      160
+    ],
+    [
+      "IVR",
+      502,
+      31,
+      471,
+      13,
+      160
+    ]
+  ],
+  "counts_by_domain": [
+    [
+      "Arts",
+      415,
+      9,
+      406,
+      134
+    ],
+    [
+      "Education",
+      447,
+      25,
+      422,
+      152
+    ],
+    [
+      "Family",
+      417,
+      50,
+      367,
+      111
+    ],
+    [
+      "Lifestyle",
+      428,
+      15,
+      413,
+      144
+    ],
+    [
+      "Scientific",
+      422,
+      18,
+      404,
+      153
+    ],
+    [
+      "Wellness",
+      415,
+      20,
+      395,
+      138
+    ],
+    [
+      "Work",
+      409,
+      43,
+      366,
+      128
+    ]
+  ]
+}

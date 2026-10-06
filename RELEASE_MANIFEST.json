@@ -1,0 +1,363 @@
+{
+  "title": "VisionValueBench prompts and numerical reproduction",
+  "prepared_date": "2026-10-06",
+  "annotation_freeze": "pooled-two-layer-v2.1",
+  "publication_status": "repository_content",
+  "files": [
+    {
+      "file": ".gitignore",
+      "sha256": "fbd00fa5697df770ec20c4cadcc79f75a874c4963459578e5e0c771127a2dfe7",
+      "bytes": 194,
+      "source": "prepared for the materials and numerical reproduction release on 2026-10-06"
+    },
+    {
+      "file": "README.md",
+      "sha256": "79204b888a35702b965e013b08365ac8a1c7c4df65de2c347b9e0555f86aa2aa",
+      "bytes": 3685,
+      "source": "prepared for the materials and numerical reproduction release on 2026-10-06"
+    },
+    {
+      "file": "analysis/README.md",
+      "sha256": "7acd580ff044fc4d078860f3ead2391a9221f2b039df6d0f46287ca871e9e961",
+      "bytes": 1384,
+      "source": "prepared for the materials and numerical reproduction release on 2026-10-06"
+    },
+    {
+      "file": "analysis/analysis_protocol.json",
+      "sha256": "4cc517d9c6a3d16bc2318408676cfabda5997dc23c6ddc45afce0607f10870a8",
+      "bytes": 957,
+      "source": "output/section5_narrative_20260925/checkout/supplementary_data/analysis_protocol.json",
+      "transformation": "byte-identical numeric source copy"
+    },
+    {
+      "file": "analysis/paired_effects.csv",
+      "sha256": "b3ae247a3057b8c51e226d838cbaecd6e6cca3739d4506512c82dde62bd808a7",
+      "bytes": 579317,
+      "source": "output/section5_narrative_20260925/checkout/supplementary_data/paired_effects.csv",
+      "transformation": "byte-identical numeric source copy"
+    },
+    {
+      "file": "analysis/profiles.csv",
+      "sha256": "d4af85975c29880221ce2819e97a5dd3a6f9aaf2a76adfc045d82b4ea55147b9",
+      "bytes": 20501,
+      "source": "output/section5_narrative_20260925/checkout/supplementary_data/profiles.csv",
+      "transformation": "byte-identical numeric source copy"
+    },
+    {
+      "file": "analysis/refinement.csv",
+      "sha256": "72f97f132b25fbdee36ed08eff9e16d269865e1ea888e4aae0e50f0dff5c6186",
+      "bytes": 75902,
+      "source": "output/section5_narrative_20260925/checkout/supplementary_data/refinement.csv",
+      "transformation": "byte-identical numeric source copy"
+    },
+    {
+      "file": "analysis/reproduce_numeric.py",
+      "sha256": "88e0066fef5679e0cb46e85b6e8f309002fe115bd874aa3eb88642ab9232bfd2",
+      "bytes": 11920,
+      "source": "output/section5_narrative_20260925/checkout/supplementary_data/reproduce_numeric.py",
+      "transformation": "byte-identical numeric source copy"
+    },
+    {
+      "file": "analysis/scenario_screening.json",
+      "sha256": "16ae10b283560c78db9cee83aea0297c638d26e00868a86b15d4304e99dbe07a",
+      "bytes": 109091,
+      "source": "output/section5_narrative_20260925/checkout/supplementary_data/scenario_screening.json",
+      "transformation": "byte-identical numeric source copy"
+    },
+    {
+      "file": "analysis/votes.json.gz",
+      "sha256": "eefc99f151ed4c49d5aa7d6ad5dc16c8f6e3ea37738010482a2d35d29e14593c",
+      "bytes": 775443,
+      "source": "output/section5_narrative_20260925/checkout/supplementary_data/votes.json.gz",
+      "transformation": "byte-identical numeric source copy"
+    },
+    {
+      "file": "docs/release_scope.md",
+      "sha256": "92ca80441bd515a22686eee1db245eddd542004fd4a4c9d64db1c312b8672147",
+      "bytes": 2346,
+      "source": "prepared for the materials and numerical reproduction release on 2026-10-06"
+    },
+    {
+      "file": "docs/validation.md",
+      "sha256": "3351ca3ba781ff0ba346077e5d6971c873bdc3df0338386650a77f9ae7595ca7",
+      "bytes": 1234,
+      "source": "prepared for the materials and numerical reproduction release on 2026-10-06"
+    },
+    {
+      "file": "docs/workflow.md",
+      "sha256": "0f52a3e3b4eeffd30c991e011651f76389d5d247c3f8f7f9bd703509dafe3cf1",
+      "bytes": 5495,
+      "source": "prepared for the materials and numerical reproduction release on 2026-10-06"
+    },
+    {
+      "file": "examples/counts.csv",
+      "sha256": "6b42cb61c83bcc8552776d7ee8c817d1cde2fad988f9858e0ff1d02d58f7be12",
+      "bytes": 142,
+      "source": "prepared for the materials and numerical reproduction release on 2026-10-06"
+    },
+    {
+      "file": "materials/README.md",
+      "sha256": "79baad6e5e2ca7e9ce55d1188e8e0841de8f86e9bac6b655a4926dfee415cd79",
+      "bytes": 2107,
+      "source": "output/appendix_completion_20260925/checkout/supplementary_data/annotation_materials/README.md",
+      "transformation": "byte-identical archive copy"
+    },
+    {
+      "file": "materials/annotation/cards/IDV.md",
+      "sha256": "06b27338d27715db6f325683fc1d44826b02b3dc713b1e4a95e416d66e0ab0f8",
+      "bytes": 5166,
+      "source": "output/appendix_completion_20260925/checkout/supplementary_data/annotation_materials/annotation/cards/IDV.md",
+      "transformation": "byte-identical archive copy"
+    },
+    {
+      "file": "materials/annotation/cards/IVR.md",
+      "sha256": "f089b69d6680924cf10039ae0026709bcb563c5606ce49614f5a0a45e53b689f",
+      "bytes": 5407,
+      "source": "output/appendix_completion_20260925/checkout/supplementary_data/annotation_materials/annotation/cards/IVR.md",
+      "transformation": "byte-identical archive copy"
+    },
+    {
+      "file": "materials/annotation/cards/LTO.md",
+      "sha256": "ff5afa925557f5837a44625c3b225a502069b3091ab6db4903a7e06fd9d5d1ed",
+      "bytes": 6323,
+      "source": "output/appendix_completion_20260925/checkout/supplementary_data/annotation_materials/annotation/cards/LTO.md",
+      "transformation": "byte-identical archive copy"
+    },
+    {
+      "file": "materials/annotation/cards/MAS.md",
+      "sha256": "441a8941021553599c747bb77f879e350446b9ae8b5c63bfc4b4a6f804eb464a",
+      "bytes": 5661,
+      "source": "output/appendix_completion_20260925/checkout/supplementary_data/annotation_materials/annotation/cards/MAS.md",
+      "transformation": "byte-identical archive copy"
+    },
+    {
+      "file": "materials/annotation/cards/PDI.md",
+      "sha256": "41985806c20feefe81d17c655fdd0cff2c82fd37c27c2cb6ddd63147e415c258",
+      "bytes": 5257,
+      "source": "output/appendix_completion_20260925/checkout/supplementary_data/annotation_materials/annotation/cards/PDI.md",
+      "transformation": "byte-identical archive copy"
+    },
+    {
+      "file": "materials/annotation/cards/UAI.md",
+      "sha256": "9040b0a998d82b5e200a868acafa6586338fd6bf1f9079aa3aa6b44fd40a68ab",
+      "bytes": 5378,
+      "source": "output/appendix_completion_20260925/checkout/supplementary_data/annotation_materials/annotation/cards/UAI.md",
+      "transformation": "byte-identical archive copy"
+    },
+    {
+      "file": "materials/annotation/image_proposal.prompt.md",
+      "sha256": "8a1d1a650692403dca45a3ad7027ec9d38359ef870b8ac8ce8661b616eedb632",
+      "bytes": 50532,
+      "source": "output/appendix_completion_20260925/checkout/supplementary_data/annotation_materials/annotation/image_proposal.prompt.md",
+      "transformation": "byte-identical archive copy"
+    },
+    {
+      "file": "materials/annotation/image_proposal.schema.json",
+      "sha256": "bf89051fabc60186629d46e46ec81263e02391aa2ebea881e0ec8160dd03a47c",
+      "bytes": 11141,
+      "source": "output/appendix_completion_20260925/checkout/supplementary_data/annotation_materials/annotation/image_proposal.schema.json",
+      "transformation": "byte-identical archive copy"
+    },
+    {
+      "file": "materials/annotation/image_verification.prompt.md",
+      "sha256": "936a2b36041596c78e0ffecbcf72681fef664997b6cf946cc86b387cb4851777",
+      "bytes": 55335,
+      "source": "output/appendix_completion_20260925/checkout/supplementary_data/annotation_materials/annotation/image_verification.prompt.md",
+      "transformation": "byte-identical archive copy"
+    },
+    {
+      "file": "materials/annotation/image_verification.schema.json",
+      "sha256": "383379c84d739e73b94ab786d4df27caf7b0959a3cc28a1a140959f8af836b04",
+      "bytes": 3817,
+      "source": "output/appendix_completion_20260925/checkout/supplementary_data/annotation_materials/annotation/image_verification.schema.json",
+      "transformation": "byte-identical archive copy"
+    },
+    {
+      "file": "materials/annotation/scenario_proposal.prompt.md",
+      "sha256": "e82cba3ef755b923ad8177373fd51cfab58240d70dbc5a32ddff8bbc93583b2c",
+      "bytes": 53756,
+      "source": "output/appendix_completion_20260925/checkout/supplementary_data/annotation_materials/annotation/scenario_proposal.prompt.md",
+      "transformation": "byte-identical archive copy"
+    },
+    {
+      "file": "materials/annotation/scenario_proposal.schema.json",
+      "sha256": "4c624ee6b1dc66b9a09762a2f41810bfbd6147e6fd76e060c16d5e8387630b07",
+      "bytes": 11363,
+      "source": "output/appendix_completion_20260925/checkout/supplementary_data/annotation_materials/annotation/scenario_proposal.schema.json",
+      "transformation": "byte-identical archive copy"
+    },
+    {
+      "file": "materials/annotation/scenario_verification.prompt.md",
+      "sha256": "9056c9e30357027b479952d2b7895b878e35c6b20cce2000265fb8fcbd68d83b",
+      "bytes": 53700,
+      "source": "output/appendix_completion_20260925/checkout/supplementary_data/annotation_materials/annotation/scenario_verification.prompt.md",
+      "transformation": "byte-identical archive copy"
+    },
+    {
+      "file": "materials/annotation/scenario_verification.schema.json",
+      "sha256": "6468611ffe7d79811d269694e01479fead14742438429ef11eeb3974bd307c36",
+      "bytes": 3260,
+      "source": "output/appendix_completion_20260925/checkout/supplementary_data/annotation_materials/annotation/scenario_verification.schema.json",
+      "transformation": "byte-identical archive copy"
+    },
+    {
+      "file": "materials/annotation/shared_attribution_rules.md",
+      "sha256": "fe08a3a4af104e4687c9be300913817e163dee94726402ad5d570ebc6c53c4ba",
+      "bytes": 9217,
+      "source": "output/appendix_completion_20260925/checkout/supplementary_data/annotation_materials/annotation/shared_attribution_rules.md",
+      "transformation": "byte-identical archive copy"
+    },
+    {
+      "file": "materials/construction/concept.prompt.md",
+      "sha256": "46cc91061459d79638cdb081f324725ce9fe88179f2143f435543522d2f6f461",
+      "bytes": 4957,
+      "source": "output/appendix_completion_20260925/checkout/supplementary_data/annotation_materials/construction/concept.prompt.md",
+      "transformation": "byte-identical archive copy"
+    },
+    {
+      "file": "materials/construction/rendering.json",
+      "sha256": "656372bfe60da481c7e5514987877dc091bbaa243317e4de13cb295764fbbb6c",
+      "bytes": 2061,
+      "source": "output/appendix_completion_20260925/checkout/supplementary_data/annotation_materials/construction/rendering.json",
+      "transformation": "byte-identical archive copy"
+    },
+    {
+      "file": "materials/construction/scenario.prompt.md",
+      "sha256": "adc8060d63183a50d16c0ccd9b0dc10b572245a22f1f9059ad4ca27bb45fc342",
+      "bytes": 10862,
+      "source": "output/appendix_completion_20260925/checkout/supplementary_data/annotation_materials/construction/scenario.prompt.md",
+      "transformation": "byte-identical archive copy"
+    },
+    {
+      "file": "materials/construction/source/cdeval_source.py",
+      "sha256": "8ac68c2aabee4d521d75aad75948fbeb29afdb085f50d75caad7f398a1a7b16b",
+      "bytes": 11373,
+      "source": "output/appendix_completion_20260925/checkout/supplementary_data/annotation_materials/construction/source/cdeval_source.py",
+      "transformation": "byte-identical archive copy"
+    },
+    {
+      "file": "materials/construction/source/scenarios.py",
+      "sha256": "fcedda0294198995f0c1a4019a0b4b8e62a797615b5abe393374d12160f66390",
+      "bytes": 47426,
+      "source": "output/appendix_completion_20260925/checkout/supplementary_data/annotation_materials/construction/source/scenarios.py",
+      "transformation": "byte-identical archive copy"
+    },
+    {
+      "file": "materials/construction/source/source_concepts.py",
+      "sha256": "60d71628fa344cbef135c8b9116fe4c25d8d1b41c4b13628534bf95f7edcd8f8",
+      "bytes": 18462,
+      "source": "output/appendix_completion_20260925/checkout/supplementary_data/annotation_materials/construction/source/source_concepts.py",
+      "transformation": "byte-identical archive copy"
+    },
+    {
+      "file": "materials/construction/source/translations.py",
+      "sha256": "33eb1f218611f83f3fd4c97820a4e0c06aa5aaa0e7d91223668f06b004458bd4",
+      "bytes": 13203,
+      "source": "output/appendix_completion_20260925/checkout/supplementary_data/annotation_materials/construction/source/translations.py",
+      "transformation": "byte-identical archive copy"
+    },
+    {
+      "file": "materials/construction/translation.prompt.md",
+      "sha256": "c75dd2e0bd0d0c2939dc896a0ff9be3f8a84abecfa5ac071f471bb3044874732",
+      "bytes": 5181,
+      "source": "output/appendix_completion_20260925/checkout/supplementary_data/annotation_materials/construction/translation.prompt.md",
+      "transformation": "byte-identical archive copy"
+    },
+    {
+      "file": "materials/filtering/RUBRIC.md",
+      "sha256": "53f80bc93a88033922a8af71e24175da8ec9c877ec079522a2e274fc4e05b543",
+      "bytes": 4844,
+      "source": "output/appendix_completion_20260925/checkout/supplementary_data/annotation_materials/filtering/RUBRIC.md",
+      "transformation": "byte-identical archive copy"
+    },
+    {
+      "file": "materials/filtering/fixed_orientation.prompt.md",
+      "sha256": "c829b2890328cc82a1673b20199b35c3be5528be3ecacb5d0f7123a67ce13406",
+      "bytes": 48492,
+      "source": "output/appendix_completion_20260925/checkout/supplementary_data/annotation_materials/filtering/fixed_orientation.prompt.md",
+      "transformation": "byte-identical archive copy"
+    },
+    {
+      "file": "materials/human/dimensions.json",
+      "sha256": "19705e406f86f6de8671e576aac1c9cbea0415d131bf328e62f4e5d9234f10b7",
+      "bytes": 11948,
+      "source": "output/appendix_completion_20260925/checkout/supplementary_data/annotation_materials/human/dimensions.json",
+      "transformation": "byte-identical archive copy"
+    },
+    {
+      "file": "materials/human/examples.json",
+      "sha256": "79b4965f2e9d4cd8310878004687e7882176618c7bf04f44ee8cfaac3ba66385",
+      "bytes": 7244,
+      "source": "output/appendix_completion_20260925/checkout/supplementary_data/annotation_materials/human/examples.json",
+      "transformation": "byte-identical archive copy"
+    },
+    {
+      "file": "materials/human/images/IDV.jpg",
+      "sha256": "45940ebf14d507d2e0d7529ffe134d4457fe61f7bc61113c574d1c873ec8351b",
+      "bytes": 985064,
+      "source": "output/appendix_completion_20260925/checkout/supplementary_data/annotation_materials/human/images/IDV.jpg",
+      "transformation": "byte-identical archive copy"
+    },
+    {
+      "file": "materials/human/images/IVR.jpg",
+      "sha256": "ddd4800bfe8ff0d62c80982150e2b43645b15d8334559c6f83e77343d672669c",
+      "bytes": 1001931,
+      "source": "output/appendix_completion_20260925/checkout/supplementary_data/annotation_materials/human/images/IVR.jpg",
+      "transformation": "byte-identical archive copy"
+    },
+    {
+      "file": "materials/human/images/LTO.jpg",
+      "sha256": "07715300533db5af8a00d58f7fa98b0ef1884c4095720bd5a6d7f1befb9317f8",
+      "bytes": 771229,
+      "source": "output/appendix_completion_20260925/checkout/supplementary_data/annotation_materials/human/images/LTO.jpg",
+      "transformation": "byte-identical archive copy"
+    },
+    {
+      "file": "materials/human/images/MAS.jpg",
+      "sha256": "e265bea9da962721029e0f41f9eb13ab1f50acf25b56f3d2ba47b93c296e6388",
+      "bytes": 845659,
+      "source": "output/appendix_completion_20260925/checkout/supplementary_data/annotation_materials/human/images/MAS.jpg",
+      "transformation": "byte-identical archive copy"
+    },
+    {
+      "file": "materials/human/images/PDI.jpg",
+      "sha256": "5305f114f75558ab4748b1c02bc1beb9a755060b0cd5b04de020ce38149e74ea",
+      "bytes": 848458,
+      "source": "output/appendix_completion_20260925/checkout/supplementary_data/annotation_materials/human/images/PDI.jpg",
+      "transformation": "byte-identical archive copy"
+    },
+    {
+      "file": "materials/human/images/UAI.jpg",
+      "sha256": "57273c3610ea444c491607af0be2d80e910f0c107b54acd19e72c6d588402ca1",
+      "bytes": 774021,
+      "source": "output/appendix_completion_20260925/checkout/supplementary_data/annotation_materials/human/images/UAI.jpg",
+      "transformation": "byte-identical archive copy"
+    },
+    {
+      "file": "materials/manifest.json",
+      "sha256": "7de166eae36443876342e4e129d859cca7efeed3949fc0d4cbe9ebf9a46e8362",
+      "bytes": 9953,
+      "source": "output/appendix_completion_20260925/checkout/supplementary_data/annotation_materials/manifest.json",
+      "transformation": "byte-identical archive copy"
+    },
+    {
+      "file": "requirements.txt",
+      "sha256": "1acedae992d06b12344e20bc55af19d4c03e637a7b3b52826e49806d732994b2",
+      "bytes": 105,
+      "source": "prepared for the materials and numerical reproduction release on 2026-10-06"
+    },
+    {
+      "file": "scripts/score.py",
+      "sha256": "ec5a81be5cb59f1757af3b7de24e7310ff73e20653b880a372d37bb9d2d1e3aa",
+      "bytes": 3871,
+      "source": "prepared for the materials and numerical reproduction release on 2026-10-06"
+    },
+    {
+      "file": "scripts/verify_manifest.py",
+      "sha256": "a4a8426f30896213f7f31d914ea8e02dd7f11f2e91007863b2042daf4176f14f",
+      "bytes": 1090,
+      "source": "prepared for the materials and numerical reproduction release on 2026-10-06"
+    }
+  ],
+  "repository_url": "https://github.com/zucanlv/VisionValueBench"
+}

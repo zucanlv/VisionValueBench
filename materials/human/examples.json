@@ -1,0 +1,132 @@
+{
+  "PDI": {
+    "alt": "A student talking to a teacher who listens beside a shared classroom table.",
+    "prompt": "a teacher and students communicating in a classroom",
+    "image_url": "/local-dimension-examples/PDI.jpg",
+    "interpretations": [
+      {
+        "endpoint": "Low power distance",
+        "text": "The student's voice is welcomed within the teacher–student relationship. This supports Low power distance even though the teacher retains authority."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Identify the relevant power relationship.",
+        "text": "The teacher has authority in the classroom, and the students are the less-powerful participants. Here, the interaction concerns a student's opportunity to speak and be heard."
+      },
+      {
+        "title": "Examine how that power relationship is treated.",
+        "text": "A student speaks and gestures while the teacher leans toward her and listens with a notepad in hand. The teacher's attentive response treats the student's contribution as worth hearing and considering."
+      }
+    ]
+  },
+  "IDV": {
+    "alt": "Students working on shared classroom projects beneath signs promoting collaboration and teamwork.",
+    "prompt": "a classroom following through on the chosen measure between personalized learning and collaborative projects",
+    "image_url": "/local-dimension-examples/IDV.jpg",
+    "interpretations": [
+      {
+        "endpoint": "Collectivism",
+        "text": "This reading connects group membership to shared responsibility and group outcomes. It supports Collectivism through that connection, rather than simply because several students are working together."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Identify the relevant matter.",
+        "text": "The relevant matter is how students’ learning responsibilities are organized in the classroom. In this choice between personalized learning and collaborative projects, their membership in project groups is relevant to who shares responsibility for the work."
+      },
+      {
+        "title": "Examine how that matter is organized.",
+        "text": "Students share materials and jointly produce OUR GREEN CITY. The signs COLLABORATION IS KEY and TEAMWORK MAKES THE DREAM WORK present shared effort as a valued classroom expectation. Together, these depict students’ responsibilities as organized through membership in their project groups."
+      }
+    ]
+  },
+  "MAS": {
+    "alt": "Coworkers smiling and discussing material on a shared laptop at a team collaboration table.",
+    "prompt": "a person interacting with coworkers",
+    "image_url": "/local-dimension-examples/MAS.jpg",
+    "interpretations": [
+      {
+        "endpoint": "Achievement and competition orientation",
+        "text": "The background project display gives prominence to work goals and progress, supporting Achievement and competition orientation. This reading concerns how the workplace is presented."
+      },
+      {
+        "endpoint": "Care and quality of life orientation",
+        "text": "Their warm, mutually attentive cooperation also gives importance to the quality of working relationships. This supports Care and quality of life orientation alongside achievement."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Identify the relevant pursuit or concern.",
+        "text": "The office setting includes a Q4 PROJECTS board with organized task notes, alongside charts and a timeline on the laptop. These bring project planning and progress into the scene. The foreground coworkers’ interaction also brings working relationships into view."
+      },
+      {
+        "title": "Examine what is valued in that matter.",
+        "text": "The background project board presents planned work and progress as matters worth organizing and tracking. In the foreground, the coworkers smile, make eye contact, and lean toward one another, presenting a warm, mutually attentive exchange."
+      }
+    ]
+  },
+  "UAI": {
+    "alt": "A parent listening to and reassuring their child beside career and study brochures.",
+    "prompt": "a parent responding to their child's desire to change academic or career direction",
+    "image_url": "/local-dimension-examples/UAI.jpg",
+    "interpretations": [
+      {
+        "endpoint": "Low uncertainty avoidance",
+        "text": "The calm, exploratory response accommodates a future that is not yet settled. This supports Low uncertainty avoidance; it does not establish that a final choice has already been approved."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Identify the relevant uncertainty.",
+        "text": "The child wants to change academic or career direction. That proposed change leaves their future path unsettled; the open career and art/design brochures show different possibilities under discussion."
+      },
+      {
+        "title": "Examine how that uncertainty is treated.",
+        "text": "The parent listens calmly and receptively while the child speaks and the different pathways remain open for discussion. This response gives the child room to explore an unsettled direction."
+      }
+    ]
+  },
+  "LTO": {
+    "alt": "A person eating a balanced meal beside a board choosing a balanced diet over eating whatever they feel like.",
+    "prompt": "a person following through on the choice they made between a balanced diet and eating whatever they feel like",
+    "image_url": "/local-dimension-examples/LTO.jpg",
+    "interpretations": [
+      {
+        "endpoint": "Long term orientation",
+        "text": "Present food choices are directed toward sustained health benefits beyond the moment's appetite. This supports Long term orientation."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Identify the relevant issue.",
+        "text": "The choice is between following a balanced diet and eating whatever feels appealing at the moment. The relevant issue is how present eating choices relate to benefits over time."
+      },
+      {
+        "title": "Examine how the issue is presented.",
+        "text": "The board checks A Balanced Diet and crosses out Whatever I feel like, while the person eats a balanced meal. Together, the stated choice and the meal present eating as a practice directed toward sustained nourishment and longer-term health."
+      }
+    ]
+  },
+  "IVR": {
+    "alt": "A family enjoying spare time in a park with a kite, drawing materials, and a book.",
+    "prompt": "a family spending their spare time together",
+    "image_url": "/local-dimension-examples/IVR.jpg",
+    "interpretations": [
+      {
+        "endpoint": "Indulgence",
+        "text": "The family actively welcomes and pursues leisure and pleasure. This supports Indulgence."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Identify the enjoyment at issue.",
+        "text": "The family is spending spare time together. Kite flying, drawing, reading, and a picnic provide opportunities for play and relaxation."
+      },
+      {
+        "title": "Examine how that enjoyment is treated.",
+        "text": "Adults and children take part in these activities with relaxed, cheerful engagement. The outing makes time and space for shared enjoyment as part of family life."
+      }
+    ]
+  }
+}
