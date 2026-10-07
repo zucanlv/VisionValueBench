@@ -8,15 +8,15 @@
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 28px; }
-body { margin: 0; background: #fff; color: var(--body); font-family: var(--sans); font-size: 18px; line-height: 1.7; }
+body { margin: 0; background: #fff; color: var(--body); font-family: var(--sans); font-size: 18px; line-height: 1.5; }
 a { color: var(--link); text-decoration: none; }
 a:hover { text-decoration: underline; }
 a:focus-visible, summary:focus-visible, [tabindex]:focus-visible { outline: 3px solid var(--link); outline-offset: 4px; }
-p { margin: 0 0 20px; }
+p { margin: 0 0 12px; }
 figure { margin: 0; }
-.reading { width: min(100%, 720px); margin-inline: auto; }
+.reading { width: min(100%, 1120px); margin-inline: auto; }
 .wide { width: min(100%, 1120px); margin-inline: auto; }
-.hero { text-align: center; padding: 34px 24px 48px; max-width: 1160px; margin: auto; }
+.hero { text-align: center; padding: 28px 24px 28px; max-width: 1160px; margin: auto; }
 .hero h1 { font-size: clamp(30px, 3.65vw, 46px); line-height: 1.16; font-weight: 700; letter-spacing: -1.3px; margin: 0 auto 10px; color: var(--ink); }
 .project-name { font-size: 18px; font-weight: 400; color: var(--muted); line-height: 1.4; margin: 0 0 12px; }
 .authors { font-size: 19px; margin: 8px 0 4px; }
@@ -30,34 +30,34 @@ figure { margin: 0; }
 .resource[href]:hover { background: #37465c; text-decoration: none; }
 .pending { background: #edf0f4; color: #555e6d; }
 .pending small { font-size: 11px; color: #737d8b; }
-.hero-teaser { max-width: 1000px; margin: 34px auto 0; }
+.hero-teaser { max-width: 1000px; margin: 24px auto 0; }
 .hero-teaser img { display: block; width: 100%; height: auto; }
-.hero-teaser figcaption { max-width: 850px; margin: 16px auto 0; font-size: 15px; color: var(--muted); line-height: 1.6; }
-.section { padding: 64px 32px 72px; border-top: 1px solid var(--line); }
-.section h2 { color: var(--ink); font-size: 34px; line-height: 1.25; font-weight: 700; letter-spacing: -.6px; margin: 0 0 24px; }
-.section h3 { color: var(--ink); font-size: 25px; line-height: 1.35; font-weight: 650; letter-spacing: -.2px; margin: 0 0 16px; }
-.section-header { margin-bottom: 36px; }
+.hero-teaser figcaption { max-width: 850px; margin: 10px auto 0; font-size: 15px; color: var(--muted); line-height: 1.6; }
+.section { padding: 28px 32px 32px; border-top: 1px solid var(--line); }
+.section h2 { color: var(--ink); font-size: 32px; line-height: 1.25; font-weight: 700; letter-spacing: -.6px; margin: 0 0 12px; }
+.section h3 { color: var(--ink); font-size: 25px; line-height: 1.35; font-weight: 650; letter-spacing: -.2px; margin: 0 0 12px; }
+.section-header { margin-bottom: 16px; }
 .section-header p:last-child, .project-intro p:last-child { margin-bottom: 0; }
-.project-intro { margin-bottom: 36px; }
-.summary-section h2 { margin-bottom: 30px; }
+.project-intro { margin-bottom: 18px; }
+.summary-section h2 { margin-bottom: 16px; }
 .key-findings { padding: 0 0 0 28px; margin: 0; }
-.key-findings > li { padding-left: 12px; margin: 0 0 32px; }
+.key-findings > li { padding-left: 8px; margin: 0 0 18px; }
 .key-findings > li:last-child { margin-bottom: 0; }
 .key-findings > li::marker { color: var(--ink); font-weight: 600; }
-.key-findings .finding-title { margin: 0 0 12px; font-size: 21px; font-weight: 600; line-height: 1.45; color: var(--ink); }
+.key-findings .finding-title { margin: 0 0 6px; font-size: 21px; font-weight: 600; line-height: 1.45; color: var(--ink); }
 .key-findings strong { color: var(--ink); }
 .finding-examples { padding-left: 20px; margin: 0; font-size: inherit; }
 .finding-examples li { padding-left: 3px; margin: 0; }
-.finding-examples li + li { margin-top: 10px; }
+.finding-examples li + li { margin-top: 6px; }
 .finding-examples p { margin: 0; }
 .finding-examples li::marker { color: var(--muted); }
 .case-comparison { width: min(100%, 1120px); margin-inline: auto; }
-.case-intro { margin-bottom: 22px; }
-.scenario { color: var(--ink); font-style: italic; margin-bottom: 10px; }
+.case-intro { margin-bottom: 10px; }
+.scenario { color: var(--ink); font-style: italic; margin-bottom: 6px; }
 .comparison-guide { margin-bottom: 0; }
-.case-group + .case-group { margin-top: 48px; padding-top: 42px; border-top: 1px solid var(--line); }
+.case-group + .case-group { margin-top: 18px; padding-top: 18px; border-top: 1px solid var(--line); }
 .comparison-scroll, .plot-scroll { max-width: 100%; overflow-x: auto; overscroll-behavior-x: contain; scrollbar-width: thin; padding-bottom: 8px; }
-.case-table { width: 100%; table-layout: fixed; border-collapse: separate; border-spacing: 8px 14px; }
+.case-table { width: 100%; table-layout: fixed; border-collapse: separate; border-spacing: 8px 10px; }
 .case-table th { color: var(--ink); font-size: 15px; line-height: 1.4; font-weight: 600; padding: 0 0 5px; text-align: center; }
 .case-table td { padding: 0; vertical-align: middle; }
 .case-table img { display: block; width: 100%; height: auto; }
@@ -77,51 +77,52 @@ figure { margin: 0; }
 .cue-table td { vertical-align: top; }
 .image-link { display: block; }
 .image-link:hover { opacity: .94; }
-.case-interpretation { margin-top: 24px; }
+.case-interpretation { margin-top: 10px; }
 .case-interpretation p:last-child { margin-bottom: 0; }
 .edited-note { font-size: 15px; line-height: 1.5; color: var(--muted); margin: 8px 0 0; }
-.scroll-hint { display: none; max-width: 720px; margin: 12px auto 0; font-size: 15px; color: var(--muted); line-height: 1.5; }
-.section details { padding: 16px 0; margin-top: 28px; border-block: 1px solid var(--line); }
+.scroll-hint { display: none; max-width: 1120px; margin: 8px auto 0; font-size: 15px; color: var(--muted); line-height: 1.5; }
+.section details { padding: 10px 0; margin-top: 12px; border-block: 1px solid var(--line); }
 .section details summary { cursor: pointer; font-size: 16px; line-height: 1.5; font-weight: 600; color: var(--ink); }
-.section details > p, .section details > div { margin-top: 18px; }
-.section details p { font-size: 17px; line-height: 1.65; }
+.section details > p, .section details > div { margin-top: 12px; }
+.section details p { font-size: 17px; line-height: 1.5; }
 .section details > p:last-child { margin-bottom: 0; }
 .dimensions { display: grid; grid-template-columns: 1fr 1fr; gap: 18px 30px; }
 .dimensions p { margin: 0; }
 .dimensions b { display: block; margin-bottom: 4px; color: var(--ink); font-weight: 600; }
-.measurement-subsection + .measurement-subsection { margin-top: 52px; padding-top: 42px; }
-.benchmark-layout { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 48px; width: min(100%, 1000px); margin: 0 auto 24px; align-items: start; }
+.measurement-subsection + .measurement-subsection { margin-top: 24px; padding-top: 0; }
+.benchmark-layout { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 28px; width: min(100%, 1120px); margin: 0 auto 14px; align-items: start; }
 .benchmark-copy p:last-child { margin-bottom: 0; }
 .stats { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin: 4px 0 0; text-align: center; }
 .stats div { display: flex; flex-direction: column; gap: 7px; }
 .stats strong { color: var(--ink); font-size: 36px; font-weight: 650; line-height: 1.2; }
 .stats span { font-size: 16px; line-height: 1.5; }
-.conditions-table { border-collapse: collapse; width: 100%; margin: 24px 0; font-size: 17px; }
+.conditions-table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 17px; }
 .conditions-table caption { text-align: left; font-size: 17px; line-height: 1.5; margin-bottom: 10px; }
-.conditions-table th, .conditions-table td { padding: 10px 12px; text-align: center; }
+.conditions-table th, .conditions-table td { padding: 8px 12px; text-align: center; }
 .conditions-table th { color: var(--ink); font-weight: 600; }
 .conditions-table tr > :first-child { text-align: left; padding-left: 0; }
 .conditions-table tr > :last-child { padding-right: 0; }
 .conditions-table thead { border-bottom: 1px solid var(--line); }
 .conditions-table tbody tr + tr { border-top: 1px solid var(--line); }
-.evaluation-steps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px; margin-top: 28px; margin-bottom: 32px; }
+.evaluation-steps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; margin-top: 16px; margin-bottom: 18px; }
 .step-number { color: var(--muted); font-size: 16px; font-weight: 600; }
-.section .evaluation-steps h3 { font-size: 21px; line-height: 1.4; margin: 8px 0 12px; }
+.section .evaluation-steps h3 { font-size: 21px; line-height: 1.4; margin: 4px 0 6px; }
 .evaluation-steps p { margin: 0; }
-.score-guide { margin-top: 28px; }
-.human-validation { margin-top: 24px; }
-.result-block + .result-block { margin-top: 60px; padding-top: 52px; border-top: 1px solid var(--line); }
-.result-figure { margin-top: 26px; margin-bottom: 24px; }
+.evaluation-notes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 28px; }
+.evaluation-notes p { margin: 0; }
+.evaluation-notes .human-validation { grid-column: 1 / -1; }
+.result-block + .result-block { margin-top: 24px; padding-top: 22px; border-top: 1px solid var(--line); }
+.result-figure { margin-top: 14px; margin-bottom: 12px; }
 .result-figure img, .result-panel img { display: block; width: 100%; height: auto; }
-.result-block figcaption { font-size: 15px; line-height: 1.6; color: var(--muted); text-align: left; margin-top: 16px; }
+.result-block figcaption { font-size: 15px; line-height: 1.6; color: var(--muted); text-align: left; margin-top: 8px; }
 .radar-scroll { min-width: 940px; }
 .paired-scroll { min-width: 850px; }
-.result-panels { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; margin-top: 26px; }
+.result-panels { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; margin-top: 14px; }
 .result-panel { min-width: 0; }
-.result-panel h4 { font-size: 18px; font-weight: 600; line-height: 1.4; color: var(--ink); text-align: center; margin: 0 0 16px; }
+.result-panel h4 { font-size: 18px; font-weight: 600; line-height: 1.4; color: var(--ink); text-align: center; margin: 0 0 12px; }
 .ecdf-scroll { min-width: 480px; }
 #resources .reading > p:last-child { margin-bottom: 0; }
-footer { max-width: 1120px; margin: auto; padding: 28px 0; display: flex; align-items: center; justify-content: space-between; gap: 20px; font-size: 14px; color: var(--muted); border-top: 1px solid var(--line); }
+footer { max-width: 1120px; margin: auto; padding: 18px 0; display: flex; align-items: center; justify-content: space-between; gap: 20px; font-size: 14px; color: var(--muted); border-top: 1px solid var(--line); }
 footer .brand { font-size: 15px; font-weight: 600; color: var(--ink); }
 footer p { margin: 0; }
 .skip { position: fixed; top: -100px; left: 10px; z-index: 5; background: #fff; padding: 10px; }
@@ -133,21 +134,28 @@ footer p { margin: 0; }
 @media (max-width: 1123px) {
   .case-group .scroll-hint { display: block; }
 }
+@media (max-width: 1019px) {
+  #shared-orientations .scroll-hint { display: block; }
+}
+@media (max-width: 929px) {
+  #prompt-effects .scroll-hint { display: block; }
+}
 @media (max-width: 1063px) {
   #change-distributions .scroll-hint { display: block; }
 }
-@media (max-width: 900px) {
-  .benchmark-layout { grid-template-columns: 1fr; max-width: 720px; gap: 24px; }
+@media (max-width: 760px) {
+  .benchmark-layout { grid-template-columns: 1fr; max-width: 1120px; gap: 16px; }
+  .evaluation-notes { grid-template-columns: 1fr; }
   .stats { max-width: 320px; margin: 0; }
-  .evaluation-steps { max-width: 720px; grid-template-columns: 1fr; gap: 28px; }
+  .evaluation-steps { max-width: 1120px; grid-template-columns: 1fr; gap: 16px; }
   .section .evaluation-steps h3 { display: inline; margin-left: 10px; }
   .evaluation-steps p { margin-top: 9px; }
-  .result-panels { grid-template-columns: 1fr; max-width: 720px; gap: 32px; }
+  .result-panels { grid-template-columns: 1fr; max-width: 1120px; gap: 20px; }
   .result-figure .scroll-hint, .result-panel .scroll-hint { display: block; }
 }
 @media (max-width: 640px) {
   body { font-size: 17px; }
-  .hero { padding: 28px 20px 36px; }
+  .hero { padding: 24px 20px; }
   .hero h1 { font-size: 30px; line-height: 1.2; letter-spacing: -.7px; }
   .hero h1 br { display: none; }
   .authors { font-size: 18px; }
@@ -155,27 +163,27 @@ footer p { margin: 0; }
   .actions { gap: 9px; }
   .resource { font-size: 14px; padding: 9px 12px; }
   .pending small { font-size: 10px; }
-  .section { padding: 48px 20px 54px; }
-  .section h2 { font-size: 29px; letter-spacing: -.4px; margin-bottom: 22px; }
+  .section { padding: 24px 20px; }
+  .section h2 { font-size: 29px; letter-spacing: -.4px; margin-bottom: 14px; }
   .section h3 { font-size: 23px; }
-  .section-header { margin-bottom: 28px; }
-  .project-intro { margin-bottom: 30px; }
+  .section-header { margin-bottom: 14px; }
+  .project-intro { margin-bottom: 16px; }
   .key-findings { padding-left: 22px; }
-  .key-findings > li { padding-left: 7px; margin-bottom: 28px; }
+  .key-findings > li { padding-left: 7px; margin-bottom: 16px; }
   .key-findings .finding-title { font-size: 20px; }
   .finding-examples { padding-left: 18px; }
-  .finding-examples li + li { margin-top: 9px; }
-  .case-group + .case-group { margin-top: 36px; padding-top: 32px; }
+  .finding-examples li + li { margin-top: 6px; }
+  .case-group + .case-group { margin-top: 16px; padding-top: 16px; }
   .dimensions { grid-template-columns: 1fr; gap: 18px; }
-  .measurement-subsection + .measurement-subsection { margin-top: 38px; padding-top: 30px; }
+  .measurement-subsection + .measurement-subsection { margin-top: 22px; padding-top: 0; }
   .stats strong { font-size: 33px; }
   .conditions-table { font-size: 16px; }
   .conditions-table th, .conditions-table td { padding: 10px 6px; }
   .section .evaluation-steps h3 { font-size: 20px; }
-  .result-block + .result-block { margin-top: 42px; padding-top: 36px; }
-  .result-figure { margin-top: 22px; }
+  .result-block + .result-block { margin-top: 22px; padding-top: 20px; }
+  .result-figure { margin-top: 12px; }
   .result-panel h4 { font-size: 17px; }
-  footer { margin-inline: 20px; padding: 24px 0; flex-direction: column; align-items: flex-start; gap: 8px; }
+  footer { margin-inline: 20px; padding: 16px 0; flex-direction: column; align-items: flex-start; gap: 8px; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
