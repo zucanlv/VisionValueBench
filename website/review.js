@@ -131,6 +131,9 @@
   }
   function reveal(id) {
     const block = blocks.get(id);
+    for (let ancestor = block?.parentElement; ancestor; ancestor = ancestor.parentElement) {
+      if (ancestor.tagName === 'DETAILS') ancestor.open = true;
+    }
     const el = block?.closest('[hidden]') ? block.closest('section') : block;
     if (!el) return;
     if (matchMedia('(max-width: 900px)').matches) {

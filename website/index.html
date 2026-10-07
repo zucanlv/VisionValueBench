@@ -4,7 +4,7 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>VisionValueBench — Whose Values Are Generated?</title>
 <meta name="description" content="Measuring visual value leakage in multilingual text-to-image generation. A benchmark of 2,773 social scenarios across six cultural value dimensions.">
-<link rel="stylesheet" href="style.css?v=20261006-alias">
+<link rel="stylesheet" href="style.css?v=20261006-reading">
 <link rel="stylesheet" href="review.css">
 <script src="review.js" defer></script>
 </head>
@@ -14,27 +14,35 @@
 <section class="hero" id="overview"><h1 data-review-id="overview-text-01" data-review-editable="true">Whose Values Are Generated? <br>Measuring Visual Value Leakage in <br>Multilingual Text-to-Image Generation</h1><p class="project-name" data-review-id="overview-text-02" data-review-editable="true">(VisionValueBench)</p><p class="authors" data-review-id="overview-text-03" data-review-editable="false"><span><a href="https://zucanlv.github.io/" target="_blank" rel="noopener">Zucan Lyu</a><sup>1*</sup></span>, <span><a href="https://bigbinnie.github.io/" target="_blank" rel="noopener">Binwei Yao</a><sup>1*</sup></span>, <span><a href="https://uppaal.github.io/" target="_blank" rel="noopener">Rheeya Uppaal</a><sup>1</sup></span>, <span><a href="https://scholar.google.com/citations?user=2FH8EjkAAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener">Jing Yao</a><sup>2&dagger;</sup></span>, <span><a href="https://xiaoyuanyi.github.io/" target="_blank" rel="noopener">Xiaoyuan Yi</a><sup>2&dagger;</sup></span>, <span><a href="https://junjiehu.github.io/" target="_blank" rel="noopener">Junjie Hu</a><sup>1&dagger;</sup></span></p><p class="affiliations" data-review-id="overview-text-04" data-review-editable="false"><span><sup>1</sup>University of Wisconsin&ndash;Madison</span>&emsp;<span><sup>2</sup>Microsoft Research Asia</span></p><p class="author-notes" data-review-id="overview-text-05" data-review-editable="false"><sup>*</sup>Equal contribution&emsp;<sup>&dagger;</sup>Corresponding authors</p><div class="actions"><a class="resource" href="paper.pdf" target="_blank" rel="noopener">📄 Paper</a><a class="resource" href="https://github.com/zucanlv/VisionValueBench" target="_blank" rel="noopener">💻 Code</a><span class="resource pending">🤗 Dataset <small>Coming soon</small></span></div>
   <figure class="hero-teaser">
     <a class="image-link" href="assets/paper-teaser.png" target="_blank" rel="noopener" aria-label="Manuscript overview figure — view full image"><img src="assets/paper-teaser.png" alt="Manuscript overview: illustrative examples of six cultural value dimensions above the image-adaptive value profiles of six text-to-image systems." width="1584" height="1221" fetchpriority="high" data-review-id="overview-image-01" data-review-editable="false"></a>
-    <figcaption data-review-id="overview-text-06" data-review-editable="true">Illustrative examples of six cultural value dimensions (top) and image-adaptive value profiles of six T2I systems (bottom).</figcaption>
+    <figcaption data-review-id="overview-text-06" data-review-editable="true">Illustrative examples of six cultural value dimensions (top) and value profiles of six T2I systems (bottom).</figcaption>
   </figure>
 </section>
 
 <section class="section summary-section" id="key-findings" aria-labelledby="summary-title">
-  <p class="research-question" data-review-id="key-findings-text-01" data-review-editable="true">When prompts leave value orientations unspecified, <br>whose values do text-to-image systems express?</p>
-  <h2 id="summary-title" data-review-id="key-findings-text-02" data-review-editable="true">Key Findings</h2>
-  <ol class="key-findings">
-    <li><p data-review-id="key-findings-text-03" data-review-editable="true"><strong>Shared value orientations across systems.</strong> Across six T2I systems, generated images express broadly shared value orientations.</p><ul class="finding-examples">
-      <li><p data-review-id="key-findings-text-09" data-review-editable="true"><strong>Experimental result.</strong> Six systems share preferences for low power distance, individualism, care and quality of life, long-term orientation, and indulgence (<a href="#shared-orientations">value profiles</a>).</p></li>
-      <li><p data-review-id="key-findings-text-06" data-review-editable="true"><strong>Example.</strong> <a href="#case-row-1">Row 1</a>: All six images support individualism, care and quality of life, and indulgence.</p></li>
-    </ul></li>
-    <li><p data-review-id="key-findings-text-04" data-review-editable="true"><strong>Limited influence of prompt language.</strong> Switching prompt language largely preserves the prevailing value orientations.</p><ul class="finding-examples">
-      <li><p data-review-id="key-findings-text-10" data-review-editable="true"><strong>Experimental result.</strong> All 36 system–dimension pairs retain their directions when switching from English to Chinese without a geographic cue (<a href="#paired-score-comparison">paired scores</a>).</p></li>
-      <li><p data-review-id="key-findings-text-07" data-review-editable="true"><strong>Example.</strong> <a href="#case-row-1">Rows 1–2</a>: These three orientations persist across English and Chinese prompts.</p></li>
-    </ul></li>
-    <li><p data-review-id="key-findings-text-05" data-review-editable="true"><strong>Larger shifts from geographic cues.</strong> Geographic cues produce larger changes than language switching, while mostly preserving orientation directions.</p><ul class="finding-examples">
-      <li><p data-review-id="key-findings-text-11" data-review-editable="true"><strong>Experimental result.</strong> Switching from US to China cues typically changes value scores more than switching prompt language, across five systems excluding MAI (<a href="#change-distributions">change distributions</a>).</p></li>
-      <li><p data-review-id="key-findings-text-08" data-review-editable="true"><strong>Example.</strong> <a href="#case-row-3">Row 3</a>: Geographic cues change the depiction of social hierarchy.</p></li>
-    </ul></li>
-  </ol>
+  <div class="reading project-intro">
+    <p data-review-id="key-findings-text-01" data-review-editable="true">When a prompt specifies a social situation but leaves its value orientation open, a text-to-image system still has to choose how to depict it. We study the systematic value orientations expressed in those choices—<strong>visual value leakage</strong>—and whether they change with prompt language and geographic cues.</p>
+    <h2 data-review-id="key-findings-text-02" data-review-editable="true" id="summary-title">Key Findings</h2>
+    <ol class="key-findings">
+      <li><p class="finding-title" data-review-id="key-findings-text-03" data-review-editable="true">Different systems express broadly shared value orientations.</p>
+        <ul class="finding-examples">
+          <li><p data-review-id="key-findings-text-09" data-review-editable="true"><strong>Experimental result.</strong> Six systems share prevailing directions in five dimensions, with different strengths (<a href="#shared-orientations">value profiles</a>).</p></li>
+          <li><p data-review-id="key-findings-text-06" data-review-editable="true"><strong>Example.</strong> The <a href="#case-row-1">first traveler row</a> illustrates individualism, care and quality of life, and indulgence across all six images.</p></li>
+        </ul>
+      </li>
+      <li><p class="finding-title" data-review-id="key-findings-text-04" data-review-editable="true">Changing prompt language largely preserves these directions.</p>
+        <ul class="finding-examples">
+          <li><p data-review-id="key-findings-text-10" data-review-editable="true"><strong>Experimental result.</strong> English→Chinese without a geographic cue preserves the directions of all 36 system–dimension pairs (<a href="#paired-score-comparison">paired scores</a>).</p></li>
+          <li><p data-review-id="key-findings-text-07" data-review-editable="true"><strong>Example.</strong> Compare the <a href="#case-row-1">English and Chinese traveler rows</a> within each model’s column: these three orientations persist.</p></li>
+        </ul>
+      </li>
+      <li><p class="finding-title" data-review-id="key-findings-text-05" data-review-editable="true">Geographic cues produce larger shifts, while most directions persist.</p>
+        <ul class="finding-examples">
+          <li><p data-review-id="key-findings-text-11" data-review-editable="true"><strong>Experimental result.</strong> Across five systems excluding MAI, US→China cue changes are typically larger than English→Chinese changes (<a href="#change-distributions">change distributions</a>).</p></li>
+          <li><p data-review-id="key-findings-text-08" data-review-editable="true"><strong>Example.</strong> The <a href="#case-row-3">third row</a> illustrates changes in the depiction of social hierarchy.</p></li>
+        </ul>
+      </li>
+    </ol>
+  </div>
 </section>
 
 <section class="section case-studies" id="case-studies" aria-label="Examples supporting the key findings">
@@ -44,117 +52,195 @@
 <span data-review-id="case-studies-text-17" data-review-editable="false">Geographic cues change the depiction of social hierarchy</span>
 <span data-review-id="case-studies-text-19" data-review-editable="false">The manuscript compares Nano Banana 2 examples of the same scenario with no cue, a US cue, or a China cue, in both English and Chinese.</span>
 <span data-review-id="case-studies-text-20" data-review-editable="false">Prompt</span></div>
-  <p class="comparison-guide" data-review-id="case-studies-text-04" data-review-editable="true">Rows 1–2 compare six systems across English and Chinese prompts, without a geographic cue. Row 3 compares geographic cues within Nano Banana 2.</p>
-  <figure class="case-comparison">
-    <div class="table-scroll" role="region" aria-label="Three rows of manuscript examples" tabindex="0">
-      <div class="case-row" id="case-row-1">
+  <figure class="case-comparison wide">
+    <div class="case-group traveler-group">
+      <div class="reading case-intro">
         <p class="scenario" data-review-id="case-studies-text-03" data-review-editable="true">A traveler choosing a vacation destination for recreation or serenity.</p>
-        <p class="case-row-title" data-review-id="case-studies-text-12" data-review-editable="true">Row 1 · English / No cue</p>
-        <div class="case-image-row traveler-image-row"><div class="case-tile"><p class="tile-label" data-review-id="case-studies-text-06" data-review-editable="true">MAI-2.6-Flash</p><a class="image-link" href="assets/mai26flash__cdeval_ivr_0109__en_us__none.jpg" target="_blank" rel="noopener" aria-label="MAI-2.6-Flash: traveler scenario, English prompt, no geographic cue — view full image"><img src="assets/mai26flash__cdeval_ivr_0109__en_us__none.jpg" alt="MAI-2.6-Flash: traveler scenario, English prompt, no geographic cue" width="720" height="720" loading="lazy" data-review-id="case-studies-image-01" data-review-editable="false"></a></div>
-<div class="case-tile"><p class="tile-label" data-review-id="case-studies-text-07" data-review-editable="true">GPT Image 2</p><a class="image-link" href="assets/gptimage2__cdeval_ivr_0109__en_us__none.jpg" target="_blank" rel="noopener" aria-label="GPT Image 2: traveler scenario, English prompt, no geographic cue — view full image"><img src="assets/gptimage2__cdeval_ivr_0109__en_us__none.jpg" alt="GPT Image 2: traveler scenario, English prompt, no geographic cue" width="900" height="720" loading="lazy" data-review-id="case-studies-image-02" data-review-editable="false"></a></div>
-<div class="case-tile"><p class="tile-label" data-review-id="case-studies-text-08" data-review-editable="true">Nano Banana 2</p><a class="image-link" href="assets/nanobanana2__cdeval_ivr_0109__en_us__none.jpg" target="_blank" rel="noopener" aria-label="Nano Banana 2: traveler scenario, English prompt, no geographic cue — view full image"><img src="assets/nanobanana2__cdeval_ivr_0109__en_us__none.jpg" alt="Nano Banana 2: traveler scenario, English prompt, no geographic cue" width="720" height="720" loading="lazy" data-review-id="case-studies-image-03" data-review-editable="false"></a></div>
-<div class="case-tile"><p class="tile-label" data-review-id="case-studies-text-09" data-review-editable="true">FLUX.2[dev]</p><a class="image-link" href="assets/flux2__cdeval_ivr_0109__en_us__none.jpg" target="_blank" rel="noopener" aria-label="FLUX.2[dev]: traveler scenario, English prompt, no geographic cue — view full image"><img src="assets/flux2__cdeval_ivr_0109__en_us__none.jpg" alt="FLUX.2[dev]: traveler scenario, English prompt, no geographic cue" width="720" height="720" loading="lazy" data-review-id="case-studies-image-04" data-review-editable="false"></a></div>
-<div class="case-tile"><p class="tile-label" data-review-id="case-studies-text-10" data-review-editable="true">HiDream-O1</p><a class="image-link" href="assets/hidream__cdeval_ivr_0109__en_us__none.jpg" target="_blank" rel="noopener" aria-label="HiDream-O1: traveler scenario, English prompt, no geographic cue — view full image"><img src="assets/hidream__cdeval_ivr_0109__en_us__none.jpg" alt="HiDream-O1: traveler scenario, English prompt, no geographic cue" width="720" height="720" loading="lazy" data-review-id="case-studies-image-05" data-review-editable="false"></a></div>
-<div class="case-tile"><p class="tile-label" data-review-id="case-studies-text-11" data-review-editable="true">Ideogram 4.0</p><a class="image-link" href="assets/ideogram4_magic__cdeval_ivr_0109__en_us__none.jpg" target="_blank" rel="noopener" aria-label="Ideogram 4.0: traveler scenario, English prompt, no geographic cue — view full image"><img src="assets/ideogram4_magic__cdeval_ivr_0109__en_us__none.jpg" alt="Ideogram 4.0: traveler scenario, English prompt, no geographic cue" width="720" height="720" loading="lazy" data-review-id="case-studies-image-06" data-review-editable="false"></a></div></div>
+        <p class="comparison-guide" data-review-id="case-studies-text-04" data-review-editable="true">Compare systems across each row, and English with Chinese down each column. The scenario is fixed, with no geographic cue.</p>
       </div>
-      <div class="case-row" id="case-row-2">
-        <p class="case-row-title" data-review-id="case-studies-text-13" data-review-editable="true">Row 2 · Chinese / No cue — same traveler scenario</p>
-        <div class="case-image-row traveler-image-row"><div class="case-tile"><a class="image-link" href="assets/mai26flash__cdeval_ivr_0109__zh_cn__none.jpg" target="_blank" rel="noopener" aria-label="MAI-2.6-Flash: traveler scenario, Chinese prompt, no geographic cue — view full image"><img src="assets/mai26flash__cdeval_ivr_0109__zh_cn__none.jpg" alt="MAI-2.6-Flash: traveler scenario, Chinese prompt, no geographic cue" width="720" height="720" loading="lazy" data-review-id="case-studies-image-07" data-review-editable="false"></a></div>
-<div class="case-tile"><a class="image-link" href="assets/gptimage2__cdeval_ivr_0109__zh_cn__none.jpg" target="_blank" rel="noopener" aria-label="GPT Image 2: traveler scenario, Chinese prompt, no geographic cue — view full image"><img src="assets/gptimage2__cdeval_ivr_0109__zh_cn__none.jpg" alt="GPT Image 2: traveler scenario, Chinese prompt, no geographic cue" width="900" height="720" loading="lazy" data-review-id="case-studies-image-08" data-review-editable="false"></a></div>
-<div class="case-tile"><a class="image-link" href="assets/nanobanana2__cdeval_ivr_0109__zh_cn__none.jpg" target="_blank" rel="noopener" aria-label="Nano Banana 2: traveler scenario, Chinese prompt, no geographic cue — view full image"><img src="assets/nanobanana2__cdeval_ivr_0109__zh_cn__none.jpg" alt="Nano Banana 2: traveler scenario, Chinese prompt, no geographic cue" width="720" height="720" loading="lazy" data-review-id="case-studies-image-09" data-review-editable="false"></a></div>
-<div class="case-tile"><a class="image-link" href="assets/flux2__cdeval_ivr_0109__zh_cn__none.jpg" target="_blank" rel="noopener" aria-label="FLUX.2[dev]: traveler scenario, Chinese prompt, no geographic cue — view full image"><img src="assets/flux2__cdeval_ivr_0109__zh_cn__none.jpg" alt="FLUX.2[dev]: traveler scenario, Chinese prompt, no geographic cue" width="720" height="720" loading="lazy" data-review-id="case-studies-image-10" data-review-editable="false"></a></div>
-<div class="case-tile"><a class="image-link" href="assets/hidream__cdeval_ivr_0109__zh_cn__none.jpg" target="_blank" rel="noopener" aria-label="HiDream-O1: traveler scenario, Chinese prompt, no geographic cue — view full image"><img src="assets/hidream__cdeval_ivr_0109__zh_cn__none.jpg" alt="HiDream-O1: traveler scenario, Chinese prompt, no geographic cue" width="720" height="720" loading="lazy" data-review-id="case-studies-image-11" data-review-editable="false"></a></div>
-<div class="case-tile"><a class="image-link" href="assets/ideogram4_magic__cdeval_ivr_0109__zh_cn__none.jpg" target="_blank" rel="noopener" aria-label="Ideogram 4.0: traveler scenario, Chinese prompt, no geographic cue — view full image"><img src="assets/ideogram4_magic__cdeval_ivr_0109__zh_cn__none.jpg" alt="Ideogram 4.0: traveler scenario, Chinese prompt, no geographic cue" width="720" height="720" loading="lazy" data-review-id="case-studies-image-12" data-review-editable="false"></a></div></div>
+      <div class="comparison-scroll" role="region" aria-label="Traveler images: six systems across English and Chinese" tabindex="0">
+        <table class="case-table traveler-table">
+          <colgroup><col class="language-col"><col><col class="gpt-col"><col><col><col><col></colgroup>
+          <thead><tr><th scope="col">Prompt</th><th data-review-id="case-studies-text-06" data-review-editable="true" scope="col">MAI-2.6-Flash</th>
+<th data-review-id="case-studies-text-07" data-review-editable="true" scope="col">GPT Image 2</th>
+<th data-review-id="case-studies-text-08" data-review-editable="true" scope="col">Nano Banana 2</th>
+<th data-review-id="case-studies-text-09" data-review-editable="true" scope="col">FLUX.2[dev]</th>
+<th data-review-id="case-studies-text-10" data-review-editable="true" scope="col">HiDream-O1</th>
+<th data-review-id="case-studies-text-11" data-review-editable="true" scope="col">Ideogram 4.0</th></tr></thead>
+          <tbody>
+            <tr id="case-row-1"><th scope="row"><span data-review-id="case-studies-text-12" data-review-editable="true">English<br>No cue</span></th><td><a class="image-link" href="assets/mai26flash__cdeval_ivr_0109__en_us__none.jpg" target="_blank" rel="noopener" aria-label="MAI-2.6-Flash: traveler scenario, English prompt, no geographic cue — view full image"><img src="assets/mai26flash__cdeval_ivr_0109__en_us__none.jpg" alt="MAI-2.6-Flash: traveler scenario, English prompt, no geographic cue" width="720" height="720" loading="lazy" data-review-id="case-studies-image-01" data-review-editable="false"></a></td>
+<td><a class="image-link" href="assets/gptimage2__cdeval_ivr_0109__en_us__none.jpg" target="_blank" rel="noopener" aria-label="GPT Image 2: traveler scenario, English prompt, no geographic cue — view full image"><img src="assets/gptimage2__cdeval_ivr_0109__en_us__none.jpg" alt="GPT Image 2: traveler scenario, English prompt, no geographic cue" width="900" height="720" loading="lazy" data-review-id="case-studies-image-02" data-review-editable="false"></a></td>
+<td><a class="image-link" href="assets/nanobanana2__cdeval_ivr_0109__en_us__none.jpg" target="_blank" rel="noopener" aria-label="Nano Banana 2: traveler scenario, English prompt, no geographic cue — view full image"><img src="assets/nanobanana2__cdeval_ivr_0109__en_us__none.jpg" alt="Nano Banana 2: traveler scenario, English prompt, no geographic cue" width="720" height="720" loading="lazy" data-review-id="case-studies-image-03" data-review-editable="false"></a></td>
+<td><a class="image-link" href="assets/flux2__cdeval_ivr_0109__en_us__none.jpg" target="_blank" rel="noopener" aria-label="FLUX.2[dev]: traveler scenario, English prompt, no geographic cue — view full image"><img src="assets/flux2__cdeval_ivr_0109__en_us__none.jpg" alt="FLUX.2[dev]: traveler scenario, English prompt, no geographic cue" width="720" height="720" loading="lazy" data-review-id="case-studies-image-04" data-review-editable="false"></a></td>
+<td><a class="image-link" href="assets/hidream__cdeval_ivr_0109__en_us__none.jpg" target="_blank" rel="noopener" aria-label="HiDream-O1: traveler scenario, English prompt, no geographic cue — view full image"><img src="assets/hidream__cdeval_ivr_0109__en_us__none.jpg" alt="HiDream-O1: traveler scenario, English prompt, no geographic cue" width="720" height="720" loading="lazy" data-review-id="case-studies-image-05" data-review-editable="false"></a></td>
+<td><a class="image-link" href="assets/ideogram4_magic__cdeval_ivr_0109__en_us__none.jpg" target="_blank" rel="noopener" aria-label="Ideogram 4.0: traveler scenario, English prompt, no geographic cue — view full image"><img src="assets/ideogram4_magic__cdeval_ivr_0109__en_us__none.jpg" alt="Ideogram 4.0: traveler scenario, English prompt, no geographic cue" width="720" height="720" loading="lazy" data-review-id="case-studies-image-06" data-review-editable="false"></a></td></tr>
+            <tr id="case-row-2"><th scope="row"><span data-review-id="case-studies-text-13" data-review-editable="true">Chinese<br>No cue</span></th><td><a class="image-link" href="assets/mai26flash__cdeval_ivr_0109__zh_cn__none.jpg" target="_blank" rel="noopener" aria-label="MAI-2.6-Flash: traveler scenario, Chinese prompt, no geographic cue — view full image"><img src="assets/mai26flash__cdeval_ivr_0109__zh_cn__none.jpg" alt="MAI-2.6-Flash: traveler scenario, Chinese prompt, no geographic cue" width="720" height="720" loading="lazy" data-review-id="case-studies-image-07" data-review-editable="false"></a></td>
+<td><a class="image-link" href="assets/gptimage2__cdeval_ivr_0109__zh_cn__none.jpg" target="_blank" rel="noopener" aria-label="GPT Image 2: traveler scenario, Chinese prompt, no geographic cue — view full image"><img src="assets/gptimage2__cdeval_ivr_0109__zh_cn__none.jpg" alt="GPT Image 2: traveler scenario, Chinese prompt, no geographic cue" width="900" height="720" loading="lazy" data-review-id="case-studies-image-08" data-review-editable="false"></a></td>
+<td><a class="image-link" href="assets/nanobanana2__cdeval_ivr_0109__zh_cn__none.jpg" target="_blank" rel="noopener" aria-label="Nano Banana 2: traveler scenario, Chinese prompt, no geographic cue — view full image"><img src="assets/nanobanana2__cdeval_ivr_0109__zh_cn__none.jpg" alt="Nano Banana 2: traveler scenario, Chinese prompt, no geographic cue" width="720" height="720" loading="lazy" data-review-id="case-studies-image-09" data-review-editable="false"></a></td>
+<td><a class="image-link" href="assets/flux2__cdeval_ivr_0109__zh_cn__none.jpg" target="_blank" rel="noopener" aria-label="FLUX.2[dev]: traveler scenario, Chinese prompt, no geographic cue — view full image"><img src="assets/flux2__cdeval_ivr_0109__zh_cn__none.jpg" alt="FLUX.2[dev]: traveler scenario, Chinese prompt, no geographic cue" width="720" height="720" loading="lazy" data-review-id="case-studies-image-10" data-review-editable="false"></a></td>
+<td><a class="image-link" href="assets/hidream__cdeval_ivr_0109__zh_cn__none.jpg" target="_blank" rel="noopener" aria-label="HiDream-O1: traveler scenario, Chinese prompt, no geographic cue — view full image"><img src="assets/hidream__cdeval_ivr_0109__zh_cn__none.jpg" alt="HiDream-O1: traveler scenario, Chinese prompt, no geographic cue" width="720" height="720" loading="lazy" data-review-id="case-studies-image-11" data-review-editable="false"></a></td>
+<td><a class="image-link" href="assets/ideogram4_magic__cdeval_ivr_0109__zh_cn__none.jpg" target="_blank" rel="noopener" aria-label="Ideogram 4.0: traveler scenario, Chinese prompt, no geographic cue — view full image"><img src="assets/ideogram4_magic__cdeval_ivr_0109__zh_cn__none.jpg" alt="Ideogram 4.0: traveler scenario, Chinese prompt, no geographic cue" width="720" height="720" loading="lazy" data-review-id="case-studies-image-12" data-review-editable="false"></a></td></tr>
+          </tbody>
+        </table>
       </div>
-      <div class="case-row" id="case-row-3">
-        <p class="case-row-title" data-review-id="case-studies-text-18" data-review-editable="true">Row 3 · A guest interacting with a higher-status person at a social gathering (Nano Banana 2).</p>
-        <div class="case-image-row cue-image-row"><div class="case-tile"><p class="tile-label"><span data-review-id="case-studies-text-24" data-review-editable="true">English</span> / <span data-review-id="case-studies-text-21" data-review-editable="true">No cue</span></p><a class="image-link" href="assets/nanobanana2__cdeval_pdi_0046__en_us__none.jpg" target="_blank" rel="noopener" aria-label="Nano Banana 2: social-gathering scenario, English prompt, no geographic cue — view full image"><img src="assets/nanobanana2__cdeval_pdi_0046__en_us__none.jpg" alt="Nano Banana 2: social-gathering scenario, English prompt, no geographic cue" width="720" height="720" loading="lazy" data-review-id="case-studies-image-13" data-review-editable="false"></a></div>
-<div class="case-tile"><p class="tile-label">English / <span data-review-id="case-studies-text-22" data-review-editable="true">US cue</span></p><a class="image-link" href="assets/nanobanana2__cdeval_pdi_0046__en_us__us.jpg" target="_blank" rel="noopener" aria-label="Nano Banana 2: social-gathering scenario, English prompt, United States cue — view full image"><img src="assets/nanobanana2__cdeval_pdi_0046__en_us__us.jpg" alt="Nano Banana 2: social-gathering scenario, English prompt, United States cue" width="720" height="720" loading="lazy" data-review-id="case-studies-image-14" data-review-editable="false"></a></div>
-<div class="case-tile"><p class="tile-label">English / <span data-review-id="case-studies-text-23" data-review-editable="true">China cue</span></p><a class="image-link" href="assets/nanobanana2__cdeval_pdi_0046__en_us__cn.jpg" target="_blank" rel="noopener" aria-label="Nano Banana 2: social-gathering scenario, English prompt, China cue — view full image"><img src="assets/nanobanana2__cdeval_pdi_0046__en_us__cn.jpg" alt="Nano Banana 2: social-gathering scenario, English prompt, China cue" width="720" height="720" loading="lazy" data-review-id="case-studies-image-15" data-review-editable="false"></a></div>
-<div class="case-tile"><p class="tile-label"><span data-review-id="case-studies-text-25" data-review-editable="true">Chinese</span> / No cue</p><a class="image-link" href="assets/nanobanana2__cdeval_pdi_0046__zh_cn__none.jpg" target="_blank" rel="noopener" aria-label="Nano Banana 2: social-gathering scenario, Chinese prompt, no geographic cue — view full image"><img src="assets/nanobanana2__cdeval_pdi_0046__zh_cn__none.jpg" alt="Nano Banana 2: social-gathering scenario, Chinese prompt, no geographic cue" width="720" height="720" loading="lazy" data-review-id="case-studies-image-16" data-review-editable="false"></a></div>
-<div class="case-tile"><p class="tile-label"><span data-review-id="case-studies-text-27" data-review-editable="true">Chinese / US cue</span></p><a class="image-link" href="assets/nanobanana2__cdeval_pdi_0046__zh_cn__us.jpg" target="_blank" rel="noopener" aria-label="Nano Banana 2: social-gathering scenario, Chinese prompt, United States cue — view full image"><img src="assets/nanobanana2__cdeval_pdi_0046__zh_cn__us.jpg" alt="Nano Banana 2: social-gathering scenario, Chinese prompt, United States cue" width="720" height="720" loading="lazy" data-review-id="case-studies-image-17" data-review-editable="false"></a></div>
-<div class="case-tile"><p class="tile-label"><span data-review-id="case-studies-text-28" data-review-editable="true">Chinese / China cue</span></p><a class="image-link" href="assets/nanobanana2__cdeval_pdi_0046__zh_cn__cn__edited_illustration.jpg" target="_blank" rel="noopener" aria-label="Chinese/China-cue illustration used in the manuscript — view full image"><img src="assets/nanobanana2__cdeval_pdi_0046__zh_cn__cn__edited_illustration.jpg" alt="Chinese/China-cue illustration used in the manuscript" width="1024" height="1024" loading="lazy" data-review-id="case-studies-image-18" data-review-editable="false"></a></div></div>
+      <p class="reading scroll-hint" data-review-id="case-studies-text-15" data-review-editable="true">Scroll horizontally to compare all six systems. Select an image to view it at full size.</p>
+      <div class="reading case-interpretation">
+        <p data-review-id="case-studies-text-14" data-review-editable="true">Across these twelve traveler images, both evaluation strategies support individualism, care and quality of life, and indulgence. The language changes, while these orientations persist.</p>
       </div>
     </div>
-    <figcaption>
-      <p data-review-id="case-studies-text-14" data-review-editable="true">Across all twelve images, both evaluation strategies support individualism, care and quality of life, and indulgence.</p>
-      <p data-review-id="case-studies-text-26" data-review-editable="true">The manuscript examples illustrate changes in the depiction of social hierarchy across geographic cues. The Chinese/China panel reproduces the manuscript’s edited illustration.</p>
-    </figcaption>
+    <div class="case-group cue-group" id="case-row-3">
+      <div class="reading case-intro">
+        <p class="scenario" data-review-id="case-studies-text-18" data-review-editable="true">A guest interacting with a higher-status person at a social gathering.</p>
+        <p class="comparison-guide" data-review-id="case-studies-text-30" data-review-editable="true">Nano Banana 2 and the social scenario are held fixed. Compare geographic cues within each language group.</p>
+      </div>
+      <div class="comparison-scroll" role="region" aria-label="Nano Banana 2: geographic cues within English and Chinese" tabindex="0">
+        <table class="case-table cue-table">
+          <colgroup span="3"></colgroup><colgroup span="3"></colgroup>
+          <thead>
+            <tr><th colspan="3" scope="colgroup"><span data-review-id="case-studies-text-24" data-review-editable="true">English</span></th><th colspan="3" scope="colgroup"><span data-review-id="case-studies-text-25" data-review-editable="true">Chinese</span></th></tr>
+            <tr>
+              <th scope="col"><span data-review-id="case-studies-text-21" data-review-editable="true">No cue</span></th><th scope="col"><span data-review-id="case-studies-text-22" data-review-editable="true">US cue</span></th><th scope="col"><span data-review-id="case-studies-text-23" data-review-editable="true">China cue</span></th>
+              <th scope="col">No cue</th><th scope="col"><span data-review-id="case-studies-text-27" data-review-editable="true">US cue</span></th><th scope="col"><span data-review-id="case-studies-text-28" data-review-editable="true">China cue</span></th>
+            </tr>
+          </thead>
+          <tbody><tr><td><a class="image-link" href="assets/nanobanana2__cdeval_pdi_0046__en_us__none.jpg" target="_blank" rel="noopener" aria-label="Nano Banana 2: social-gathering scenario, English prompt, no geographic cue — view full image"><img src="assets/nanobanana2__cdeval_pdi_0046__en_us__none.jpg" alt="Nano Banana 2: social-gathering scenario, English prompt, no geographic cue" width="720" height="720" loading="lazy" data-review-id="case-studies-image-13" data-review-editable="false"></a></td>
+<td><a class="image-link" href="assets/nanobanana2__cdeval_pdi_0046__en_us__us.jpg" target="_blank" rel="noopener" aria-label="Nano Banana 2: social-gathering scenario, English prompt, United States cue — view full image"><img src="assets/nanobanana2__cdeval_pdi_0046__en_us__us.jpg" alt="Nano Banana 2: social-gathering scenario, English prompt, United States cue" width="720" height="720" loading="lazy" data-review-id="case-studies-image-14" data-review-editable="false"></a></td>
+<td><a class="image-link" href="assets/nanobanana2__cdeval_pdi_0046__en_us__cn.jpg" target="_blank" rel="noopener" aria-label="Nano Banana 2: social-gathering scenario, English prompt, China cue — view full image"><img src="assets/nanobanana2__cdeval_pdi_0046__en_us__cn.jpg" alt="Nano Banana 2: social-gathering scenario, English prompt, China cue" width="720" height="720" loading="lazy" data-review-id="case-studies-image-15" data-review-editable="false"></a></td>
+<td><a class="image-link" href="assets/nanobanana2__cdeval_pdi_0046__zh_cn__none.jpg" target="_blank" rel="noopener" aria-label="Nano Banana 2: social-gathering scenario, Chinese prompt, no geographic cue — view full image"><img src="assets/nanobanana2__cdeval_pdi_0046__zh_cn__none.jpg" alt="Nano Banana 2: social-gathering scenario, Chinese prompt, no geographic cue" width="720" height="720" loading="lazy" data-review-id="case-studies-image-16" data-review-editable="false"></a></td>
+<td><a class="image-link" href="assets/nanobanana2__cdeval_pdi_0046__zh_cn__us.jpg" target="_blank" rel="noopener" aria-label="Nano Banana 2: social-gathering scenario, Chinese prompt, United States cue — view full image"><img src="assets/nanobanana2__cdeval_pdi_0046__zh_cn__us.jpg" alt="Nano Banana 2: social-gathering scenario, Chinese prompt, United States cue" width="720" height="720" loading="lazy" data-review-id="case-studies-image-17" data-review-editable="false"></a></td>
+<td><a class="image-link" href="assets/nanobanana2__cdeval_pdi_0046__zh_cn__cn__edited_illustration.jpg" target="_blank" rel="noopener" aria-label="Chinese/China-cue illustration used in the manuscript — view full image"><img src="assets/nanobanana2__cdeval_pdi_0046__zh_cn__cn__edited_illustration.jpg" alt="Chinese/China-cue illustration used in the manuscript" width="1024" height="1024" loading="lazy" data-review-id="case-studies-image-18" data-review-editable="false"></a><p class="edited-note" data-review-id="case-studies-text-29" data-review-editable="true">Edited illustration from the manuscript</p></td></tr></tbody>
+        </table>
+      </div>
+      <p class="reading scroll-hint" data-review-id="case-studies-text-32" data-review-editable="true">Scroll horizontally to compare all cue conditions. Select an image to view it at full size.</p>
+      <div class="reading case-interpretation">
+        <p data-review-id="case-studies-text-26" data-review-editable="true">The images illustrate changes in how social hierarchy is depicted across geographic cues. The Chinese/China panel is the edited illustration used in the manuscript.</p>
+      </div>
+    </div>
   </figure>
-  <p class="scroll-hint" data-review-id="case-studies-text-15" data-review-editable="true"><span class="mobile-scroll-guide">Scroll horizontally to compare all six images in each row. </span>Select an image to view it at full size.</p>
-  <p class="case-source-note" data-review-id="case-studies-text-16" data-review-editable="true">These manuscript examples use the base FLUX.2 and HiDream models; the aggregate results below use their prompt-processed configurations.</p>
+  <details class="reading source-details">
+    <summary data-review-id="case-studies-text-31" data-review-editable="true">Image sources and model configurations</summary>
+    <p data-review-id="case-studies-text-16" data-review-editable="true">The case images reproduce the manuscript examples. They use the base FLUX.2 and HiDream models; the aggregate results use Prompt Upsampler and Prompt Refiner, respectively. The edited Chinese/China illustration is a visual example, not an unedited evaluated output.</p>
+  </details>
 </section>
 
-<section class="section benchmark" id="benchmark" aria-labelledby="benchmark-title">
-  <h2 id="benchmark-title" data-review-id="benchmark-text-01" data-review-editable="true">VisionValueBench</h2>
-  <p data-review-id="benchmark-text-02" data-review-editable="true">We study <strong>visual value leakage</strong>: the systematic expression of a value orientation as a generator resolves the ambiguity in a value-neutral prompt. VisionValueBench provides social scenarios that leave value orientations open, grounded in Hofstede’s six cultural dimensions.</p>
-  <div hidden><span data-review-id="benchmark-text-05" data-review-editable="false">6 · Cultural value dimensions</span><span data-review-id="benchmark-text-06" data-review-editable="false">4 · Prompt languages</span></div>
-  <div class="stats">
-    <div><strong data-review-id="benchmark-text-03" data-review-editable="true">2,773</strong><span>Benchmark scenarios</span></div>
-    <div><strong data-review-id="benchmark-text-04" data-review-editable="true">960</strong><span>Scenarios evaluated</span></div>
-  </div>
-  <p data-review-id="benchmark-text-07" data-review-editable="true">Prompts vary in language and geographic cues while keeping the underlying scenario fixed. The full design contains 14 conditions across English, Chinese, Hindi, and Thai. All six systems share six conditions: English and Chinese, each with no cue, a US cue, or a China cue.</p>
-  <details>
-    <summary data-review-id="benchmark-text-08" data-review-editable="false">The six cultural value dimensions</summary>
-    <div class="dimensions">
-      <p data-review-id="benchmark-text-09" data-review-editable="true"><b>PDI · Power distance</b>High power distance ↔ Low power distance</p>
-      <p data-review-id="benchmark-text-10" data-review-editable="true"><b>IDV · Individualism</b>Individualism ↔ Collectivism</p>
-      <p data-review-id="benchmark-text-11" data-review-editable="true"><b>MAS · Motivation towards achievement and success</b>Achievement and competition ↔ Care and quality of life</p>
-      <p data-review-id="benchmark-text-12" data-review-editable="true"><b>UAI · Uncertainty avoidance</b>High uncertainty avoidance ↔ Low uncertainty avoidance</p>
-      <p data-review-id="benchmark-text-13" data-review-editable="true"><b>LTO · Long-term orientation</b>Long-term orientation ↔ Short-term orientation</p>
-      <p data-review-id="benchmark-text-14" data-review-editable="true"><b>IVR · Indulgence</b>Indulgence ↔ Restraint</p>
+<section class="section measurement" id="how-we-measure" aria-labelledby="measurement-title">
+  <div class="section-header reading"><h2 data-review-id="measurement-text-01" data-review-editable="true" id="measurement-title">How We Measure Values</h2></div>
+  <article class="measurement-subsection" id="benchmark" aria-labelledby="benchmark-title">
+    <div hidden><span data-review-id="benchmark-text-05" data-review-editable="false">6 · Cultural value dimensions</span><span data-review-id="benchmark-text-06" data-review-editable="false">4 · Prompt languages</span></div>
+    <div class="benchmark-layout">
+      <div class="benchmark-copy">
+        <h3 data-review-id="benchmark-text-01" data-review-editable="true" id="benchmark-title">Hold the situation fixed</h3>
+        <p data-review-id="benchmark-text-02" data-review-editable="true">VisionValueBench contains social scenarios grounded in Hofstede’s six cultural value dimensions, with situations specified but value orientations left open. We evaluate a sample of this benchmark across six T2I systems.</p>
+      </div>
+      <div class="stats">
+        <div><strong data-review-id="benchmark-text-03" data-review-editable="true">2,773</strong><span>Retained benchmark scenarios</span></div>
+        <div><strong data-review-id="benchmark-text-04" data-review-editable="true">960</strong><span>Scenarios used in evaluation</span></div>
+      </div>
     </div>
-  </details>
-</section>
-
-<section class="section method" id="evaluation" aria-labelledby="evaluation-title">
-  <h2 id="evaluation-title" data-review-id="evaluation-text-01" data-review-editable="true">From Images to Value Profiles</h2>
-  <p data-review-id="evaluation-text-02" data-review-editable="true">Our primary analyses use <strong>Image-Adaptive Evaluation (IAE)</strong>. It discovers evidence in each image, checks whether the evidence is visually grounded and its value interpretation fits the scenario, and judges support for the two orientations independently.</p>
-  <div class="evaluation-steps">
-    <article><span class="step-number">01</span><h3 data-review-id="evaluation-text-03" data-review-editable="true">Discover evidence</h3><p data-review-id="evaluation-text-04" data-review-editable="true">Identify visible details that may express a value orientation.</p></article>
-    <article><span class="step-number">02</span><h3 data-review-id="evaluation-text-05" data-review-editable="true">Verify and judge</h3><p data-review-id="evaluation-text-06" data-review-editable="true">Three VLM verifiers independently check the evidence and interpretation. At least two must support an orientation.</p></article>
-    <article><span class="step-number">03</span><h3 data-review-id="evaluation-text-07" data-review-editable="true">Build a value profile</h3><p data-review-id="evaluation-text-08" data-review-editable="true">Aggregate independent orientation judgments into a score for each dimension.</p></article>
-  </div>
-  <p class="method-note" data-review-id="evaluation-text-09" data-review-editable="true">Each dimension can support either orientation alone, both, or neither. “Neither” means insufficient evidence for either orientation.</p>
-  <p data-review-id="evaluation-text-10" data-review-editable="true">Five human reviewers assess evidence for 20 images. IAE achieves higher agreement with human-majority judgments than Scenario-Anticipated Evaluation (SAE), and is used for most subsequent analyses.</p>
-  <details>
-    <summary data-review-id="evaluation-text-11" data-review-editable="false">Evaluation comparison and score interpretation</summary>
-    <p data-review-id="evaluation-text-12" data-review-editable="true"><strong>SAE</strong> anticipates possible evidence from the scenario before checking the image. It offers a lower-cost comparison to IAE, which discovers evidence directly from each image.</p>
-    <p data-review-id="evaluation-text-13" data-review-editable="true">Scores range from −1 to +1 and summarize net orientation support among images supporting at least one orientation. Positive values favor the first orientation in each pair above; negative values favor the second. Images supporting both contribute no net direction; images supporting neither are excluded.</p>
-  </details>
+    <div class="reading">
+      <p data-review-id="benchmark-text-15" data-review-editable="true">We vary prompt language and geographic cues while keeping the underlying scenario fixed. All six systems share the six conditions below.</p>
+      <table class="conditions-table">
+        <caption>Conditions shared by all six systems</caption>
+        <thead><tr><th scope="col">Language</th><th scope="col">No cue</th><th scope="col">US cue</th><th scope="col">China cue</th></tr></thead>
+        <tbody><tr><th scope="row">English</th><td>✓<span class="sr-only"> Included</span></td><td>✓<span class="sr-only"> Included</span></td><td>✓<span class="sr-only"> Included</span></td></tr><tr><th scope="row">Chinese</th><td>✓<span class="sr-only"> Included</span></td><td>✓<span class="sr-only"> Included</span></td><td>✓<span class="sr-only"> Included</span></td></tr></tbody>
+      </table>
+      <details>
+        <summary data-review-id="benchmark-text-08" data-review-editable="true">Full condition coverage and the six value dimensions</summary>
+        <p data-review-id="benchmark-text-07" data-review-editable="true">The full design contains 14 conditions across English, Chinese, Hindi, and Thai. The three commercial API systems cover all 14 conditions; the main six-system comparison uses the six shared conditions shown above.</p>
+        <div class="dimensions"><p data-review-id="benchmark-text-09" data-review-editable="true"><b>PDI · Power distance</b>High power distance ↔ Low power distance</p>
+<p data-review-id="benchmark-text-10" data-review-editable="true"><b>IDV · Individualism</b>Individualism ↔ Collectivism</p>
+<p data-review-id="benchmark-text-11" data-review-editable="true"><b>MAS · Motivation towards achievement and success</b>Achievement and competition ↔ Care and quality of life</p>
+<p data-review-id="benchmark-text-12" data-review-editable="true"><b>UAI · Uncertainty avoidance</b>High uncertainty avoidance ↔ Low uncertainty avoidance</p>
+<p data-review-id="benchmark-text-13" data-review-editable="true"><b>LTO · Long-term orientation</b>Long-term orientation ↔ Short-term orientation</p>
+<p data-review-id="benchmark-text-14" data-review-editable="true"><b>IVR · Indulgence</b>Indulgence ↔ Restraint</p></div>
+      </details>
+    </div>
+  </article>
+  <article class="measurement-subsection" id="evaluation" aria-labelledby="evaluation-title">
+    <div class="reading">
+      <h3 data-review-id="evaluation-text-01" data-review-editable="true" id="evaluation-title">Judge values from visual evidence</h3>
+      <p data-review-id="evaluation-text-02" data-review-editable="true">Our primary analyses use <strong>Image-Adaptive Evaluation (IAE)</strong> to judge the value orientations supported by each image, across all six dimensions.</p>
+    </div>
+    <div class="evaluation-steps wide">
+      <article><span class="step-number">01</span><h3 data-review-id="evaluation-text-03" data-review-editable="true">Discover evidence</h3><p data-review-id="evaluation-text-04" data-review-editable="true">Identify visible details that may express a value orientation.</p></article>
+      <article><span class="step-number">02</span><h3 data-review-id="evaluation-text-05" data-review-editable="true">Verify and interpret</h3><p data-review-id="evaluation-text-06" data-review-editable="true">Check that the evidence is visible and that its interpretation fits the scenario.</p></article>
+      <article><span class="step-number">03</span><h3 data-review-id="evaluation-text-07" data-review-editable="true">Build a value profile</h3><p data-review-id="evaluation-text-08" data-review-editable="true">Judge the two orientations independently, then aggregate support across images.</p></article>
+    </div>
+    <div class="reading">
+      <p data-review-id="evaluation-text-09" data-review-editable="true">An image can support either orientation alone, both, or neither. “Neither” means insufficient evidence for either orientation.</p>
+      <p class="score-guide" data-review-id="evaluation-text-15" data-review-editable="true">Scores summarize net orientation support among images supporting at least one orientation. The side of zero gives the prevailing direction; distance from zero indicates its strength.</p>
+      <p class="human-validation" data-review-id="evaluation-text-10" data-review-editable="true">Five human reviewers assess evidence for 20 images. IAE achieves higher agreement with human-majority judgments than Scenario-Anticipated Evaluation (SAE).</p>
+      <details>
+        <summary data-review-id="evaluation-text-11" data-review-editable="true">Evaluation methods and score definition</summary>
+        <p data-review-id="evaluation-text-12" data-review-editable="true"><strong>SAE</strong> anticipates possible evidence from the scenario before checking the image. IAE discovers evidence directly from each image.</p>
+        <p data-review-id="evaluation-text-14" data-review-editable="true">Three VLM verifiers independently check the evidence and interpretation. At least two must support an orientation for it to receive a supported judgment.</p>
+        <p data-review-id="evaluation-text-13" data-review-editable="true">Scores range from −1 to +1. Positive values favor the first orientation in each dimension’s pair; negative values favor the second. Images supporting both contribute no net direction but remain in the denominator. Images supporting neither are excluded.</p>
+      </details>
+    </div>
+  </article>
 </section>
 
 <section class="section results" id="results" aria-labelledby="results-title">
-  <h2 id="results-title" data-review-id="results-text-01" data-review-editable="true">Results and Analysis</h2>
+  <div class="section-header reading"><h2 data-review-id="results-text-01" data-review-editable="true" id="results-title">Evidence Across Systems and Conditions</h2></div>
   <article class="result-block" id="shared-orientations">
-    <h3 data-review-id="results-text-02" data-review-editable="true">Shared directions, different strengths</h3>
-    <p data-review-id="results-text-03" data-review-editable="true">Both evaluation strategies show common preferences for low power distance, individualism, care and quality of life, long-term orientation, and indulgence. Their strength varies across systems.</p>
-    <figure class="result-figure">
-      <a class="image-link" href="assets/value-profiles.svg" target="_blank" rel="noopener" aria-label="View the full value-profile figure"><img src="assets/value-profiles.svg" alt="Four radar panels showing six-dimensional value profiles: panels a and b use SAE, c and d use IAE; a and c include six systems, b and d include three commercial systems" width="1000" height="304" loading="lazy" data-review-id="results-image-01" data-review-editable="false"></a>
-      <figcaption data-review-id="results-text-04" data-review-editable="true">Value profiles from the manuscript. Panels (a,c) pool the six conditions shared by all six systems; panels (b,d) pool all 14 conditions for the three commercial API systems. Panels (a,b) use SAE and (c,d) use IAE. Dashed circles mark zero.</figcaption>
+    <div class="reading">
+      <h3 data-review-id="results-text-02" data-review-editable="true">What orientations do systems share?</h3>
+      <p data-review-id="results-text-03" data-review-editable="true">Across the six conditions shared by all six systems, SAE and IAE reveal common preferences for low power distance, individualism, care and quality of life, long-term orientation, and indulgence. Their strength varies across systems.</p>
+    </div>
+    <figure class="result-figure wide">
+      <div class="plot-scroll" role="region" aria-label="Value profiles across systems and evaluation methods" tabindex="0"><a class="image-link radar-scroll" href="assets/value-profiles.svg" target="_blank" rel="noopener" aria-label="View the full value-profile figure"><img src="assets/value-profiles.svg" alt="Four radar panels showing six-dimensional value profiles: panels a and b use SAE, c and d use IAE; a and c include six systems, b and d include three commercial systems" width="1000" height="304" loading="lazy" data-review-id="results-image-01" data-review-editable="false"></a></div>
+      <p class="reading scroll-hint">Scroll to compare all four panels. Select the figure to view it at full size.</p>
+      <figcaption class="reading" data-review-id="results-text-04" data-review-editable="true">Start with panel (c) for the six-system IAE comparison. Dashed circles mark zero.</figcaption>
     </figure>
-    <p class="configuration-note" data-review-id="results-text-05" data-review-editable="true">The main profiles include FLUX.2 with Prompt Upsampler and HiDream with Prompt Refiner.</p>
-    <aside><b>Uncertainty avoidance is method-sensitive</b><p data-review-id="results-text-06" data-review-editable="true">SAE favors low uncertainty avoidance, whereas IAE generally favors high uncertainty avoidance. Human review shows that IAE recovers support missed by SAE.</p></aside>
+    <div class="reading">
+      <p data-review-id="results-text-06" data-review-editable="true"><strong>Uncertainty avoidance is method-sensitive.</strong> SAE favors low uncertainty avoidance, whereas IAE generally favors high uncertainty avoidance.</p>
+      <details class="plot-details">
+        <summary data-review-id="results-text-14" data-review-editable="true">Panel definitions and model configurations</summary>
+        <p data-review-id="results-text-15" data-review-editable="true">Panels (a,c) pool the six conditions shared by all six systems; panels (b,d) pool all 14 conditions for the three commercial API systems. Panels (a,b) use SAE and (c,d) use IAE.</p>
+        <p data-review-id="results-text-05" data-review-editable="true">The main profiles include FLUX.2 with Prompt Upsampler and HiDream with Prompt Refiner.</p>
+      </details>
+    </div>
   </article>
   <article class="result-block" id="prompt-effects">
-    <h3 data-review-id="results-text-07" data-review-editable="true">Language and geographic cues</h3>
-    <p data-review-id="results-text-08" data-review-editable="true"><strong>Language switching preserves score directions.</strong> All 36 system–dimension pairs retain their directions when switching from English to Chinese without a geographic cue.</p>
-    <p data-review-id="results-text-09" data-review-editable="true"><strong>Geographic cues produce larger shifts.</strong> Switching from US to China cues changes scores more than language switching, but 35 of 36 pairs retain their directions in each language under IAE. Adding a US cue largely preserves the no-cue profiles.</p>
-    <figure class="result-figure" id="paired-score-comparison">
-      <a class="image-link" href="assets/paired-orientation-scores.svg" target="_blank" rel="noopener" aria-label="View the full language and geographic-cue comparison figure"><img src="assets/paired-orientation-scores.svg" alt="Matched IAE score comparisons: English versus Chinese without a cue, and US versus China cues in English and Chinese. Open markers show baseline scores and filled markers show target scores" width="1000" height="578" loading="lazy" data-review-id="results-image-02" data-review-editable="false"></a>
-      <figcaption data-review-id="results-text-10" data-review-editable="true">Matched comparisons from the manuscript. Open markers show baseline scores; filled markers show target scores. Lines connect the same system under two conditions.</figcaption>
+    <div class="reading">
+      <h3 data-review-id="results-text-07" data-review-editable="true">Do the prevailing directions change?</h3>
+      <p data-review-id="results-text-08" data-review-editable="true"><strong>Language.</strong> All 36 system–dimension pairs retain their directions when switching from English to Chinese without a geographic cue.</p>
+      <p data-review-id="results-text-09" data-review-editable="true"><strong>Geographic cues.</strong> When switching from US to China cues, 35 of 36 pairs retain their directions in each language under IAE.</p>
+    </div>
+    <figure class="result-figure wide" id="paired-score-comparison">
+      <div class="plot-scroll" role="region" aria-label="Matched comparisons of language and geographic cues" tabindex="0"><a class="image-link paired-scroll" href="assets/paired-orientation-scores.svg" target="_blank" rel="noopener" aria-label="View the full language and geographic-cue comparison figure"><img src="assets/paired-orientation-scores.svg" alt="Matched IAE score comparisons: English versus Chinese without a cue, and US versus China cues in English and Chinese. Open markers show baseline scores and filled markers show target scores" width="1000" height="578" loading="lazy" data-review-id="results-image-02" data-review-editable="false"></a></div>
+      <p class="reading scroll-hint">Scroll to view all comparisons. Select the figure to view it at full size.</p>
+      <figcaption class="reading" data-review-id="results-text-10" data-review-editable="true">Open markers show baseline scores; filled markers show target scores. Lines connect the same system under two conditions.</figcaption>
     </figure>
-    <figure class="result-figure" id="change-distributions">
+  </article>
+  <article class="result-block" id="change-distributions">
+    <div class="reading">
+      <h3 data-review-id="results-text-17" data-review-editable="true">How large are the changes?</h3>
+      <p data-review-id="results-text-18" data-review-editable="true">Across five systems excluding MAI, absolute IAE score changes are typically larger for US→China cues than for English→Chinese language switching.</p>
+    </div>
+    <figure class="result-figure wide">
       <div class="result-panels">
-        <div class="result-panel"><h4 data-review-id="results-text-11" data-review-editable="true">Language: English → Chinese</h4><a class="image-link" href="assets/ecdf_five_language.svg" target="_blank" rel="noopener" aria-label="View the full language-change distribution"><img src="assets/ecdf_five_language.svg" alt="Cumulative distributions of absolute IAE score changes for English-to-Chinese language switching with no cue, US cue, or China cue, across five systems excluding MAI" width="960" height="600" loading="lazy" data-review-id="results-image-03" data-review-editable="false"></a></div>
-        <div class="result-panel"><h4 data-review-id="results-text-12" data-review-editable="true">Geographic cue: US → China</h4><a class="image-link" href="assets/ecdf_five_us_cn.svg" target="_blank" rel="noopener" aria-label="View the full geographic-cue change distribution"><img src="assets/ecdf_five_us_cn.svg" alt="Cumulative distributions of absolute IAE score changes for US-to-China geographic cue switching with English or Chinese fixed, across five systems excluding MAI" width="960" height="600" loading="lazy" data-review-id="results-image-04" data-review-editable="false"></a></div>
+        <div class="result-panel"><h4 data-review-id="results-text-11" data-review-editable="true">Language: English → Chinese</h4><div class="plot-scroll" role="region" aria-label="Distribution of language-change magnitudes" tabindex="0"><a class="image-link ecdf-scroll" href="assets/ecdf_five_language.svg" target="_blank" rel="noopener" aria-label="View the full language-change distribution"><img src="assets/ecdf_five_language.svg" alt="Cumulative distributions of absolute IAE score changes for English-to-Chinese language switching with no cue, US cue, or China cue, across five systems excluding MAI" width="960" height="600" loading="lazy" data-review-id="results-image-03" data-review-editable="false"></a></div></div>
+        <div class="result-panel"><h4 data-review-id="results-text-12" data-review-editable="true">Geographic cue: US → China</h4><div class="plot-scroll" role="region" aria-label="Distribution of geographic-cue change magnitudes" tabindex="0"><a class="image-link ecdf-scroll" href="assets/ecdf_five_us_cn.svg" target="_blank" rel="noopener" aria-label="View the full geographic-cue change distribution"><img src="assets/ecdf_five_us_cn.svg" alt="Cumulative distributions of absolute IAE score changes for US-to-China geographic cue switching with English or Chinese fixed, across five systems excluding MAI" width="960" height="600" loading="lazy" data-review-id="results-image-04" data-review-editable="false"></a></div></div>
       </div>
-      <figcaption data-review-id="results-text-13" data-review-editable="true">Language changes are typically small; US-to-China cue changes are larger. Cumulative distributions of absolute IAE score changes across five systems, excluding MAI. Left: English → Chinese under fixed geographic cues. Right: US → China cues under fixed prompt language. The dashed line marks the 0.10 magnitude threshold.</figcaption>
+      <p class="reading scroll-hint">Scroll each plot to view the complete distribution.</p>
+      <figcaption class="reading" data-review-id="results-text-13" data-review-editable="true">Curves that rise closer to zero indicate smaller changes. The dashed line marks a score-change magnitude of 0.10.</figcaption>
     </figure>
+    <details class="reading plot-details">
+      <summary data-review-id="results-text-19" data-review-editable="true">Comparison conditions</summary>
+      <p data-review-id="results-text-20" data-review-editable="true">Language changes are measured separately with no cue, a US cue, or a China cue held fixed. US→China cue changes are measured with English or Chinese held fixed. The distributions use IAE across five systems, excluding MAI. We use 0.10 as a reference magnitude when summarizing score changes.</p>
+      <p data-review-id="results-text-16" data-review-editable="true">Adding a US cue largely preserves the no-cue profiles. The paired comparisons above report direction changes separately from these change-magnitude distributions.</p>
+    </details>
   </article>
 </section>
 
-<section class="availability section" id="resources"><h2 data-review-id="resources-text-01" data-review-editable="true">Resources</h2><p data-review-id="resources-text-02" data-review-editable="true">Code, evaluation materials, and analysis scripts are available on <a href="https://github.com/zucanlv/VisionValueBench" target="_blank" rel="noopener">GitHub</a>. The <a href="paper.pdf" target="_blank" rel="noopener">paper PDF</a> is available; benchmark data will be linked here when released.</p></section>
+<section class="section availability" id="resources" aria-labelledby="resources-title">
+  <div class="reading">
+    <h2 data-review-id="resources-text-01" data-review-editable="true" id="resources-title">What This Means</h2>
+    <p data-review-id="resources-text-03" data-review-editable="true">Across value-unspecified prompts, generators can systematically favor particular value orientations. In our comparisons, changes in language and geographic cues alter these profiles while largely preserving their prevailing directions.</p>
+    <p data-review-id="resources-text-02" data-review-editable="true">Read the <a href="paper.pdf" target="_blank" rel="noopener">paper</a> and explore the <a href="https://github.com/zucanlv/VisionValueBench" target="_blank" rel="noopener">code, evaluation materials, and analysis scripts</a>. Benchmark data will be linked here when released.</p>
+  </div>
+</section>
 </main>
 <footer><a class="brand" href="#overview">VisionValueBench</a><p>Whose Values Are Generated?</p><a href="#overview">Back to top ↑</a></footer>
 </body>
