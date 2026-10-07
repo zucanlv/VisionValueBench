@@ -109,6 +109,10 @@ figure { margin: 0; }
 .conditions-table tr > :last-child { padding-right: 0; }
 .conditions-table thead { border-bottom: 1px solid var(--line); }
 .conditions-table tbody tr + tr { border-top: 1px solid var(--line); }
+.evaluation-figure { margin-top: 16px; margin-bottom: 18px; }
+.evaluation-diagram { display: block; min-width: 940px; }
+.evaluation-figure img { display: block; width: 100%; height: auto; }
+.evaluation-figure figcaption { font-size: 15px; line-height: 1.5; color: var(--muted); margin-top: 6px; }
 .method-comparison { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; margin-top: 16px; margin-bottom: 18px; }
 .method-path + .method-path { border-left: 1px solid var(--line); padding-left: 28px; }
 .section .method-path h4, .section .method-verification h4 { color: var(--ink); font-size: 21px; line-height: 1.4; margin: 0 0 8px; }
@@ -139,6 +143,7 @@ footer p { margin: 0; }
 }
 @media (max-width: 1019px) {
   #shared-orientations .scroll-hint { display: block; }
+  .evaluation-figure .scroll-hint { display: block; }
 }
 @media (max-width: 929px) {
   #prompt-effects .scroll-hint { display: block; }

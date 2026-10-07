@@ -4,7 +4,7 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>VisionValueBench — Whose Values Are Generated?</title>
 <meta name="description" content="Measuring visual value leakage in multilingual text-to-image generation. A benchmark of 2,773 social scenarios across six cultural value dimensions.">
-<link rel="stylesheet" href="style.css?v=20261007-two-methods">
+<link rel="stylesheet" href="style.css?v=20261007-evaluation-figure">
 <link rel="stylesheet" href="review.css">
 <script src="review.js" defer></script>
 </head>
@@ -161,6 +161,13 @@
       <h3 data-review-id="evaluation-text-01" data-review-editable="true" id="evaluation-title">Two methods for evaluating visual values</h3>
       <p data-review-id="evaluation-text-02" data-review-editable="true">We develop two complementary methods to evaluate value orientations across all six dimensions. They differ in how they propose visual evidence and share the same verification criteria.</p>
     </div>
+    <figure class="evaluation-figure wide" id="evaluation-figure">
+      <div class="plot-scroll" role="region" aria-label="Paper evaluation diagram: SAE and IAE" tabindex="0">
+        <a class="image-link evaluation-diagram" href="assets/evaluation.pdf" target="_blank" rel="noopener" aria-label="Open the paper’s original evaluation figure (PDF)"><img src="assets/evaluation.png" alt="Evaluation strategies: SAE proposes evidence from the scenario; IAE proposes evidence from each generated image. Both pool proposals and use three verifiers with a two-of-three vote." width="4500" height="2390" loading="lazy" data-review-id="evaluation-image-01" data-review-editable="false"></a>
+      </div>
+      <p class="reading scroll-hint" data-review-id="evaluation-text-17" data-review-editable="true">Scroll horizontally to view the full diagram. Select the figure to open the original PDF.</p>
+      <figcaption data-review-id="evaluation-text-16" data-review-editable="true"><strong>Evaluation strategies.</strong> Each model call jointly processes all 12 orientations.</figcaption>
+    </figure>
     <div class="method-comparison wide">
       <article class="method-path" aria-labelledby="sae-title">
         <h4 data-review-id="evaluation-text-03" data-review-editable="true" id="sae-title">Scenario-Anticipated Evaluation (SAE)</h4>
