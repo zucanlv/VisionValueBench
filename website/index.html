@@ -4,7 +4,7 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>VisionValueBench — Whose Values Are Generated?</title>
 <meta name="description" content="Measuring visual value leakage in multilingual text-to-image generation. A benchmark of 2,773 social scenarios across six cultural value dimensions.">
-<link rel="stylesheet" href="style.css?v=20261007-grouping">
+<link rel="stylesheet" href="style.css?v=20261007-two-methods">
 <link rel="stylesheet" href="review.css">
 <script src="review.js" defer></script>
 </head>
@@ -158,22 +158,29 @@
   </article>
   <article class="measurement-subsection" id="evaluation" aria-labelledby="evaluation-title">
     <div class="reading">
-      <h3 data-review-id="evaluation-text-01" data-review-editable="true" id="evaluation-title">Judge values from visual evidence</h3>
-      <p data-review-id="evaluation-text-02" data-review-editable="true">Our primary analyses use <strong>Image-Adaptive Evaluation (IAE)</strong> to judge the value orientations supported by each image, across all six dimensions.</p>
+      <h3 data-review-id="evaluation-text-01" data-review-editable="true" id="evaluation-title">Two methods for evaluating visual values</h3>
+      <p data-review-id="evaluation-text-02" data-review-editable="true">We develop two complementary methods to evaluate value orientations across all six dimensions. They differ in how they propose visual evidence and share the same verification criteria.</p>
     </div>
-    <div class="evaluation-steps wide">
-      <article><span class="step-number">01</span><h3 data-review-id="evaluation-text-03" data-review-editable="true">Discover evidence</h3><p data-review-id="evaluation-text-04" data-review-editable="true">Identify visible details that may express a value orientation.</p></article>
-      <article><span class="step-number">02</span><h3 data-review-id="evaluation-text-05" data-review-editable="true">Verify and interpret</h3><p data-review-id="evaluation-text-06" data-review-editable="true">Check that the evidence is visible and that its interpretation fits the scenario.</p></article>
-      <article><span class="step-number">03</span><h3 data-review-id="evaluation-text-07" data-review-editable="true">Build a value profile</h3><p data-review-id="evaluation-text-08" data-review-editable="true">Judge the two orientations independently, then aggregate support across images.</p></article>
+    <div class="method-comparison wide">
+      <article class="method-path" aria-labelledby="sae-title">
+        <h4 data-review-id="evaluation-text-03" data-review-editable="true" id="sae-title">Scenario-Anticipated Evaluation (SAE)</h4>
+        <p data-review-id="evaluation-text-04" data-review-editable="true"><strong>Start from the scenario.</strong> Before seeing any generated image, anticipate possible visual evidence from the scenario and value criteria. Reuse that scenario’s candidate set across systems, languages, and geographic cues for a shared comparison reference.</p>
+      </article>
+      <article class="method-path" aria-labelledby="iae-title">
+        <h4 data-review-id="evaluation-text-05" data-review-editable="true" id="iae-title">Image-Adaptive Evaluation (IAE)</h4>
+        <p data-review-id="evaluation-text-06" data-review-editable="true"><strong>Start from the image.</strong> Independently discover evidence directly from each generated image in its scenario context, including image-specific details that scenario-based anticipation may miss. Verifiers can also add missing evidence.</p>
+      </article>
     </div>
-    <div class="reading">
+    <div class="reading method-verification">
+      <h4 data-review-id="evaluation-text-07" data-review-editable="true">Shared verification and orientation judgments</h4>
+      <p data-review-id="evaluation-text-08" data-review-editable="true">Each method pools candidates from multiple proposal models. Three independent vision-language models check that the evidence is visible and that its interpretation supports the proposed orientation in the scenario.</p>
+      <p data-review-id="evaluation-text-14" data-review-editable="true">An orientation is supported when at least two verifiers agree. The two opposing orientations are judged independently, then image-level support is aggregated into each system’s value profile.</p>
+      <span hidden data-review-id="evaluation-text-12" data-review-editable="false"></span>
       <span hidden data-review-id="evaluation-text-15" data-review-editable="false"></span>
       <p data-review-id="evaluation-text-09" data-review-editable="true">An image can support either orientation alone, both, or neither. “Neither” means insufficient evidence for either orientation.</p>
-      <p class="human-validation" data-review-id="evaluation-text-10" data-review-editable="true">Five human reviewers assess evidence for 20 images. IAE achieves higher agreement with human-majority judgments than Scenario-Anticipated Evaluation (SAE).</p>
+      <p class="human-validation" data-review-id="evaluation-text-10" data-review-editable="true">Five human reviewers assess evidence for 20 images. IAE achieves higher agreement with human-majority judgments than SAE and is used for most analyses.</p>
       <details>
-        <summary data-review-id="evaluation-text-11" data-review-editable="true">Evaluation methods and score definition</summary>
-        <p data-review-id="evaluation-text-12" data-review-editable="true"><strong>SAE</strong> anticipates possible evidence from the scenario before checking the image. IAE discovers evidence directly from each image.</p>
-        <p data-review-id="evaluation-text-14" data-review-editable="true">Three VLM verifiers independently check the evidence and interpretation. At least two must support an orientation for it to receive a supported judgment.</p>
+        <summary data-review-id="evaluation-text-11" data-review-editable="true">Score definition</summary>
         <p data-review-id="evaluation-text-13" data-review-editable="true">Scores range from −1 to +1. Positive values favor the first orientation in each dimension’s pair; negative values favor the second. Images supporting both contribute no net direction but remain in the denominator. Images supporting neither are excluded.</p>
       </details>
     </div>

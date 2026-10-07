@@ -109,13 +109,11 @@ figure { margin: 0; }
 .conditions-table tr > :last-child { padding-right: 0; }
 .conditions-table thead { border-bottom: 1px solid var(--line); }
 .conditions-table tbody tr + tr { border-top: 1px solid var(--line); }
-.evaluation-steps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; margin-top: 16px; margin-bottom: 18px; }
-.step-number { color: var(--muted); font-size: 16px; font-weight: 600; }
-.section .evaluation-steps h3 { font-size: 21px; line-height: 1.4; margin: 4px 0 6px; }
-.evaluation-steps p { margin: 0; }
-.evaluation-notes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 28px; }
-.evaluation-notes p { margin: 0; }
-.evaluation-notes .human-validation { grid-column: 1 / -1; }
+.method-comparison { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; margin-top: 16px; margin-bottom: 18px; }
+.method-path + .method-path { border-left: 1px solid var(--line); padding-left: 28px; }
+.section .method-path h4, .section .method-verification h4 { color: var(--ink); font-size: 21px; line-height: 1.4; margin: 0 0 8px; }
+.method-path p { margin: 0; }
+.method-verification { padding-top: 16px; border-top: 1px solid var(--line); }
 .result-block + .result-block { margin-top: 24px; padding-top: 22px; border-top: 1px solid var(--line); }
 .result-figure { margin-top: 14px; margin-bottom: 12px; }
 .result-figure img, .result-panel img { display: block; width: 100%; height: auto; }
@@ -150,11 +148,9 @@ footer p { margin: 0; }
 }
 @media (max-width: 760px) {
   .benchmark-layout { grid-template-columns: 1fr; max-width: 1120px; gap: 16px; }
-  .evaluation-notes { grid-template-columns: 1fr; }
   .stats { max-width: 320px; margin: 0; }
-  .evaluation-steps { max-width: 1120px; grid-template-columns: 1fr; gap: 16px; }
-  .section .evaluation-steps h3 { display: inline; margin-left: 10px; }
-  .evaluation-steps p { margin-top: 9px; }
+  .method-comparison { grid-template-columns: 1fr; gap: 16px; }
+  .method-path + .method-path { border-left: 0; padding-left: 0; padding-top: 16px; border-top: 1px solid var(--line); }
   .result-panels { grid-template-columns: 1fr; max-width: 1120px; gap: 20px; }
   .result-figure .scroll-hint, .result-panel .scroll-hint { display: block; }
 }
@@ -184,7 +180,7 @@ footer p { margin: 0; }
   .stats strong { font-size: 33px; }
   .conditions-table { font-size: 16px; }
   .conditions-table th, .conditions-table td { padding: 10px 6px; }
-  .section .evaluation-steps h3 { font-size: 20px; }
+  .section .method-path h4, .section .method-verification h4 { font-size: 20px; }
   .result-block + .result-block { margin-top: 22px; padding-top: 20px; }
   .result-figure { margin-top: 12px; }
   .result-panel h4 { font-size: 17px; }
