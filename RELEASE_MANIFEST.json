@@ -388,7 +388,7 @@
     },
     {
       "file": "evaluation/README.md",
-      "sha256": "ba3f0e206d592465d77194871e174844aabccecd5744bbbe5bf63e237c9d2fa5",
+      "sha256": "447c1807d13088aaf5e04f43038d0746f854b9d64aaa6dfbd328f7a3e110ac5a",
       "bytes": 6198,
       "source": "added for the public benchmark and evaluation release on 2026-11-25"
     },

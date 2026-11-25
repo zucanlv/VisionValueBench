@@ -90,7 +90,7 @@ you; `evaluation/configs/example.openai.json` is a runnable OpenAI example.
 Any OpenAI-compatible endpoint can be used by setting `base_url`.
 
 **Cost warning.** A full run is large: 960 unique scenarios and 68,764 images
-require roughly 615k model calls across the two layers. `--max-calls` is a hard
+require roughly 620k model calls across the two layers. `--max-calls` is a hard
 safety cap (default 200); raise it deliberately. A failed call is recorded and
 does not become a negative vote. Use `--limit N` for a pilot.
 
