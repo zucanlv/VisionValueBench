@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: "If you use VisionValueBench, please cite the paper and this repository."
+title: "VisionValueBench: Measuring Visual Value Leakage in Multilingual Text-to-Image Generation"
+type: software
+authors:
+  - family-names: Lyu
+    given-names: Zucan
+  - family-names: Yao
+    given-names: Binwei
+  - family-names: Uppaal
+    given-names: Rheeya
+  - family-names: Yao
+    given-names: Jing
+  - family-names: Yi
+    given-names: Xiaoyuan
+  - family-names: Hu
+    given-names: Junjie
+year: 2026
+url: "https://github.com/zucanlv/VisionValueBench"
+repository-code: "https://github.com/zucanlv/VisionValueBench"
+license: MIT
+abstract: >-
+  VisionValueBench studies visual value leakage in multilingual text-to-image
+  generation. This repository releases the benchmark scenarios, construction
+  and evaluation prompts, frozen automatic votes, numerical analysis, and a
+  reference implementation of the two-layer SAE/IAE evaluation.
+keywords:
+  - text-to-image generation
+  - cultural values
+  - evaluation benchmark
+  - multilingual generation
+preferred-citation:
+  type: article
+  title: "Whose Values Are Generated? Measuring Visual Value Leakage in Multilingual Text-to-Image Generation"
+  authors:
+    - family-names: Lyu
+      given-names: Zucan
+    - family-names: Yao
+      given-names: Binwei
+    - family-names: Uppaal
+      given-names: Rheeya
+    - family-names: Yao
+      given-names: Jing
+    - family-names: Yi
+      given-names: Xiaoyuan
+    - family-names: Hu
+      given-names: Junjie
+  year: 2026
+  journal: "arXiv preprint"
+notes: "The arXiv identifier and final venue will be added after publication."

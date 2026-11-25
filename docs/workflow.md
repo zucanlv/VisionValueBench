@@ -4,7 +4,7 @@
 
 Source questions and contrasting value orientations inform concepts and canonical English scenarios. A scenario leaves the depicted value stance open. Fixed-orientation screening checks whether the text already determines a stance under faithful image generation; flagged scenarios receive human review before removal. Retained scenarios use saved translations, language wrappers and optional geographic cues before image generation.
 
-The construction templates, including their few-shot examples, are in `materials/construction/`. `rendering.json` records English, Chinese, Thai and Hindi wrappers and country labels; the primary shared evaluation uses English and Chinese with no cue, US cue and China cue. The released numerical sample contains 960 source-scenario IDs, 160 from each source dimension. The full benchmark and generated image collection remain separate dataset-release work.
+The construction templates, including their few-shot examples, are in `materials/construction/`. `rendering.json` records English, Chinese, Thai and Hindi wrappers and country labels; the primary shared evaluation uses English and Chinese with no cue, US cue and China cue. The repository contains all 2,773 retained scenarios under `data/`; `data/eval_960.txt` lists the 960 evaluation-set IDs, 160 per source dimension. The generated image collection is not redistributed.
 
 ## Two independent evaluation methods
 
@@ -35,7 +35,7 @@ Both verification methods require image-grounded observations and warranted inte
 
 Each image is evaluated for both orientations in all six dimensions: PDI, IDV, MAS, UAI, LTO and IVR. Proposal relevance rankings do not remove dimensions from verification. Human-review scope follows its own recorded protocol.
 
-The JSON schemas constrain output structure, types and enums. The complete runner also needs semantic checks for twelve-orientation coverage, candidate references, unique IDs and support/evidence consistency. Those original validator modules are not included in this release.
+The JSON schemas constrain output structure, types and enums. The reference runner in `evaluation/` additionally implements semantic checks for twelve-orientation coverage, candidate references, unique IDs and support/evidence consistency. See [evaluation/README.md](../evaluation/README.md) for the runnable pipeline and its scope.
 
 ## Prompt inputs
 

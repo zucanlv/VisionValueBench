@@ -1,5 +1,5 @@
 {
-  "title": "VisionValueBench prompts and numerical reproduction",
+  "title": "VisionValueBench scenarios, prompts, evaluation and numerical reproduction",
   "prepared_date": "2026-10-06",
   "annotation_freeze": "pooled-two-layer-v2.1",
   "publication_status": "repository_content",
@@ -12,9 +12,10 @@
     },
     {
       "file": "README.md",
-      "sha256": "f962799a600fb5adc2ad15d0bde8dcdce4e534b028828c80199afd958f8ce617",
-      "bytes": 3819,
-      "source": "prepared for the materials and numerical reproduction release on 2026-10-06"
+      "sha256": "c9411dd9532e8386699cd16c8e66a817166ed6a7cfa90bba2dada9fb2967ba4a",
+      "bytes": 7235,
+      "source": "prepared for the materials and numerical reproduction release on 2026-10-06",
+      "updated": "2026-11-25"
     },
     {
       "file": "analysis/README.md",
@@ -73,21 +74,24 @@
     },
     {
       "file": "docs/release_scope.md",
-      "sha256": "92ca80441bd515a22686eee1db245eddd542004fd4a4c9d64db1c312b8672147",
-      "bytes": 2346,
-      "source": "prepared for the materials and numerical reproduction release on 2026-10-06"
+      "sha256": "a1781a8ae4143646b61a26f8a94af46ac0304df912ce6cf2e108206a2cbe084d",
+      "bytes": 2433,
+      "source": "prepared for the materials and numerical reproduction release on 2026-10-06",
+      "updated": "2026-11-25"
     },
     {
       "file": "docs/validation.md",
-      "sha256": "3351ca3ba781ff0ba346077e5d6971c873bdc3df0338386650a77f9ae7595ca7",
-      "bytes": 1234,
-      "source": "prepared for the materials and numerical reproduction release on 2026-10-06"
+      "sha256": "a2f8be690718bae32db8e2a0655808254aa517e927d091848a9c9b13afd76fd2",
+      "bytes": 1479,
+      "source": "prepared for the materials and numerical reproduction release on 2026-10-06",
+      "updated": "2026-11-25"
     },
     {
       "file": "docs/workflow.md",
-      "sha256": "0f52a3e3b4eeffd30c991e011651f76389d5d247c3f8f7f9bd703509dafe3cf1",
-      "bytes": 5495,
-      "source": "prepared for the materials and numerical reproduction release on 2026-10-06"
+      "sha256": "7f9a92b9659782a430fb2a04b5ac72414983f406a0a486595c278e64617499b2",
+      "bytes": 5569,
+      "source": "prepared for the materials and numerical reproduction release on 2026-10-06",
+      "updated": "2026-11-25"
     },
     {
       "file": "examples/counts.csv",
@@ -357,7 +361,147 @@
       "sha256": "a4a8426f30896213f7f31d914ea8e02dd7f11f2e91007863b2042daf4176f14f",
       "bytes": 1090,
       "source": "prepared for the materials and numerical reproduction release on 2026-10-06"
+    },
+    {
+      "file": "data/README.md",
+      "sha256": "eb298bb3c34b557531ffab7ad46d39c0e04ba612b2fc1690212e68305933a141",
+      "bytes": 4941,
+      "source": "added for the public benchmark and evaluation release on 2026-11-25"
+    },
+    {
+      "file": "data/scenarios.jsonl",
+      "sha256": "f43b54369d48ca24607b830f81a02bf8171f0f83332612a76c82522bcd905f99",
+      "bytes": 13369581,
+      "source": "added for the public benchmark and evaluation release on 2026-11-25"
+    },
+    {
+      "file": "data/filtered_out.jsonl",
+      "sha256": "eb7aeba3d3db9759f22b4c80d11be4be0e7e531cbc4d1a853e928771baa5673a",
+      "bytes": 158656,
+      "source": "added for the public benchmark and evaluation release on 2026-11-25"
+    },
+    {
+      "file": "data/eval_960.txt",
+      "sha256": "25e93d3886884de43f8a4255e5bd693b97fd4e0a22384bc425d1a916257b5cd7",
+      "bytes": 15360,
+      "source": "added for the public benchmark and evaluation release on 2026-11-25"
+    },
+    {
+      "file": "evaluation/README.md",
+      "sha256": "ba3f0e206d592465d77194871e174844aabccecd5744bbbe5bf63e237c9d2fa5",
+      "bytes": 6198,
+      "source": "added for the public benchmark and evaluation release on 2026-11-25"
+    },
+    {
+      "file": "evaluation/requirements.txt",
+      "sha256": "e56aad904d60473fd31b023ff1e9e3a6d95ee4f529a064267531693a60e82ebe",
+      "bytes": 131,
+      "source": "added for the public benchmark and evaluation release on 2026-11-25"
+    },
+    {
+      "file": "evaluation/run_eval.py",
+      "sha256": "403a575a779e06e2b95122940ace6980b030bbd2f30f440fefcafe3423e89088",
+      "bytes": 3145,
+      "source": "added for the public benchmark and evaluation release on 2026-11-25"
+    },
+    {
+      "file": "evaluation/configs/paper.json",
+      "sha256": "89a025448d1298dc115cb5de1b560805da1bcf46aa2106b9116754b5ba6c948b",
+      "bytes": 1026,
+      "source": "added for the public benchmark and evaluation release on 2026-11-25"
+    },
+    {
+      "file": "evaluation/configs/example.openai.json",
+      "sha256": "575abec93e6b5698353764b411239d5bb9f4d64748a75bf226204d640be19f18",
+      "bytes": 957,
+      "source": "added for the public benchmark and evaluation release on 2026-11-25"
+    },
+    {
+      "file": "evaluation/examples/manifest.jsonl",
+      "sha256": "9d7e81a4f0312974453c79a9cc664b370b815dc0d906227fc398d0b7dbb770f9",
+      "bytes": 424,
+      "source": "added for the public benchmark and evaluation release on 2026-11-25"
+    },
+    {
+      "file": "evaluation/examples/images/flux2__cdeval_ivr_0109__en_us__none.jpg",
+      "sha256": "2f0bedcd43064fdf7a94084071ae7da2246422b20f46b5dc1705a4d571b21a9a",
+      "bytes": 155923,
+      "source": "added for the public benchmark and evaluation release on 2026-11-25"
+    },
+    {
+      "file": "evaluation/examples/images/gptimage2__cdeval_pdi_0070__en_us__none.jpg",
+      "sha256": "4128b2b26d92bcea99f4ebdf032bbc96d000f55d5306768b6c599c45d1875088",
+      "bytes": 349535,
+      "source": "added for the public benchmark and evaluation release on 2026-11-25"
+    },
+    {
+      "file": "evaluation/tests/test_pipeline.py",
+      "sha256": "64b0150b4e44edebd1fdd9832e80107824beae91b50de436a1fe2773ea104f28",
+      "bytes": 6610,
+      "source": "added for the public benchmark and evaluation release on 2026-11-25"
+    },
+    {
+      "file": "evaluation/vvb_eval/__init__.py",
+      "sha256": "f182e8ee233d8095a1c6a67fc77a76d0bf92e5b164eb43fa37e4facf8f5041c4",
+      "bytes": 264,
+      "source": "added for the public benchmark and evaluation release on 2026-11-25"
+    },
+    {
+      "file": "evaluation/vvb_eval/client.py",
+      "sha256": "091302172ccdc75a31ecf7b4b4d7aa44a182d3ad27920f60b72e348c1f7c6d8e",
+      "bytes": 12733,
+      "source": "added for the public benchmark and evaluation release on 2026-11-25"
+    },
+    {
+      "file": "evaluation/vvb_eval/core.py",
+      "sha256": "af2972d2675563ba0033e037e440d0728eea9f0abe2b0a6c6ada3cf70ad4d6a8",
+      "bytes": 17240,
+      "source": "added for the public benchmark and evaluation release on 2026-11-25"
+    },
+    {
+      "file": "evaluation/vvb_eval/dimensions.py",
+      "sha256": "b94919a8fcac80618c81bdbfbb69a42b93a5852cac95e56b60e8d9f1b22f4fe6",
+      "bytes": 1810,
+      "source": "added for the public benchmark and evaluation release on 2026-11-25"
+    },
+    {
+      "file": "evaluation/vvb_eval/runner.py",
+      "sha256": "2081e38c67c8baba219f70754f90a09fbb06cfdf6c908ffab97b1dff2cc3f6b3",
+      "bytes": 21974,
+      "source": "added for the public benchmark and evaluation release on 2026-11-25",
+      "updated": "2026-11-25"
+    },
+    {
+      "file": "evaluation/vvb_eval/scoring.py",
+      "sha256": "49c2b92cad9b0ea34a9a514be7b81f5023a3fe5c0e0fe44a06f9105682a44ab2",
+      "bytes": 2554,
+      "source": "added for the public benchmark and evaluation release on 2026-11-25"
+    },
+    {
+      "file": "LICENSE",
+      "sha256": "986408954837cef0b0f8420cb77b1a92842c2768740b61e67d2f2b17cf06a8fc",
+      "bytes": 1080,
+      "source": "added for the public benchmark and evaluation release on 2026-11-25"
+    },
+    {
+      "file": "LICENSE-DATA",
+      "sha256": "8f77a6965c7a6562d12c254a014dfd90ca1ce406af8d4b9948211a4b7c174a63",
+      "bytes": 19428,
+      "source": "added for the public benchmark and evaluation release on 2026-11-25"
+    },
+    {
+      "file": "CITATION.cff",
+      "sha256": "0d10934ac914a3859bdb7d6f890ad60aa96ae64ae864462eb89ec633b78e22e1",
+      "bytes": 1636,
+      "source": "added for the public benchmark and evaluation release on 2026-11-25"
+    },
+    {
+      "file": "CITATION.bib",
+      "sha256": "1b97e3c830db7fc08bcfe90be66d72c7073c44b41e98318dc62bef175a773081",
+      "bytes": 481,
+      "source": "added for the public benchmark and evaluation release on 2026-11-25"
     }
   ],
-  "repository_url": "https://github.com/zucanlv/VisionValueBench"
+  "repository_url": "https://github.com/zucanlv/VisionValueBench",
+  "updated_date": "2026-11-25"
 }
